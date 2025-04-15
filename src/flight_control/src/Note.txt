@@ -1,0 +1,9 @@
+TO-DOs
+
+- calculate error base on current state, allowing dynamic constraint so that the flight is smoothed
+- inputting setpoints
+- beizier curve based avoidance
+
+
+future implementation:
+- thrust & yaw based control
