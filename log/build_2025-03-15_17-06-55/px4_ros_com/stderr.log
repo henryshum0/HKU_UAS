@@ -1,0 +1,10 @@
+[31mCMake Error at CMakeLists.txt:38 (target_include_directories):
+  Error evaluating generator expression:
+
+    $<{geometry_msgs_INCLUDE_DIRS}>
+
+  Expression did not evaluate to a known generator expression
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:500: cmake_check_build_system] Error 1

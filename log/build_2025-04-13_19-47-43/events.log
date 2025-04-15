@@ -1,0 +1,382 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (-) JobUnselected: {'identifier': 'offboard_control_interfaces'}
+[0.000379] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000402] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000426] (flight_control) JobQueued: {'identifier': 'flight_control', 'dependencies': OrderedDict([('offboard_control_interfaces', '/home/henryshum0/SUAS/install/offboard_control_interfaces'), ('px4_msgs', '/home/henryshum0/SUAS/install/px4_msgs'), ('px4_ros_com', '/home/henryshum0/SUAS/install/px4_ros_com')])}
+[0.000455] (flight_control) JobStarted: {'identifier': 'flight_control'}
+[0.075366] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'cmake'}
+[0.076213] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'build'}
+[0.076935] (flight_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henryshum0/SUAS/build/flight_control', '--', '-j16', '-l16'], 'cwd': '/home/henryshum0/SUAS/build/flight_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('USER', 'henryshum0'), ('GIT_ASKPASS', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/offboard_control_interfaces/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/henryshum0'), ('OLDPWD', '/home/henryshum0/SUAS/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3e3dd1f5-3fff-44e4-a6a3-275be12ac44b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/henryshum0/SUAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'henryshum0'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/958_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/henryshum0/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/henryshum0/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/henryshum0/.dotnet/tools:/mnt/c/Users/henryshum0/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/henryshum0/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-094d2c776f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/henryshum0/SUAS/install/offboard_control_interfaces:/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/henryshum0/SUAS/build/flight_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/offboard_control_interfaces:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.098405] (flight_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099586] (-) TimerEvent: {}
+[0.190132] (flight_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199670] (-) TimerEvent: {}
+[0.264241] (flight_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.265508] (flight_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.269250] (flight_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.275226] (flight_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.282224] (flight_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299756] (-) TimerEvent: {}
+[0.312086] (flight_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.314229] (flight_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399869] (-) TimerEvent: {}
+[0.500130] (-) TimerEvent: {}
+[0.600379] (-) TimerEvent: {}
+[0.700634] (-) TimerEvent: {}
+[0.800901] (-) TimerEvent: {}
+[0.901151] (-) TimerEvent: {}
+[1.001399] (-) TimerEvent: {}
+[1.101642] (-) TimerEvent: {}
+[1.201857] (-) TimerEvent: {}
+[1.302087] (-) TimerEvent: {}
+[1.402331] (-) TimerEvent: {}
+[1.502565] (-) TimerEvent: {}
+[1.602810] (-) TimerEvent: {}
+[1.703124] (-) TimerEvent: {}
+[1.803408] (-) TimerEvent: {}
+[1.903644] (-) TimerEvent: {}
+[2.003866] (-) TimerEvent: {}
+[2.031106] (flight_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.079231] (flight_control) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/henryshum0/SUAS/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[2.090112] (flight_control) StdoutLine: {'line': b'-- Found px4_ros_com: 0.1.0 (/home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake)\n'}
+[2.104064] (-) TimerEvent: {}
+[2.124993] (flight_control) StdoutLine: {'line': b'-- Found offboard_control_interfaces: 0.0.0 (/home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake)\n'}
+[2.204134] (-) TimerEvent: {}
+[2.304641] (-) TimerEvent: {}
+[2.404850] (-) TimerEvent: {}
+[2.505060] (-) TimerEvent: {}
+[2.605268] (-) TimerEvent: {}
+[2.705481] (-) TimerEvent: {}
+[2.805710] (-) TimerEvent: {}
+[2.905941] (-) TimerEvent: {}
+[3.006149] (-) TimerEvent: {}
+[3.106405] (-) TimerEvent: {}
+[3.206659] (-) TimerEvent: {}
+[3.306915] (-) TimerEvent: {}
+[3.407139] (-) TimerEvent: {}
+[3.507368] (-) TimerEvent: {}
+[3.607634] (-) TimerEvent: {}
+[3.707930] (-) TimerEvent: {}
+[3.808141] (-) TimerEvent: {}
+[3.908373] (-) TimerEvent: {}
+[4.008575] (-) TimerEvent: {}
+[4.108788] (-) TimerEvent: {}
+[4.209002] (-) TimerEvent: {}
+[4.309217] (-) TimerEvent: {}
+[4.409474] (-) TimerEvent: {}
+[4.509728] (-) TimerEvent: {}
+[4.609971] (-) TimerEvent: {}
+[4.710183] (-) TimerEvent: {}
+[4.810403] (-) TimerEvent: {}
+[4.910635] (-) TimerEvent: {}
+[5.010857] (-) TimerEvent: {}
+[5.111070] (-) TimerEvent: {}
+[5.211270] (-) TimerEvent: {}
+[5.311505] (-) TimerEvent: {}
+[5.411772] (-) TimerEvent: {}
+[5.512061] (-) TimerEvent: {}
+[5.612376] (-) TimerEvent: {}
+[5.712641] (-) TimerEvent: {}
+[5.812854] (-) TimerEvent: {}
+[5.913068] (-) TimerEvent: {}
+[6.013287] (-) TimerEvent: {}
+[6.113512] (-) TimerEvent: {}
+[6.213758] (-) TimerEvent: {}
+[6.277734] (flight_control) StdoutLine: {'line': b'-- Could NOT find FFTW (missing: FFTW_INCLUDE_DIRS) \n'}
+[6.283340] (flight_control) StderrLine: {'line': b'\x1b[0mSetting matplotplusplus compiler options\x1b[0m\n'}
+[6.288421] (flight_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.313806] (-) TimerEvent: {}
+[6.413174] (flight_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.413499] (flight_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/flight_control/include>\n'}
+[6.413607] (flight_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.413862] (-) TimerEvent: {}
+[6.424579] (flight_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.456147] (flight_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.456389] (flight_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.459791] (flight_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.461283] (flight_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.506905] (flight_control) StdoutLine: {'line': b'-- Generating done\n'}
+[6.513970] (-) TimerEvent: {}
+[6.517702] (flight_control) StdoutLine: {'line': b'-- Build files have been written to: /home/henryshum0/SUAS/build/flight_control\n'}
+[6.538183] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publish_trj_listener\x1b[0m\n'}
+[6.538562] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_ack_listener\x1b[0m\n'}
+[6.538879] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vehicle_pos_listener\x1b[0m\n'}
+[6.538983] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_combined_listener\x1b[0m\n'}
+[6.540802] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nodesoup\x1b[0m\n'}
+[6.542154] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control_lib\x1b[0m\n'}
+[6.543545] (flight_control) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/user_input.dir/src/user_input.cpp.o\x1b[0m\n'}
+[6.551621] (flight_control) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/cmd_ack_listener.dir/src/monitoring/cmd_ack_listener.cpp.o\x1b[0m\n'}
+[6.552395] (flight_control) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/publish_trj_listener.dir/src/monitoring/publish_trj_listener.cpp.o\x1b[0m\n'}
+[6.552848] (flight_control) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.o\x1b[0m\n'}
+[6.552942] (flight_control) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.o\x1b[0m\n'}
+[6.553246] (flight_control) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/monitoring/sensors_listener.cpp.o\x1b[0m\n'}
+[6.553804] (flight_control) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.o\x1b[0m\n'}
+[6.555236] (flight_control) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_pos_listener.dir/src/monitoring/local_pos_listener.cpp.o\x1b[0m\n'}
+[6.556058] (flight_control) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.o\x1b[0m\n'}
+[6.556364] (flight_control) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.o\x1b[0m\n'}
+[6.565712] (flight_control) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/state_subscribers.cpp.o\x1b[0m\n'}
+[6.565873] (flight_control) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/control_publishers.cpp.o\x1b[0m\n'}
+[6.574074] (flight_control) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o\x1b[0m\n'}
+[6.590606] (flight_control) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/vehicle_storage/vehicle_state_storage.cpp.o\x1b[0m\n'}
+[6.599577] (flight_control) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/vehicle_storage/executor_storage.cpp.o\x1b[0m\n'}
+[6.604875] (flight_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/lib/frame_conversion.cpp.o\x1b[0m\n'}
+[6.614356] (-) TimerEvent: {}
+[6.714727] (-) TimerEvent: {}
+[6.815191] (-) TimerEvent: {}
+[6.915557] (-) TimerEvent: {}
+[7.015863] (-) TimerEvent: {}
+[7.116237] (-) TimerEvent: {}
+[7.216604] (-) TimerEvent: {}
+[7.252046] (flight_control) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX static library libnodesoup.a\x1b[0m\n'}
+[7.316743] (-) TimerEvent: {}
+[7.321902] (flight_control) StdoutLine: {'line': b'[ 26%] Built target nodesoup\n'}
+[7.361570] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target matplot\x1b[0m\n'}
+[7.408230] (flight_control) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/backend_interface.cpp.o\x1b[0m\n'}
+[7.408712] (flight_control) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axes_type.cpp.o\x1b[0m\n'}
+[7.408822] (flight_control) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/backend_registry.cpp.o\x1b[0m\n'}
+[7.409234] (flight_control) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/gnuplot.cpp.o\x1b[0m\n'}
+[7.416917] (-) TimerEvent: {}
+[7.417254] (flight_control) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axes_object.cpp.o\x1b[0m\n'}
+[7.517050] (-) TimerEvent: {}
+[7.617455] (-) TimerEvent: {}
+[7.717815] (-) TimerEvent: {}
+[7.818193] (-) TimerEvent: {}
+[7.918571] (-) TimerEvent: {}
+[8.018942] (-) TimerEvent: {}
+[8.119315] (-) TimerEvent: {}
+[8.204424] (flight_control) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axis_type.cpp.o\x1b[0m\n'}
+[8.219436] (-) TimerEvent: {}
+[8.319968] (-) TimerEvent: {}
+[8.420368] (-) TimerEvent: {}
+[8.422409] (flight_control) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_type.cpp.o\x1b[0m\n'}
+[8.520488] (-) TimerEvent: {}
+[8.564438] (flight_control) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_registry.cpp.o\x1b[0m\n'}
+[8.609105] (flight_control) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/legend.cpp.o\x1b[0m\n'}
+[8.620920] (-) TimerEvent: {}
+[8.721265] (-) TimerEvent: {}
+[8.752509] (flight_control) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/line_spec.cpp.o\x1b[0m\n'}
+[8.821394] (-) TimerEvent: {}
+[8.922117] (-) TimerEvent: {}
+[9.022725] (-) TimerEvent: {}
+[9.123051] (-) TimerEvent: {}
+[9.223440] (-) TimerEvent: {}
+[9.317861] (flight_control) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/colors.cpp.o\x1b[0m\n'}
+[9.323515] (-) TimerEvent: {}
+[9.423838] (-) TimerEvent: {}
+[9.524234] (-) TimerEvent: {}
+[9.624697] (-) TimerEvent: {}
+[9.629078] (flight_control) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/common.cpp.o\x1b[0m\n'}
+[9.724823] (-) TimerEvent: {}
+[9.825149] (-) TimerEvent: {}
+[9.868267] (flight_control) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/contourc.cpp.o\x1b[0m\n'}
+[9.925281] (-) TimerEvent: {}
+[10.026768] (-) TimerEvent: {}
+[10.127193] (-) TimerEvent: {}
+[10.229329] (-) TimerEvent: {}
+[10.304998] (flight_control) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/popen.cpp.o\x1b[0m\n'}
+[10.329718] (-) TimerEvent: {}
+[10.403840] (flight_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_cities.cpp.o\x1b[0m\n'}
+[10.430155] (-) TimerEvent: {}
+[10.530668] (-) TimerEvent: {}
+[10.631028] (-) TimerEvent: {}
+[10.731389] (-) TimerEvent: {}
+[10.809543] (flight_control) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_map_10m.cpp.o\x1b[0m\n'}
+[10.831517] (-) TimerEvent: {}
+[10.864923] (flight_control) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_map_50m.cpp.o\x1b[0m\n'}
+[10.931635] (-) TimerEvent: {}
+[11.031964] (-) TimerEvent: {}
+[11.132322] (-) TimerEvent: {}
+[11.232642] (-) TimerEvent: {}
+[11.332943] (-) TimerEvent: {}
+[11.433286] (-) TimerEvent: {}
+[11.534385] (-) TimerEvent: {}
+[11.634775] (-) TimerEvent: {}
+[11.733039] (flight_control) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable user_input\x1b[0m\n'}
+[11.734830] (-) TimerEvent: {}
+[11.802355] (flight_control) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_map_110m.cpp.o\x1b[0m\n'}
+[11.820719] (flight_control) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/bars.cpp.o\x1b[0m\n'}
+[11.837133] (-) TimerEvent: {}
+[11.937484] (-) TimerEvent: {}
+[12.031859] (flight_control) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[12.032427] (flight_control) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[12.037595] (-) TimerEvent: {}
+[12.047821] (flight_control) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[12.048090] (flight_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/user_input.dir/build.make:159: user_input] Error 1\n'}
+[12.048165] (flight_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:266: CMakeFiles/user_input.dir/all] Error 2\n'}
+[12.048215] (flight_control) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[12.078407] (flight_control) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/box_chart.cpp.o\x1b[0m\n'}
+[12.137704] (-) TimerEvent: {}
+[12.238065] (-) TimerEvent: {}
+[12.262616] (flight_control) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/circles.cpp.o\x1b[0m\n'}
+[12.338174] (-) TimerEvent: {}
+[12.338515] (flight_control) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/contours.cpp.o\x1b[0m\n'}
+[12.438299] (-) TimerEvent: {}
+[12.460904] (flight_control) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/error_bar.cpp.o\x1b[0m\n'}
+[12.538434] (-) TimerEvent: {}
+[12.639014] (-) TimerEvent: {}
+[12.721205] (flight_control) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/filled_area.cpp.o\x1b[0m\n'}
+[12.739127] (-) TimerEvent: {}
+[12.839457] (-) TimerEvent: {}
+[12.939801] (-) TimerEvent: {}
+[13.040674] (-) TimerEvent: {}
+[13.142056] (-) TimerEvent: {}
+[13.242398] (-) TimerEvent: {}
+[13.342723] (-) TimerEvent: {}
+[13.443079] (-) TimerEvent: {}
+[13.543534] (-) TimerEvent: {}
+[13.643924] (-) TimerEvent: {}
+[13.661565] (flight_control) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/function_line.cpp.o\x1b[0m\n'}
+[13.744005] (-) TimerEvent: {}
+[13.801177] (flight_control) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/histogram.cpp.o\x1b[0m\n'}
+[13.844128] (-) TimerEvent: {}
+[13.945395] (-) TimerEvent: {}
+[13.979848] (flight_control) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/labels.cpp.o\x1b[0m\n'}
+[14.045517] (-) TimerEvent: {}
+[14.083213] (flight_control) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/line.cpp.o\x1b[0m\n'}
+[14.145655] (-) TimerEvent: {}
+[14.247463] (-) TimerEvent: {}
+[14.347857] (-) TimerEvent: {}
+[14.407735] (flight_control) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.o\x1b[0m\n'}
+[14.443895] (flight_control) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/network.cpp.o\x1b[0m\n'}
+[14.447977] (-) TimerEvent: {}
+[14.548440] (-) TimerEvent: {}
+[14.648892] (-) TimerEvent: {}
+[14.749652] (-) TimerEvent: {}
+[14.850113] (-) TimerEvent: {}
+[14.950479] (-) TimerEvent: {}
+[15.050883] (-) TimerEvent: {}
+[15.151288] (-) TimerEvent: {}
+[15.251711] (-) TimerEvent: {}
+[15.352101] (-) TimerEvent: {}
+[15.452513] (-) TimerEvent: {}
+[15.554143] (-) TimerEvent: {}
+[15.654670] (-) TimerEvent: {}
+[15.755083] (-) TimerEvent: {}
+[15.808106] (flight_control) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/parallel_lines.cpp.o\x1b[0m\n'}
+[15.855235] (-) TimerEvent: {}
+[15.886001] (flight_control) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/stair.cpp.o\x1b[0m\n'}
+[15.955326] (-) TimerEvent: {}
+[16.013640] (flight_control) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/string_function.cpp.o\x1b[0m\n'}
+[16.055454] (-) TimerEvent: {}
+[16.155790] (-) TimerEvent: {}
+[16.256182] (-) TimerEvent: {}
+[16.354568] (flight_control) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/surface.cpp.o\x1b[0m\n'}
+[16.357995] (-) TimerEvent: {}
+[16.458331] (-) TimerEvent: {}
+[16.558674] (-) TimerEvent: {}
+[16.561127] (flight_control) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/vectors.cpp.o\x1b[0m\n'}
+[16.658802] (-) TimerEvent: {}
+[16.759141] (-) TimerEvent: {}
+[16.767717] (flight_control) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/axes_functions.cpp.o\x1b[0m\n'}
+[16.861786] (-) TimerEvent: {}
+[16.963278] (-) TimerEvent: {}
+[17.064521] (-) TimerEvent: {}
+[17.068311] (flight_control) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/histcounts.cpp.o\x1b[0m\n'}
+[17.163932] (-) TimerEvent: {}
+[17.264318] (-) TimerEvent: {}
+[17.364708] (-) TimerEvent: {}
+[17.465049] (-) TimerEvent: {}
+[17.566838] (-) TimerEvent: {}
+[17.667206] (-) TimerEvent: {}
+[17.767707] (-) TimerEvent: {}
+[17.868004] (-) TimerEvent: {}
+[17.968295] (-) TimerEvent: {}
+[18.068601] (-) TimerEvent: {}
+[18.168909] (-) TimerEvent: {}
+[18.269200] (-) TimerEvent: {}
+[18.369557] (-) TimerEvent: {}
+[18.469879] (-) TimerEvent: {}
+[18.570276] (-) TimerEvent: {}
+[18.670671] (-) TimerEvent: {}
+[18.771059] (-) TimerEvent: {}
+[18.871406] (-) TimerEvent: {}
+[18.971912] (-) TimerEvent: {}
+[19.072403] (-) TimerEvent: {}
+[19.172840] (-) TimerEvent: {}
+[19.273271] (-) TimerEvent: {}
+[19.373755] (-) TimerEvent: {}
+[19.474216] (-) TimerEvent: {}
+[19.574586] (-) TimerEvent: {}
+[19.596905] (flight_control) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable cmd_ack_listener\x1b[0m\n'}
+[19.652930] (flight_control) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable publish_trj_listener\x1b[0m\n'}
+[19.674699] (-) TimerEvent: {}
+[19.740777] (flight_control) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable sensor_combined_listener\x1b[0m\n'}
+[19.774828] (-) TimerEvent: {}
+[19.875281] (-) TimerEvent: {}
+[19.975676] (-) TimerEvent: {}
+[20.040366] (flight_control) StdoutLine: {'line': b'[ 92%] Built target cmd_ack_listener\n'}
+[20.049753] (flight_control) StdoutLine: {'line': b'[ 92%] Built target publish_trj_listener\n'}
+[20.075736] (-) TimerEvent: {}
+[20.085154] (flight_control) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library libmatplot.so\x1b[0m\n'}
+[20.096096] (flight_control) StdoutLine: {'line': b'[ 93%] Built target sensor_combined_listener\n'}
+[20.175826] (-) TimerEvent: {}
+[20.205245] (flight_control) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable vehicle_pos_listener\x1b[0m\n'}
+[20.275944] (-) TimerEvent: {}
+[20.376230] (-) TimerEvent: {}
+[20.476501] (-) TimerEvent: {}
+[20.501321] (flight_control) StdoutLine: {'line': b'[ 95%] Built target vehicle_pos_listener\n'}
+[20.576612] (-) TimerEvent: {}
+[20.676920] (-) TimerEvent: {}
+[20.721108] (flight_control) StdoutLine: {'line': b'[ 95%] Built target matplot\n'}
+[20.777013] (-) TimerEvent: {}
+[20.877263] (-) TimerEvent: {}
+[20.977528] (-) TimerEvent: {}
+[21.077793] (-) TimerEvent: {}
+[21.178069] (-) TimerEvent: {}
+[21.278342] (-) TimerEvent: {}
+[21.378632] (-) TimerEvent: {}
+[21.478884] (-) TimerEvent: {}
+[21.579108] (-) TimerEvent: {}
+[21.679365] (-) TimerEvent: {}
+[21.779619] (-) TimerEvent: {}
+[21.879863] (-) TimerEvent: {}
+[21.980082] (-) TimerEvent: {}
+[22.080292] (-) TimerEvent: {}
+[22.180494] (-) TimerEvent: {}
+[22.280718] (-) TimerEvent: {}
+[22.380995] (-) TimerEvent: {}
+[22.481200] (-) TimerEvent: {}
+[22.581412] (-) TimerEvent: {}
+[22.681623] (-) TimerEvent: {}
+[22.781864] (-) TimerEvent: {}
+[22.882093] (-) TimerEvent: {}
+[22.982324] (-) TimerEvent: {}
+[23.082552] (-) TimerEvent: {}
+[23.182793] (-) TimerEvent: {}
+[23.283008] (-) TimerEvent: {}
+[23.383218] (-) TimerEvent: {}
+[23.483427] (-) TimerEvent: {}
+[23.583634] (-) TimerEvent: {}
+[23.683837] (-) TimerEvent: {}
+[23.784061] (-) TimerEvent: {}
+[23.884301] (-) TimerEvent: {}
+[23.984500] (-) TimerEvent: {}
+[24.084703] (-) TimerEvent: {}
+[24.184906] (-) TimerEvent: {}
+[24.285133] (-) TimerEvent: {}
+[24.385340] (-) TimerEvent: {}
+[24.485552] (-) TimerEvent: {}
+[24.585770] (-) TimerEvent: {}
+[24.685988] (-) TimerEvent: {}
+[24.786189] (-) TimerEvent: {}
+[24.886475] (-) TimerEvent: {}
+[24.986692] (-) TimerEvent: {}
+[25.086936] (-) TimerEvent: {}
+[25.187160] (-) TimerEvent: {}
+[25.287393] (-) TimerEvent: {}
+[25.387654] (-) TimerEvent: {}
+[25.487876] (-) TimerEvent: {}
+[25.588228] (-) TimerEvent: {}
+[25.657695] (flight_control) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libflight_control_lib.so\x1b[0m\n'}
+[25.688315] (-) TimerEvent: {}
+[25.788555] (-) TimerEvent: {}
+[25.888803] (-) TimerEvent: {}
+[25.989065] (-) TimerEvent: {}
+[26.089342] (-) TimerEvent: {}
+[26.189606] (-) TimerEvent: {}
+[26.289887] (-) TimerEvent: {}
+[26.329844] (flight_control) StdoutLine: {'line': b'[ 96%] Built target flight_control_lib\n'}
+[26.330417] (flight_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[26.332302] (flight_control) CommandEnded: {'returncode': 2}
+[26.341422] (flight_control) JobEnded: {'identifier': 'flight_control', 'rc': 2}
+[26.351983] (-) EventReactorShutdown: {}

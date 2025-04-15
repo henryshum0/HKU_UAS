@@ -94,13 +94,13 @@ void ControlPublisher::publish_trajectory_setpoint(const TrjControlMode trj_ctrl
             trj_ctrl_mode_name = "ACCELERATION";
             break;
     }
-    RCLCPP_INFO_STREAM
-    (
-        this->get_logger(), 
-        "published "<< trj_ctrl_mode_name <<" setpoints: "<<std::endl
-        <<"ENU: "<<input.x()<<' '<<input.y()<<' '<<input.z()<<' '<<yaw<<std::endl
-        <<"NED: "<<ned_output.x()<<' '<<ned_output.y()<<' '<<ned_output.z()<<' '<<yaw_ned
-    );
+    // RCLCPP_INFO_STREAM
+    // (
+    //     this->get_logger(), 
+    //     "published "<< trj_ctrl_mode_name <<" setpoints: "<<std::endl
+    //     <<"ENU: "<<input.x()<<' '<<input.y()<<' '<<input.z()<<' '<<yaw<<std::endl
+    //     <<"NED: "<<ned_output.x()<<' '<<ned_output.y()<<' '<<ned_output.z()<<' '<<yaw_ned
+    // );
 
     trajectory_setpoint_publisher -> publish(msg);
 }
@@ -141,6 +141,7 @@ void ControlPublisher::timer_query_cmd_callback()
 
         case VehicleCMD::DISARM:
             this->disarm();
+            RCLCPP_INFO(this->get_logger(), "VehicleCMD: DISARM");
             break;
 
         case VehicleCMD::PUBLISH_TRJ:

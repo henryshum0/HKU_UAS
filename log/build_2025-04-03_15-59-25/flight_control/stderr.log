@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:67 (add_executable):
+  The target name "test" is reserved when CTest testing is enabled.
+
+[0m
+gmake: *** [Makefile:566: cmake_check_build_system] Error 1

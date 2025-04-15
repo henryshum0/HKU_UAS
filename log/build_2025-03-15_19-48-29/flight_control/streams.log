@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.178s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.180s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.183s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.217s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.217s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.929s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.958s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.960s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.003s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.003s] -- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include
+[3.004s] -- Configured cppcheck exclude dirs and/or files: 
+[3.004s] -- Added test 'lint_cmake' to check CMake code style
+[3.004s] -- Added test 'uncrustify' to check C / C++ code style
+[3.004s] -- Configured uncrustify additional arguments: 
+[3.004s] -- Added test 'xmllint' to check XML markup files
+[3.005s] -- Configuring done
+[3.009s] -- Generating done
+[3.012s] -- Build files have been written to: /home/henryshum0/SUAS/build/flight_control
+[3.030s] [35m[1mConsolidate compiler generated dependencies of target frame_conversion[0m
+[3.039s] [ 25%] [32mBuilding CXX object CMakeFiles/frame_conversion.dir/src/lib/frame_conversion.cpp.o[0m
+[3.712s] [ 50%] [32m[1mLinking CXX shared library libframe_conversion.so[0m
+[3.794s] [ 50%] Built target frame_conversion
+[3.801s] [35m[1mConsolidate compiler generated dependencies of target test_functions[0m
+[3.809s] [ 75%] [32mBuilding CXX object CMakeFiles/test_functions.dir/src/test.cpp.o[0m
+[4.458s] [100%] [32m[1mLinking CXX executable test_functions[0m
+[4.527s] /usr/bin/ld: CMakeFiles/test_functions.dir/src/test.cpp.o: in function `main':
+[4.527s] test.cpp:(.text+0xe2): undefined reference to `flight_control::frame_convertion::enu_ned_convert(Eigen::Matrix<float, 3, 1, 0, 3, 1>)'
+[4.527s] /usr/bin/ld: test.cpp:(.text+0x108): undefined reference to `flight_control::frame_convertion::enu_ned_convert(Eigen::Matrix<float, 3, 1, 0, 3, 1>)'
+[4.527s] /usr/bin/ld: test.cpp:(.text+0x12e): undefined reference to `flight_control::frame_convertion::enu_ned_convert(Eigen::Matrix<float, 3, 1, 0, 3, 1>)'
+[4.530s] collect2: error: ld returned 1 exit status
+[4.531s] gmake[2]: *** [CMakeFiles/test_functions.dir/build.make:98: test_functions] Error 1
+[4.531s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_functions.dir/all] Error 2
+[4.531s] gmake: *** [Makefile:146: all] Error 2
+[4.533s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16

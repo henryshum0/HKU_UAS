@@ -1,0 +1,7 @@
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:[m[K In member function ‘[01m[Kvoid UserInput::send(const int&, const bool&, const float&, const float&, const float&, const float&, const float&)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:133:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  133 |     const float &y_lat, const float &z, [01;35m[Kconst float &speed[m[K, const float &yaw)
+      |                                         [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:133:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kyaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  133 |     const float &y_lat, const float &z, const float &speed, [01;35m[Kconst float &yaw[m[K)
+      |                                                             [01;35m[K~~~~~~~~~~~~~^~~[m[K

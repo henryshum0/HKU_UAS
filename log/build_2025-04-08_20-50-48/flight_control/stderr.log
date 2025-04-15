@@ -1,0 +1,28 @@
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:[m[K In member function ‘[01m[Kvoid FlightExecutor::publish_control()[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:43:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+   43 |             [32m[K{[m[K[01;31m[Kelse[m[K set_trj_setpoint_pos(waypoint_cmplt_last->target);}
+      |             [32m[K~[m[K[01;31m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:43:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:39:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   39 |         [01;36m[K{[m[K
+      |         [01;36m[K^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:43:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoint_cmplt_last[m[K’ was not declared in this scope
+   43 |             {else set_trj_setpoint_pos([01;31m[Kwaypoint_cmplt_last[m[K->target);}
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:[m[K At global scope:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:47:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+   47 |         [01;31m[Kswitch[m[K(waypoint_curr->mission)
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:70:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   70 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:72:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   72 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:[m[K In member function ‘[01m[Kvoid FlightExecutor::move_to_waypoint(std::shared_ptr<Waypoint>)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:155:34:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  155 |             if([01;35m[Kwaypoint->mission = MISSION::WAYPOINT[m[K) {waypoint->mission_completed = true;}
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:104: CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/flight_control_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

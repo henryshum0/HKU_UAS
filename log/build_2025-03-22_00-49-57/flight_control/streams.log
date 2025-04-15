@@ -1,0 +1,82 @@
+[0.065s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[0.107s] [ 14%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/offboard_controller.cpp.o[0m
+[0.107s] [ 28%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/take_off_mode.cpp.o[0m
+[0.108s] [ 42%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_mode.cpp.o[0m
+[2.151s] In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:4[m[K,
+[2.151s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+[2.151s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[2.151s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:28:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kflight_control[m[K’ was not declared in this scope
+[2.151s]    28 |         FlightMode(std::shared_ptr<[01;31m[Kflight_control[m[K::OffboardController> offboard_controller, std::string mode_name);
+[2.151s]       |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.151s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:28:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.151s]    28 |         FlightMode(std::shared_ptr<flight_control::OffboardController[01;31m[K>[m[K offboard_controller, std::string mode_name);
+[2.151s]       |                                                                      [01;31m[K^[m[K
+[2.152s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:46:48:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+[2.152s]    46 |         void publish_trajectory_setpoint(const [01;31m[KVector3f[m[K& input, const float yaw = 0.0);
+[2.152s]       |                                                [01;31m[K^~~~~~~~[m[K
+[2.154s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+[2.154s]    49 |         [01;31m[KVector3f[m[K get_enu_local();
+[2.154s]       |         [01;31m[K^~~~~~~~[m[K
+[2.155s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:50:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+[2.155s]    50 |         [01;31m[KVector3f[m[K get_enu_vel();
+[2.155s]       |         [01;31m[K^~~~~~~~[m[K
+[2.157s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+[2.157s]    51 |         [01;31m[KVector3f[m[K get_enu_accel();
+[2.157s]       |         [01;31m[K^~~~~~~~[m[K
+[2.163s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:60:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kflight_control[m[K’ was not declared in this scope
+[2.163s]    60 |         std::shared_ptr<[01;31m[Kflight_control[m[K::OffboardController> offboard_controller;
+[2.163s]       |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.163s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:60:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.163s]    60 |         std::shared_ptr<flight_control::OffboardController[01;31m[K>[m[K offboard_controller;
+[2.163s]       |                                                           [01;31m[K^[m[K
+[2.170s] In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+[2.170s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[2.170s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kflight_control[m[K’ was not declared in this scope
+[2.170s]    11 |         TakeoffMode(std::shared_ptr<[01;31m[Kflight_control[m[K::OffboardController> offboard_controller, float takeoff_height);
+[2.170s]       |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.170s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.170s]    11 |         TakeoffMode(std::shared_ptr<flight_control::OffboardController[01;31m[K>[m[K offboard_controller, float takeoff_height);
+[2.170s]       |                                                                       [01;31m[K^[m[K
+[2.171s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+[2.171s]    17 |         [01;31m[KVector3f[m[K target_pos;
+[2.171s]       |         [01;31m[K^~~~~~~~[m[K
+[2.172s] In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+[2.172s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:12[m[K,
+[2.172s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_mode.cpp:1[m[K:
+[2.172s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:9:5:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[2.172s]     9 |     [01;31m[K{[m[K
+[2.172s]       |     [01;31m[K^[m[K
+[2.179s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kflight_control[m[K’ was not declared in this scope
+[2.179s]    11 |         TakeoffMode(std::shared_ptr<[01;31m[Kflight_control[m[K::OffboardController> offboard_controller, float takeoff_height);
+[2.179s]       |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.179s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.179s]    11 |         TakeoffMode(std::shared_ptr<flight_control::OffboardController[01;31m[K>[m[K offboard_controller, float takeoff_height);
+[2.179s]       |                                                                       [01;31m[K^[m[K
+[2.181s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+[2.181s]    17 |         [01;31m[KVector3f[m[K target_pos;
+[2.181s]       |         [01;31m[K^~~~~~~~[m[K
+[2.478s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:[m[K In member function ‘[01m[Kvoid flight_control::OffboardController::execute()[m[K’:
+[2.478s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:47:110:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kflight_mode::TakeoffMode::TakeoffMode(std::shared_ptr<flight_control::OffboardController>&, float)[m[K’
+[2.478s]    47 |             auto take_off = std::unique_ptr<flight_mode::TakeoffMode>(new flight_mode::TakeoffMode(self, 5.0f[01;31m[K)[m[K);
+[2.478s]       |                                                                                                              [01;31m[K^[m[K
+[2.478s] In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+[2.478s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[2.478s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kflight_mode::TakeoffMode::TakeoffMode(int, float)[m[K’
+[2.478s]    11 |         [01;36m[KTakeoffMode[m[K(std::shared_ptr<flight_control::OffboardController> offboard_controller, float takeoff_height);
+[2.478s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[2.478s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<flight_control::OffboardController>[m[K’ to ‘[01m[Kint[m[K’
+[2.478s]    11 |         TakeoffMode([01;36m[Kstd::shared_ptr<flight_control::OffboardController> offboard_controller[m[K, float takeoff_height);
+[2.478s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.478s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:8:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kflight_mode::TakeoffMode::TakeoffMode(const flight_mode::TakeoffMode&)[m[K’
+[2.478s]     8 |     class [01;36m[KTakeoffMode[m[K : public FlightMode
+[2.478s]       |           [01;36m[K^~~~~~~~~~~[m[K
+[2.478s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:8:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.478s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:8:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kflight_mode::TakeoffMode::TakeoffMode(flight_mode::TakeoffMode&&)[m[K’
+[2.478s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:8:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.602s] gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:90: CMakeFiles/flight_control_lib.dir/src/flight_mode.cpp.o] Error 1
+[2.602s] gmake[2]: *** Waiting for unfinished jobs....
+[5.005s] gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:76: CMakeFiles/flight_control_lib.dir/src/offboard_controller.cpp.o] Error 1
+[5.005s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/flight_control_lib.dir/all] Error 2
+[5.005s] gmake: *** [Makefile:146: all] Error 2
+[5.007s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '2': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16

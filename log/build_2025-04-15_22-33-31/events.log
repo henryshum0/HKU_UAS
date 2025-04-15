@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000516] (-) JobUnselected: {'identifier': 'offboard_control_interfaces'}
+[0.000629] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000683] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000695] (flight_control) JobQueued: {'identifier': 'flight_control', 'dependencies': OrderedDict([('offboard_control_interfaces', '/home/henryshum0/SUAS/install/offboard_control_interfaces'), ('px4_msgs', '/home/henryshum0/SUAS/install/px4_msgs'), ('px4_ros_com', '/home/henryshum0/SUAS/install/px4_ros_com')])}
+[0.000712] (flight_control) JobStarted: {'identifier': 'flight_control'}
+[0.073515] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'cmake'}
+[0.075024] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'build'}
+[0.075588] (flight_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henryshum0/SUAS/build/flight_control', '--', '-j16', '-l16'], 'cwd': '/home/henryshum0/SUAS/build/flight_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('USER', 'henryshum0'), ('GIT_ASKPASS', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/offboard_control_interfaces/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/henryshum0'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-40d79dc9-ca8f-4383-8cbf-3d507f7fb45f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/henryshum0/SUAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'henryshum0'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/618_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/henryshum0/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/henryshum0/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/henryshum0/.dotnet/tools:/mnt/c/Users/henryshum0/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/henryshum0/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-094d2c776f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/offboard_control_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/henryshum0/SUAS/build/flight_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/offboard_control_interfaces:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.098630] (flight_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099802] (-) TimerEvent: {}
+[0.195446] (flight_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199906] (-) TimerEvent: {}
+[0.280670] (flight_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.281950] (flight_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.285216] (flight_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.291640] (flight_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299572] (flight_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299990] (-) TimerEvent: {}
+[0.341665] (flight_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.344138] (flight_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400117] (-) TimerEvent: {}
+[0.500376] (-) TimerEvent: {}
+[0.600638] (-) TimerEvent: {}
+[0.701069] (-) TimerEvent: {}
+[0.801345] (-) TimerEvent: {}
+[0.901635] (-) TimerEvent: {}
+[1.001917] (-) TimerEvent: {}
+[1.102200] (-) TimerEvent: {}
+[1.202488] (-) TimerEvent: {}
+[1.302767] (-) TimerEvent: {}
+[1.403039] (-) TimerEvent: {}
+[1.503309] (-) TimerEvent: {}
+[1.603585] (-) TimerEvent: {}
+[1.703864] (-) TimerEvent: {}
+[1.804182] (-) TimerEvent: {}
+[1.904446] (-) TimerEvent: {}
+[2.004713] (-) TimerEvent: {}
+[2.104984] (-) TimerEvent: {}
+[2.205300] (-) TimerEvent: {}
+[2.225577] (flight_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.276582] (flight_control) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/henryshum0/SUAS/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[2.288502] (flight_control) StdoutLine: {'line': b'-- Found px4_ros_com: 0.1.0 (/home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake)\n'}
+[2.305407] (-) TimerEvent: {}
+[2.327126] (flight_control) StdoutLine: {'line': b'-- Found offboard_control_interfaces: 0.0.0 (/home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake)\n'}
+[2.405512] (-) TimerEvent: {}
+[2.505782] (-) TimerEvent: {}
+[2.606046] (-) TimerEvent: {}
+[2.706317] (-) TimerEvent: {}
+[2.806588] (-) TimerEvent: {}
+[2.906914] (-) TimerEvent: {}
+[3.007422] (-) TimerEvent: {}
+[3.107683] (-) TimerEvent: {}
+[3.207951] (-) TimerEvent: {}
+[3.308224] (-) TimerEvent: {}
+[3.408480] (-) TimerEvent: {}
+[3.508750] (-) TimerEvent: {}
+[3.609014] (-) TimerEvent: {}
+[3.709281] (-) TimerEvent: {}
+[3.809543] (-) TimerEvent: {}
+[3.909868] (-) TimerEvent: {}
+[4.010206] (-) TimerEvent: {}
+[4.110481] (-) TimerEvent: {}
+[4.210747] (-) TimerEvent: {}
+[4.311012] (-) TimerEvent: {}
+[4.411284] (-) TimerEvent: {}
+[4.511559] (-) TimerEvent: {}
+[4.611828] (-) TimerEvent: {}
+[4.712103] (-) TimerEvent: {}
+[4.812366] (-) TimerEvent: {}
+[4.912635] (-) TimerEvent: {}
+[5.012923] (-) TimerEvent: {}
+[5.113210] (-) TimerEvent: {}
+[5.213480] (-) TimerEvent: {}
+[5.313759] (-) TimerEvent: {}
+[5.414042] (-) TimerEvent: {}
+[5.514313] (-) TimerEvent: {}
+[5.614580] (-) TimerEvent: {}
+[5.714841] (-) TimerEvent: {}
+[5.815125] (-) TimerEvent: {}
+[5.915432] (-) TimerEvent: {}
+[6.015740] (-) TimerEvent: {}
+[6.116038] (-) TimerEvent: {}
+[6.216423] (-) TimerEvent: {}
+[6.316756] (-) TimerEvent: {}
+[6.417074] (-) TimerEvent: {}
+[6.517396] (-) TimerEvent: {}
+[6.560161] (flight_control) StdoutLine: {'line': b'-- Could NOT find FFTW (missing: FFTW_INCLUDE_DIRS) \n'}
+[6.566461] (flight_control) StderrLine: {'line': b'\x1b[0mSetting matplotplusplus compiler options\x1b[0m\n'}
+[6.571262] (flight_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.617510] (-) TimerEvent: {}
+[6.707341] (flight_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.707700] (flight_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/flight_control/include>\n'}
+[6.707782] (flight_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.717687] (-) TimerEvent: {}
+[6.721091] (flight_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.759825] (flight_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.760027] (flight_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.763841] (flight_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.766161] (flight_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.817790] (-) TimerEvent: {}
+[6.822600] (flight_control) StdoutLine: {'line': b'-- Generating done\n'}
+[6.834685] (flight_control) StdoutLine: {'line': b'-- Build files have been written to: /home/henryshum0/SUAS/build/flight_control\n'}
+[6.854497] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target user_input\x1b[0m\n'}
+[6.855070] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_combined_listener\x1b[0m\n'}
+[6.855375] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publish_trj_listener\x1b[0m\n'}
+[6.855876] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nodesoup\x1b[0m\n'}
+[6.856148] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vehicle_pos_listener\x1b[0m\n'}
+[6.856689] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_ack_listener\x1b[0m\n'}
+[6.860027] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control_lib\x1b[0m\n'}
+[6.868701] (flight_control) StdoutLine: {'line': b'[ 10%] Built target nodesoup\n'}
+[6.869024] (flight_control) StdoutLine: {'line': b'[ 14%] Built target vehicle_pos_listener\n'}
+[6.869264] (flight_control) StdoutLine: {'line': b'[ 17%] Built target publish_trj_listener\n'}
+[6.869386] (flight_control) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/user_input.dir/src/user_input.cpp.o\x1b[0m\n'}
+[6.869866] (flight_control) StdoutLine: {'line': b'[ 20%] Built target cmd_ack_listener\n'}
+[6.871659] (flight_control) StdoutLine: {'line': b'[ 23%] Built target sensor_combined_listener\n'}
+[6.880047] (flight_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/input_parser.cpp.o\x1b[0m\n'}
+[6.880603] (flight_control) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o\x1b[0m\n'}
+[6.889997] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target matplot\x1b[0m\n'}
+[6.918005] (-) TimerEvent: {}
+[6.918336] (flight_control) StdoutLine: {'line': b'[ 85%] Built target matplot\n'}
+[7.018145] (-) TimerEvent: {}
+[7.038230] (flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:1\x1b[m\x1b[K:\n'}
+[7.038405] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/input_parser.hpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Koffboard_control_interfaces/msg/user_command.hpp: No such file or directory\n'}
+[7.038464] (flight_control) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<offboard_control_interfaces/msg/user_command.hpp>\x1b[m\x1b[K\n'}
+[7.038509] (flight_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.038551] (flight_control) StderrLine: {'line': b'compilation terminated.\n'}
+[7.040466] (flight_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:118: CMakeFiles/flight_control_lib.dir/src/flight_control/input_parser.cpp.o] Error 1\n'}
+[7.040612] (flight_control) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[7.118256] (-) TimerEvent: {}
+[7.218714] (-) TimerEvent: {}
+[7.319162] (-) TimerEvent: {}
+[7.419597] (-) TimerEvent: {}
+[7.520068] (-) TimerEvent: {}
+[7.620427] (-) TimerEvent: {}
+[7.720899] (-) TimerEvent: {}
+[7.821264] (-) TimerEvent: {}
+[7.921624] (-) TimerEvent: {}
+[8.022013] (-) TimerEvent: {}
+[8.122415] (-) TimerEvent: {}
+[8.222878] (-) TimerEvent: {}
+[8.323287] (-) TimerEvent: {}
+[8.423625] (-) TimerEvent: {}
+[8.524187] (-) TimerEvent: {}
+[8.624598] (-) TimerEvent: {}
+[8.724983] (-) TimerEvent: {}
+[8.825402] (-) TimerEvent: {}
+[8.925844] (-) TimerEvent: {}
+[9.026218] (-) TimerEvent: {}
+[9.126576] (-) TimerEvent: {}
+[9.226908] (-) TimerEvent: {}
+[9.327263] (-) TimerEvent: {}
+[9.427595] (-) TimerEvent: {}
+[9.528003] (-) TimerEvent: {}
+[9.628470] (-) TimerEvent: {}
+[9.728768] (-) TimerEvent: {}
+[9.829056] (-) TimerEvent: {}
+[9.929361] (-) TimerEvent: {}
+[10.029649] (-) TimerEvent: {}
+[10.129958] (-) TimerEvent: {}
+[10.162979] (flight_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/flight_control_lib.dir/all] Error 2\n'}
+[10.163194] (flight_control) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[10.230078] (-) TimerEvent: {}
+[10.330362] (-) TimerEvent: {}
+[10.430651] (-) TimerEvent: {}
+[10.530968] (-) TimerEvent: {}
+[10.631308] (-) TimerEvent: {}
+[10.653779] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid UserInput::print_rej_msg(uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.653939] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:249:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=\x07-Wimplicit-fallthrough=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.653982] (flight_control) StderrLine: {'line': b'  249 |             reason_str = \x1b[01;35m\x1b[K"take off height is not feasible"\x1b[m\x1b[K;\n'}
+[10.654013] (flight_control) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.654043] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:250:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[10.654069] (flight_control) StderrLine: {'line': b'  250 |         \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K UserCommand::REJECT_SPEED_INFEASIBLE:\n'}
+[10.654093] (flight_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.654119] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:251:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=\x07-Wimplicit-fallthrough=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.654146] (flight_control) StderrLine: {'line': b'  251 |             reason_str = \x1b[01;35m\x1b[K"speed is not feasible"\x1b[m\x1b[K;\n'}
+[10.654171] (flight_control) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.654196] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:252:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[10.654221] (flight_control) StderrLine: {'line': b'  252 |         \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[10.654245] (flight_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.731423] (-) TimerEvent: {}
+[10.831715] (-) TimerEvent: {}
+[10.932006] (-) TimerEvent: {}
+[11.032307] (-) TimerEvent: {}
+[11.132592] (-) TimerEvent: {}
+[11.232926] (-) TimerEvent: {}
+[11.333189] (-) TimerEvent: {}
+[11.433469] (-) TimerEvent: {}
+[11.533754] (-) TimerEvent: {}
+[11.634099] (-) TimerEvent: {}
+[11.734433] (-) TimerEvent: {}
+[11.834769] (-) TimerEvent: {}
+[11.935037] (-) TimerEvent: {}
+[12.035312] (-) TimerEvent: {}
+[12.135581] (-) TimerEvent: {}
+[12.235842] (-) TimerEvent: {}
+[12.336180] (-) TimerEvent: {}
+[12.436572] (-) TimerEvent: {}
+[12.536847] (-) TimerEvent: {}
+[12.637165] (-) TimerEvent: {}
+[12.737482] (-) TimerEvent: {}
+[12.837769] (-) TimerEvent: {}
+[12.938100] (-) TimerEvent: {}
+[13.038400] (-) TimerEvent: {}
+[13.138686] (-) TimerEvent: {}
+[13.142345] (flight_control) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable user_input\x1b[0m\n'}
+[13.238801] (-) TimerEvent: {}
+[13.339090] (-) TimerEvent: {}
+[13.430071] (flight_control) StdoutLine: {'line': b'[ 87%] Built target user_input\n'}
+[13.430811] (flight_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.432814] (flight_control) CommandEnded: {'returncode': 2}
+[13.439357] (-) TimerEvent: {}
+[13.445090] (flight_control) JobEnded: {'identifier': 'flight_control', 'rc': 2}
+[13.456092] (-) EventReactorShutdown: {}

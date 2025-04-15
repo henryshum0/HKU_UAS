@@ -1,0 +1,22 @@
+[33mCMake Warning at CMakeLists.txt:15 (find_package):
+  By not providing "Findmatplotplusplus.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "matplotplusplus", but CMake did not find one.
+
+  Could not find a package configuration file provided by "matplotplusplus"
+  with any of the following names:
+
+    matplotplusplusConfig.cmake
+    matplotplusplus-config.cmake
+
+  Add the installation prefix of "matplotplusplus" to CMAKE_PREFIX_PATH or
+  set "matplotplusplus_DIR" to a directory containing one of the above files.
+  If "matplotplusplus" provides a separate development package or SDK, be
+  sure it has been installed.
+
+[0m
+/usr/bin/ld: cannot find -lmatplot: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_function.dir/build.make:97: test_function] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_function.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

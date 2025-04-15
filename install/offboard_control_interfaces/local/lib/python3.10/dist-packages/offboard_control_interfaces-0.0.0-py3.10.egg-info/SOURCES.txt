@@ -1,0 +1,8 @@
+setup.py
+offboard_control_interfaces/__init__.py
+offboard_control_interfaces.egg-info/PKG-INFO
+offboard_control_interfaces.egg-info/SOURCES.txt
+offboard_control_interfaces.egg-info/dependency_links.txt
+offboard_control_interfaces.egg-info/top_level.txt
+offboard_control_interfaces/msg/__init__.py
+offboard_control_interfaces/msg/_user_command.py

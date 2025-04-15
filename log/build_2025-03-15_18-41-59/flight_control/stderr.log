@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:13 (include):
+  include requested file is a directory:
+
+    /home/henryshum0/SUAS/src/flight_control/include
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'frame_convertion' was
+  not found before
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (ament_target_dependencies)
+
+[0m

@@ -1,0 +1,17 @@
+{
+  "package_name": "offboard_control_interfaces",
+  "output_dir": "/home/henryshum0/SUAS/build/offboard_control_interfaces/rosidl_typesupport_cpp/offboard_control_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/henryshum0/SUAS/build/offboard_control_interfaces/rosidl_adapter/offboard_control_interfaces:msg/UserCommand.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/henryshum0/SUAS/build/offboard_control_interfaces/rosidl_adapter/offboard_control_interfaces/msg/UserCommand.idl"
+  ]
+}

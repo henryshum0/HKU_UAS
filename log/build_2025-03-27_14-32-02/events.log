@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000376] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000607] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000757] (flight_control) JobQueued: {'identifier': 'flight_control', 'dependencies': OrderedDict([('px4_msgs', '/home/henryshum0/SUAS/install/px4_msgs'), ('px4_ros_com', '/home/henryshum0/SUAS/install/px4_ros_com')])}
+[0.000798] (flight_control) JobStarted: {'identifier': 'flight_control'}
+[0.043349] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'cmake'}
+[0.044316] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'build'}
+[0.045330] (flight_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henryshum0/SUAS/build/flight_control', '--', '-j16', '-l16'], 'cwd': '/home/henryshum0/SUAS/build/flight_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('USER', 'henryshum0'), ('GIT_ASKPASS', '/home/henryshum0/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/henryshum0'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d5fd780f-6a78-4a53-af5f-2342f817fa3f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/henryshum0/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/henryshum0/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('ROS_LOG_DIR', '/home/henryshum0/SUAS/ros2log'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'henryshum0'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/593_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/henryshum0/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/henryshum0/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/henryshum0/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/henryshum0/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/henryshum0/.dotnet/tools:/mnt/c/Users/henryshum0/anaconda3:/mnt/c/Users/henryshum0/anaconda3/Scripts:/mnt/c/Users/henryshum0/anaconda3/Library/bin:/snap/bin:/home/henryshum0/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('WT_SESSION', 'b47d04e4-8a8a-4162-8d4f-366508ae4365'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-094d2c776f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/henryshum0/SUAS/build/flight_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble')]), 'shell': False}
+[0.067654] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control_lib\x1b[0m\n'}
+[0.082029] (flight_control) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/state_subscribers.cpp.o\x1b[0m\n'}
+[0.099545] (-) TimerEvent: {}
+[0.199831] (-) TimerEvent: {}
+[0.300108] (-) TimerEvent: {}
+[0.400361] (-) TimerEvent: {}
+[0.500838] (-) TimerEvent: {}
+[0.601098] (-) TimerEvent: {}
+[0.701321] (-) TimerEvent: {}
+[0.801583] (-) TimerEvent: {}
+[0.901838] (-) TimerEvent: {}
+[1.002078] (-) TimerEvent: {}
+[1.102333] (-) TimerEvent: {}
+[1.202562] (-) TimerEvent: {}
+[1.302825] (-) TimerEvent: {}
+[1.403099] (-) TimerEvent: {}
+[1.503357] (-) TimerEvent: {}
+[1.603610] (-) TimerEvent: {}
+[1.703821] (-) TimerEvent: {}
+[1.804080] (-) TimerEvent: {}
+[1.904314] (-) TimerEvent: {}
+[2.004550] (-) TimerEvent: {}
+[2.104787] (-) TimerEvent: {}
+[2.205005] (-) TimerEvent: {}
+[2.305271] (-) TimerEvent: {}
+[2.405530] (-) TimerEvent: {}
+[2.505778] (-) TimerEvent: {}
+[2.606032] (-) TimerEvent: {}
+[2.706304] (-) TimerEvent: {}
+[2.806588] (-) TimerEvent: {}
+[2.906862] (-) TimerEvent: {}
+[3.007164] (-) TimerEvent: {}
+[3.107426] (-) TimerEvent: {}
+[3.207657] (-) TimerEvent: {}
+[3.307883] (-) TimerEvent: {}
+[3.408139] (-) TimerEvent: {}
+[3.508380] (-) TimerEvent: {}
+[3.608598] (-) TimerEvent: {}
+[3.708815] (-) TimerEvent: {}
+[3.809102] (-) TimerEvent: {}
+[3.909368] (-) TimerEvent: {}
+[4.009655] (-) TimerEvent: {}
+[4.109921] (-) TimerEvent: {}
+[4.210203] (-) TimerEvent: {}
+[4.310485] (-) TimerEvent: {}
+[4.410859] (-) TimerEvent: {}
+[4.511156] (-) TimerEvent: {}
+[4.611373] (-) TimerEvent: {}
+[4.711596] (-) TimerEvent: {}
+[4.811861] (-) TimerEvent: {}
+[4.912091] (-) TimerEvent: {}
+[5.012309] (-) TimerEvent: {}
+[5.112530] (-) TimerEvent: {}
+[5.212729] (-) TimerEvent: {}
+[5.312946] (-) TimerEvent: {}
+[5.413202] (-) TimerEvent: {}
+[5.513431] (-) TimerEvent: {}
+[5.613715] (-) TimerEvent: {}
+[5.713962] (-) TimerEvent: {}
+[5.814181] (-) TimerEvent: {}
+[5.914421] (-) TimerEvent: {}
+[6.014682] (-) TimerEvent: {}
+[6.114907] (-) TimerEvent: {}
+[6.215104] (-) TimerEvent: {}
+[6.315291] (-) TimerEvent: {}
+[6.415515] (-) TimerEvent: {}
+[6.515724] (-) TimerEvent: {}
+[6.615959] (-) TimerEvent: {}
+[6.716219] (-) TimerEvent: {}
+[6.816490] (-) TimerEvent: {}
+[6.916764] (-) TimerEvent: {}
+[7.016996] (-) TimerEvent: {}
+[7.117273] (-) TimerEvent: {}
+[7.217492] (-) TimerEvent: {}
+[7.317721] (-) TimerEvent: {}
+[7.417940] (-) TimerEvent: {}
+[7.518230] (-) TimerEvent: {}
+[7.618551] (-) TimerEvent: {}
+[7.718819] (-) TimerEvent: {}
+[7.819084] (-) TimerEvent: {}
+[7.890584] (flight_control) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libflight_control_lib.so\x1b[0m\n'}
+[7.919169] (-) TimerEvent: {}
+[8.019391] (-) TimerEvent: {}
+[8.119639] (-) TimerEvent: {}
+[8.219891] (-) TimerEvent: {}
+[8.320174] (-) TimerEvent: {}
+[8.420423] (-) TimerEvent: {}
+[8.428431] (flight_control) StdoutLine: {'line': b'[ 75%] Built target flight_control_lib\n'}
+[8.438457] (flight_control) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/offboard_controller.dir/src/main.cpp.o\x1b[0m\n'}
+[8.520521] (-) TimerEvent: {}
+[8.620764] (-) TimerEvent: {}
+[8.720996] (-) TimerEvent: {}
+[8.821256] (-) TimerEvent: {}
+[8.921518] (-) TimerEvent: {}
+[9.021762] (-) TimerEvent: {}
+[9.122080] (-) TimerEvent: {}
+[9.222369] (-) TimerEvent: {}
+[9.322624] (-) TimerEvent: {}
+[9.422942] (-) TimerEvent: {}
+[9.523240] (-) TimerEvent: {}
+[9.623498] (-) TimerEvent: {}
+[9.723761] (-) TimerEvent: {}
+[9.824038] (-) TimerEvent: {}
+[9.924292] (-) TimerEvent: {}
+[10.024532] (-) TimerEvent: {}
+[10.124781] (-) TimerEvent: {}
+[10.225034] (-) TimerEvent: {}
+[10.325269] (-) TimerEvent: {}
+[10.425508] (-) TimerEvent: {}
+[10.452888] (flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[10.453210] (flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[10.453268] (flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[10.453297] (flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[10.453324] (flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/control_publishers.hpp:4\x1b[m\x1b[K,\n'}
+[10.453352] (flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[10.453380] (flight_control) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ControlPublisher; _Args = {std::shared_ptr<VehicleState>&}; _Tp = ControlPublisher]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.453406] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ControlPublisher; _Args = {std::shared_ptr<VehicleState>&}; _Tp = ControlPublisher; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ControlPublisher>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453433] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<VehicleState>&}; _Tp = ControlPublisher; _Alloc = std::allocator<ControlPublisher>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453459] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ControlPublisher; _Alloc = std::allocator<ControlPublisher>; _Args = {std::shared_ptr<VehicleState>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453487] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ControlPublisher>; _Args = {std::shared_ptr<VehicleState>&}; _Tp = ControlPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453513] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ControlPublisher>; _Args = {std::shared_ptr<VehicleState>&}; _Tp = ControlPublisher]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453536] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ControlPublisher; _Alloc = std::allocator<ControlPublisher>; _Args = {std::shared_ptr<VehicleState>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453565] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ControlPublisher; _Args = {std::shared_ptr<VehicleState>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453627] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:15:60:\x1b[m\x1b[K   required from here\n'}
+[10.453654] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KControlPublisher::ControlPublisher(std::shared_ptr<VehicleState>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453680] (flight_control) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[10.453706] (flight_control) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.453730] (flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[10.453754] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/control_publishers.hpp:23:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KControlPublisher::ControlPublisher(std::shared_ptr<ModeExecutor>, std::shared_ptr<VehicleState>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.453781] (flight_control) StderrLine: {'line': b'   23 |     \x1b[01;36m\x1b[KControlPublisher\x1b[m\x1b[K(std::shared_ptr<ModeExecutor> mode_executor, std::shared_ptr<VehicleState> vehicle_state);\n'}
+[10.453805] (flight_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.453831] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/control_publishers.hpp:23:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[10.496381] (flight_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/offboard_controller.dir/build.make:76: CMakeFiles/offboard_controller.dir/src/main.cpp.o] Error 1\n'}
+[10.496512] (flight_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/offboard_controller.dir/all] Error 2\n'}
+[10.496687] (flight_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.498148] (flight_control) CommandEnded: {'returncode': 2}
+[10.504375] (flight_control) JobEnded: {'identifier': 'flight_control', 'rc': 2}
+[10.514900] (-) EventReactorShutdown: {}

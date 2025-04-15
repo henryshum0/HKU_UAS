@@ -1,0 +1,30 @@
+[0.072s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[0.121s] [ 11%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/control_publishers.cpp.o[0m
+[2.115s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:[m[K In member function ‘[01m[Kvoid ControlPublisher::timer_query_cmd_callback()[m[K’:
+[2.116s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:81:22:[m[K [01;31m[Kerror: [m[Kjump to case label
+[2.116s]    81 |     case VehicleCMD::[01;31m[KTERMINATE[m[K:
+[2.116s]       |                      [01;31m[K^~~~~~~~~[m[K
+[2.116s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:78:15:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kfloat desired_yaw[m[K’
+[2.116s]    78 |         float [01;36m[Kdesired_yaw[m[K = this->executor_command->get_desired_yaw();
+[2.116s]       |               [01;36m[K^~~~~~~~~~~[m[K
+[2.116s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:77:18:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[KEigen::Vector3f desired_trj[m[K’
+[2.116s]    77 |         Vector3f [01;36m[Kdesired_trj[m[K =  this->executor_command->get_desired_trj();
+[2.116s]       |                  [01;36m[K^~~~~~~~~~~[m[K
+[2.116s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:84:22:[m[K [01;31m[Kerror: [m[Kjump to case label
+[2.116s]    84 |     case VehicleCMD::[01;31m[KNO_CMD[m[K:
+[2.116s]       |                      [01;31m[K^~~~~~[m[K
+[2.116s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:78:15:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kfloat desired_yaw[m[K’
+[2.116s]    78 |         float [01;36m[Kdesired_yaw[m[K = this->executor_command->get_desired_yaw();
+[2.116s]       |               [01;36m[K^~~~~~~~~~~[m[K
+[2.116s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:77:18:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[KEigen::Vector3f desired_trj[m[K’
+[2.116s]    77 |         Vector3f [01;36m[Kdesired_trj[m[K =  this->executor_command->get_desired_trj();
+[2.116s]       |                  [01;36m[K^~~~~~~~~~~[m[K
+[2.116s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:68:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTERMINATE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[2.116s]    68 |     switch [01;35m[K([m[Kcmd_curr)
+[2.116s]       |            [01;35m[K^[m[K
+[2.116s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/control_publishers.cpp:68:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNO_CMD[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[2.921s] gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:76: CMakeFiles/flight_control_lib.dir/src/flight_control/control_publishers.cpp.o] Error 1
+[2.921s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/flight_control_lib.dir/all] Error 2
+[2.921s] gmake: *** [Makefile:146: all] Error 2
+[2.923s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '2': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16

@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000525] (-) JobUnselected: {'identifier': 'flight_control'}
+[0.000575] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000614] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/henryshum0/SUAS/install/px4_msgs')])}
+[0.000657] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.035261] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.036800] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.037091] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henryshum0/SUAS/build/px4_ros_com', '--', '-j16', '-l16'], 'cwd': '/home/henryshum0/SUAS/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('USER', 'henryshum0'), ('GIT_ASKPASS', '/home/henryshum0/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/home/henryshum0/SUAS/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/henryshum0'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e3164ce7-d184-49c7-8847-5cb4a4610c27.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/henryshum0/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/henryshum0/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/henryshum0/SUAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'henryshum0'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/610_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/henryshum0/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/home/henryshum0/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/henryshum0/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/henryshum0/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/henryshum0/.dotnet/tools:/snap/bin:/home/henryshum0/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-094d2c776f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/henryshum0/SUAS/build/px4_ros_com'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.062752] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target offboard_control\x1b[0m\n'}
+[0.075044] (px4_ros_com) StdoutLine: {'line': b'[ 21%] Built target debug_vect_advertiser\n'}
+[0.075233] (px4_ros_com) StdoutLine: {'line': b'[ 28%] Built target sensor_combined_listener\n'}
+[0.075306] (px4_ros_com) StdoutLine: {'line': b'[ 42%] Built target offboard_control_srv\n'}
+[0.076310] (px4_ros_com) StdoutLine: {'line': b'[ 71%] Built target vehicle_gps_position_listener\n'}
+[0.076608] (px4_ros_com) StdoutLine: {'line': b'[ 71%] Built target frame_transforms\n'}
+[0.076696] (px4_ros_com) StdoutLine: {'line': b'[ 85%] Built target vehicle_status\n'}
+[0.079043] (px4_ros_com) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o\x1b[0m\n'}
+[0.079319] (px4_ros_com) StdoutLine: {'line': b'[ 92%] Built target ament_cmake_python_copy_px4_ros_com\n'}
+[0.099204] (-) TimerEvent: {}
+[0.199825] (-) TimerEvent: {}
+[0.288112] (px4_ros_com) StdoutLine: {'line': b'running egg_info\n'}
+[0.288640] (px4_ros_com) StdoutLine: {'line': b'writing px4_ros_com.egg-info/PKG-INFO\n'}
+[0.288959] (px4_ros_com) StdoutLine: {'line': b'writing dependency_links to px4_ros_com.egg-info/dependency_links.txt\n'}
+[0.289290] (px4_ros_com) StdoutLine: {'line': b'writing top-level names to px4_ros_com.egg-info/top_level.txt\n'}
+[0.291876] (px4_ros_com) StdoutLine: {'line': b"reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[0.292322] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[0.299963] (-) TimerEvent: {}
+[0.318663] (px4_ros_com) StdoutLine: {'line': b'[ 92%] Built target ament_cmake_python_build_px4_ros_com_egg\n'}
+[0.400151] (-) TimerEvent: {}
+[0.500681] (-) TimerEvent: {}
+[0.601330] (-) TimerEvent: {}
+[0.701779] (-) TimerEvent: {}
+[0.802348] (-) TimerEvent: {}
+[0.902753] (-) TimerEvent: {}
+[1.003082] (-) TimerEvent: {}
+[1.103465] (-) TimerEvent: {}
+[1.203896] (-) TimerEvent: {}
+[1.304350] (-) TimerEvent: {}
+[1.404663] (-) TimerEvent: {}
+[1.504976] (-) TimerEvent: {}
+[1.605324] (-) TimerEvent: {}
+[1.705605] (-) TimerEvent: {}
+[1.805907] (-) TimerEvent: {}
+[1.906266] (-) TimerEvent: {}
+[2.006597] (-) TimerEvent: {}
+[2.106905] (-) TimerEvent: {}
+[2.207253] (-) TimerEvent: {}
+[2.307709] (-) TimerEvent: {}
+[2.408096] (-) TimerEvent: {}
+[2.508634] (-) TimerEvent: {}
+[2.608960] (-) TimerEvent: {}
+[2.709311] (-) TimerEvent: {}
+[2.809596] (-) TimerEvent: {}
+[2.909896] (-) TimerEvent: {}
+[3.010291] (-) TimerEvent: {}
+[3.110660] (-) TimerEvent: {}
+[3.210982] (-) TimerEvent: {}
+[3.311328] (-) TimerEvent: {}
+[3.411850] (-) TimerEvent: {}
+[3.512241] (-) TimerEvent: {}
+[3.612540] (-) TimerEvent: {}
+[3.712833] (-) TimerEvent: {}
+[3.813164] (-) TimerEvent: {}
+[3.900875] (px4_ros_com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable offboard_control\x1b[0m\n'}
+[3.913282] (-) TimerEvent: {}
+[4.013571] (-) TimerEvent: {}
+[4.068010] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target offboard_control\n'}
+[4.076071] (px4_ros_com) CommandEnded: {'returncode': 0}
+[4.076918] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'install'}
+[4.081059] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/henryshum0/SUAS/build/px4_ros_com'], 'cwd': '/home/henryshum0/SUAS/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('USER', 'henryshum0'), ('GIT_ASKPASS', '/home/henryshum0/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/home/henryshum0/SUAS/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/henryshum0'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e3164ce7-d184-49c7-8847-5cb4a4610c27.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/henryshum0/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/henryshum0/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/henryshum0/SUAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'henryshum0'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/610_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/henryshum0/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/home/henryshum0/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/henryshum0/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/henryshum0/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/henryshum0/.dotnet/tools:/snap/bin:/home/henryshum0/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-094d2c776f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/henryshum0/SUAS/build/px4_ros_com'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[4.086085] (px4_ros_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.086351] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener\n'}
+[4.086500] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener\n'}
+[4.086635] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser\n'}
+[4.086723] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control\n'}
+[4.087391] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""\n'}
+[4.087599] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv\n'}
+[4.087753] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/vehicle_status\n'}
+[4.087839] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh\n'}
+[4.087939] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv\n'}
+[4.088078] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/include/px4_ros_com\n'}
+[4.088182] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/include/px4_ros_com/frame_transforms.h\n'}
+[4.088538] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/lib/libframe_transforms.so\n'}
+[4.088664] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//launch\n'}
+[4.088766] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py\n'}
+[4.088845] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml\n'}
+[4.088915] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test\n'}
+[4.088984] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test/test_output.py\n'}
+[4.089051] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test/test_input.py\n'}
+[4.089118] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test/__init__.py\n'}
+[4.089187] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py\n'}
+[4.089252] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh\n'}
+[4.089319] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv\n'}
+[4.089383] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info\n'}
+[4.089447] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[4.089514] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.089584] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.089652] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[4.089721] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com\n'}
+[4.089786] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py\n'}
+[4.089852] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py\n'}
+[4.108305] (px4_ros_com) StdoutLine: {'line': b"Listing '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...\n"}
+[4.111607] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control.py\n'}
+[4.112006] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com\n'}
+[4.112177] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com\n'}
+[4.112349] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh\n'}
+[4.112477] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv\n'}
+[4.112509] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/path.sh\n'}
+[4.112536] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/path.dsv\n'}
+[4.112567] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/local_setup.bash\n'}
+[4.112592] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/local_setup.sh\n'}
+[4.112616] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/local_setup.zsh\n'}
+[4.112641] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/local_setup.dsv\n'}
+[4.112664] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/package.dsv\n'}
+[4.112688] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com\n'}
+[4.112711] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake\n'}
+[4.112735] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake\n'}
+[4.112759] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.112784] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.112807] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.112832] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.112857] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake\n'}
+[4.112883] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake\n'}
+[4.112907] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/package.xml\n'}
+[4.113771] (-) TimerEvent: {}
+[4.114839] (px4_ros_com) CommandEnded: {'returncode': 0}
+[4.128047] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 0}
+[4.128880] (-) EventReactorShutdown: {}

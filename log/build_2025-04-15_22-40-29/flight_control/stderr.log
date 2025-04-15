@@ -1,0 +1,13 @@
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:[m[K In member function ‘[01m[Kvoid InputParser::print_rej_msg(uint8_t)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:87:26:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+   87 |             reason_str = [01;35m[K"take off height is not feasible"[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:88:9:[m[K [01;36m[Knote: [m[Khere
+   88 |         [01;36m[Kcase[m[K UserCommand::REJECT_SPEED_INFEASIBLE:
+      |         [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:89:26:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+   89 |             reason_str = [01;35m[K"speed is not feasible"[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:90:9:[m[K [01;36m[Knote: [m[Khere
+   90 |         [01;36m[Kdefault[m[K:
+      |         [01;36m[K^~~~~~~[m[K

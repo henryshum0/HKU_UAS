@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/control_publishers.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/state_subscribers.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/vehicle_storage/vehicle_state_storage.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libflight_control_lib.so[0m
+[ 77%] Built target flight_control_lib
+[35m[1mConsolidate compiler generated dependencies of target offboard_controller[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/offboard_controller.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable offboard_controller[0m
+[100%] Built target offboard_controller
+-- Install configuration: ""
+-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/offboard_controller
+-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/flight_control/offboard_controller" to ""
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib/utils.hpp
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/executor_cmd_storage.hpp
+-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/vehicle_state_storage.hpp
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/state_subscribers.hpp
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/offboard_controller.hpp
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/flight_executor.hpp
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/control_publishers.hpp
+-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control_lib.so
+-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control_lib.so" to ""
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/package_run_dependencies/flight_control
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/parent_prefix_path/flight_control
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.sh
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.dsv
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.bash
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.sh
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.zsh
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.dsv
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.dsv
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/packages/flight_control
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig.cmake
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig-version.cmake
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.xml

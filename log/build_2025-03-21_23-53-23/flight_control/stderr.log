@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/offboard_controller.dir/src/offboard_controller.cpp.o: in function `flight_control::OffboardController::execute()':
+offboard_controller.cpp:(.text+0xe6e): undefined reference to `flight_mode::TakeoffMode::TakeoffMode(std::shared_ptr<flight_control::OffboardController>, float)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/offboard_controller.dir/build.make:160: offboard_controller] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/offboard_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

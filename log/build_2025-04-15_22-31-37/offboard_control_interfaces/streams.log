@@ -1,0 +1,218 @@
+[0.010s] Invoking command in '/home/henryshum0/SUAS/build/offboard_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/offboard_control_interfaces -- -j16 -l16
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.154s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.160s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.747s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.762s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.762s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.762s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.770s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.789s] -- Added test 'lint_cmake' to check CMake code style
+[0.790s] -- Added test 'xmllint' to check XML markup files
+[0.794s] -- Configuring done
+[0.839s] -- Generating done
+[0.846s] -- Build files have been written to: /home/henryshum0/SUAS/build/offboard_control_interfaces
+[0.862s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.868s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.877s] [  6%] Built target ament_cmake_python_copy_offboard_control_interfaces
+[1.053s] running egg_info
+[1.054s] writing offboard_control_interfaces.egg-info/PKG-INFO
+[1.054s] writing dependency_links to offboard_control_interfaces.egg-info/dependency_links.txt
+[1.054s] writing top-level names to offboard_control_interfaces.egg-info/top_level.txt
+[1.057s] reading manifest file 'offboard_control_interfaces.egg-info/SOURCES.txt'
+[1.057s] writing manifest file 'offboard_control_interfaces.egg-info/SOURCES.txt'
+[1.080s] [  6%] Built target ament_cmake_python_build_offboard_control_interfaces_egg
+[1.096s] [  6%] Built target offboard_control_interfaces__cpp
+[1.096s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_generator_c[0m
+[1.102s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.102s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.103s] [ 16%] [32mBuilding C object CMakeFiles/offboard_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/offboard_control_interfaces/msg/detail/user_command__functions.c.o[0m
+[1.104s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.184s] [ 22%] [32m[1mLinking C shared library liboffboard_control_interfaces__rosidl_generator_c.so[0m
+[1.258s] [ 22%] Built target offboard_control_interfaces__rosidl_generator_c
+[1.264s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.264s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.266s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.303s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_cpp[0m
+[1.312s] [ 35%] [32mBuilding CXX object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/offboard_control_interfaces/msg/user_command__type_support.cpp.o[0m
+[1.318s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.327s] [ 38%] [32mBuilding CXX object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/offboard_control_interfaces/msg/detail/user_command__type_support.cpp.o[0m
+[1.340s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.351s] [ 41%] [32mBuilding CXX object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/offboard_control_interfaces/msg/detail/dds_fastrtps/user_command__type_support.cpp.o[0m
+[1.488s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_introspection_c[0m
+[1.494s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_c[0m
+[1.497s] [ 45%] [32mBuilding C object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/offboard_control_interfaces/msg/detail/user_command__type_support.c.o[0m
+[1.497s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.506s] [ 48%] [32mBuilding CXX object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/offboard_control_interfaces/msg/user_command__type_support.cpp.o[0m
+[1.507s] [ 51%] [32mBuilding CXX object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/offboard_control_interfaces/msg/detail/user_command__type_support_c.cpp.o[0m
+[1.526s] [ 54%] [32m[1mLinking C shared library liboffboard_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.538s] [ 58%] [32m[1mLinking CXX shared library liboffboard_control_interfaces__rosidl_typesupport_c.so[0m
+[1.544s] [ 61%] [32m[1mLinking CXX shared library liboffboard_control_interfaces__rosidl_typesupport_cpp.so[0m
+[1.597s] [ 61%] Built target offboard_control_interfaces__rosidl_typesupport_introspection_c
+[1.616s] [ 61%] Built target offboard_control_interfaces__rosidl_typesupport_c
+[1.623s] [ 61%] Built target offboard_control_interfaces__rosidl_typesupport_cpp
+[1.644s] [ 64%] [32m[1mLinking CXX shared library liboffboard_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.656s] [ 67%] [32m[1mLinking CXX shared library liboffboard_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.704s] [ 67%] Built target offboard_control_interfaces__rosidl_typesupport_introspection_cpp
+[1.738s] [ 67%] Built target offboard_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.739s] [ 70%] [32m[1mLinking CXX shared library liboffboard_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.822s] [ 70%] Built target offboard_control_interfaces__rosidl_typesupport_fastrtps_c
+[1.833s] [ 70%] Built target offboard_control_interfaces
+[1.844s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.116s] [ 74%] Built target offboard_control_interfaces__py
+[2.123s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_generator_py[0m
+[2.131s] [ 77%] [32mBuilding C object CMakeFiles/offboard_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/offboard_control_interfaces/msg/_user_command_s.c.o[0m
+[2.219s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/offboard_control_interfaces/liboffboard_control_interfaces__rosidl_generator_py.so[0m
+[2.280s] [ 80%] Built target offboard_control_interfaces__rosidl_generator_py
+[2.286s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.286s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.286s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_interfaces__rosidl_typesupport_c__pyext[0m
+[2.293s] [ 83%] [32mBuilding C object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/offboard_control_interfaces/_offboard_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.294s] [ 87%] [32mBuilding C object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/offboard_control_interfaces/_offboard_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.295s] [ 90%] [32mBuilding C object CMakeFiles/offboard_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/offboard_control_interfaces/_offboard_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.354s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.355s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.358s] [100%] [32m[1mLinking C shared library rosidl_generator_py/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.396s] [100%] Built target offboard_control_interfaces__rosidl_typesupport_c__pyext
+[2.396s] [100%] Built target offboard_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.410s] [100%] Built target offboard_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.418s] Invoked command in '/home/henryshum0/SUAS/build/offboard_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/offboard_control_interfaces -- -j16 -l16
+[2.425s] Invoking command in '/home/henryshum0/SUAS/build/offboard_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/henryshum0/SUAS/build/offboard_control_interfaces
+[2.429s] -- Install configuration: ""
+[2.429s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/offboard_control_interfaces
+[2.429s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces
+[2.429s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg
+[2.429s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.429s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail
+[2.429s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__struct.h
+[2.429s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__functions.h
+[2.430s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__functions.c
+[2.430s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__type_support.h
+[2.430s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/user_command.h
+[2.430s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/environment/library_path.sh
+[2.430s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/environment/library_path.dsv
+[2.431s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_generator_c.so
+[2.431s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_generator_c.so" to ""
+[2.431s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces
+[2.431s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg
+[2.431s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.431s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail
+[2.431s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__rosidl_typesupport_fastrtps_c.h
+[2.432s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.432s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.432s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces
+[2.432s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg
+[2.432s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.432s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail
+[2.433s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__type_support.c
+[2.433s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__rosidl_typesupport_introspection_c.h
+[2.433s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_introspection_c.so
+[2.433s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.433s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_c.so
+[2.434s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_c.so" to ""
+[2.434s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces
+[2.434s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg
+[2.434s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.434s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/user_command.hpp
+[2.434s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail
+[2.434s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__traits.hpp
+[2.434s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__struct.hpp
+[2.434s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__type_support.hpp
+[2.434s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__builder.hpp
+[2.434s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces
+[2.435s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg
+[2.435s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.435s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail
+[2.435s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.435s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/dds_fastrtps
+[2.436s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.436s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.436s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces
+[2.436s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg
+[2.436s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail
+[2.437s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__rosidl_typesupport_introspection_cpp.hpp
+[2.437s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/include/offboard_control_interfaces/offboard_control_interfaces/msg/detail/user_command__type_support.cpp
+[2.437s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.437s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.438s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_cpp.so
+[2.438s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.438s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/environment/pythonpath.sh
+[2.438s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/environment/pythonpath.dsv
+[2.438s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces-0.0.0-py3.10.egg-info
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.439s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/_offboard_control_interfaces_s.ep.rosidl_typesupport_c.c
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/_offboard_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/_offboard_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.439s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/msg
+[2.439s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/msg/__init__.py
+[2.440s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/msg/_user_command.py
+[2.440s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/msg/_user_command_s.c
+[2.440s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/__init__.py
+[2.440s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/liboffboard_control_interfaces__rosidl_generator_py.so
+[2.463s] Listing '/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces'...
+[2.463s] Compiling '/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/__init__.py'...
+[2.463s] Listing '/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/msg'...
+[2.463s] Compiling '/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/msg/__init__.py'...
+[2.463s] Compiling '/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/msg/_user_command.py'...
+[2.466s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.466s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.466s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.466s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.466s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.466s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages/offboard_control_interfaces/offboard_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.467s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_generator_py.so
+[2.467s] -- Set runtime path of "/home/henryshum0/SUAS/install/offboard_control_interfaces/lib/liboffboard_control_interfaces__rosidl_generator_py.so" to ""
+[2.467s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/msg/UserCommand.idl
+[2.467s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/msg/UserCommand.msg
+[2.467s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/ament_index/resource_index/package_run_dependencies/offboard_control_interfaces
+[2.468s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/ament_index/resource_index/parent_prefix_path/offboard_control_interfaces
+[2.468s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/environment/ament_prefix_path.sh
+[2.468s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/environment/ament_prefix_path.dsv
+[2.468s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/environment/path.sh
+[2.468s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/environment/path.dsv
+[2.468s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/local_setup.bash
+[2.468s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/local_setup.sh
+[2.468s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/local_setup.zsh
+[2.468s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/local_setup.dsv
+[2.468s] -- Installing: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/package.dsv
+[2.468s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/ament_index/resource_index/packages/offboard_control_interfaces
+[2.469s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_generator_cExport.cmake
+[2.469s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.469s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.469s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.469s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.469s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.470s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfaces__rosidl_typesupport_cExport.cmake
+[2.470s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.470s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_generator_cppExport.cmake
+[2.470s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.470s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.471s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.471s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.471s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfaces__rosidl_typesupport_cppExport.cmake
+[2.471s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_generator_pyExport.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/export_offboard_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfacesConfig.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/cmake/offboard_control_interfacesConfig-version.cmake
+[2.472s] -- Up-to-date: /home/henryshum0/SUAS/install/offboard_control_interfaces/share/offboard_control_interfaces/package.xml
+[2.473s] Invoked command in '/home/henryshum0/SUAS/build/offboard_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/henryshum0/SUAS/build/offboard_control_interfaces

@@ -1,0 +1,55 @@
+[0.056s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target vehicle_pos_listener[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target nodesoup[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target publish_trj_listener[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[0.093s] [ 10%] Built target nodesoup
+[0.095s] [ 13%] Built target sensor_combined_listener
+[0.096s] [ 16%] Built target vehicle_pos_listener
+[0.097s] [ 20%] Built target publish_trj_listener
+[0.113s] [ 22%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/vehicle_storage/executor_storage.cpp.o[0m
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target matplot[0m
+[0.151s] [ 86%] Built target matplot
+[1.006s] [ 88%] [32m[1mLinking CXX shared library libflight_control_lib.so[0m
+[1.427s] [ 96%] Built target flight_control_lib
+[1.436s] [35m[1mConsolidate compiler generated dependencies of target offboard_controller[0m
+[1.447s] [ 98%] [32m[1mLinking CXX executable offboard_controller[0m
+[1.577s] [100%] Built target offboard_controller
+[1.584s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '0': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[1.591s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/henryshum0/SUAS/build/flight_control
+[1.594s] -- Install configuration: "RelWithDebInfo"
+[1.595s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/offboard_controller
+[1.596s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/flight_control/offboard_controller" to ""
+[1.596s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/sensor_combined_listener
+[1.596s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/publish_trj_listener
+[1.597s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/vehicle_pos_listener
+[1.597s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include
+[1.597s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib
+[1.597s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib/utils.hpp
+[1.597s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage
+[1.598s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/executor_storage.hpp
+[1.598s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/vehicle_state_storage.hpp
+[1.598s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control
+[1.598s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/state_subscribers.hpp
+[1.598s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/flight_executor.hpp
+[1.598s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/control_publishers.hpp
+[1.598s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control_lib.so
+[1.624s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control_lib.so" to ""
+[1.624s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/package_run_dependencies/flight_control
+[1.624s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/parent_prefix_path/flight_control
+[1.624s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.sh
+[1.624s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.dsv
+[1.624s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.sh
+[1.625s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.dsv
+[1.625s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.bash
+[1.625s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.sh
+[1.625s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.zsh
+[1.625s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.dsv
+[1.625s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.dsv
+[1.625s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/packages/flight_control
+[1.625s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig.cmake
+[1.625s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig-version.cmake
+[1.626s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.xml
+[1.626s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/matplot/detail/exports.h
+[1.627s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '0': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/henryshum0/SUAS/build/flight_control

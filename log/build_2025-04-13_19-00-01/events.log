@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.000557] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000599] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000626] (flight_control) JobQueued: {'identifier': 'flight_control', 'dependencies': OrderedDict([('px4_msgs', '/home/henryshum0/SUAS/install/px4_msgs'), ('px4_ros_com', '/home/henryshum0/SUAS/install/px4_ros_com')])}
+[0.000768] (flight_control) JobStarted: {'identifier': 'flight_control'}
+[0.094457] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'cmake'}
+[0.095369] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'build'}
+[0.096050] (flight_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henryshum0/SUAS/build/flight_control', '--', '-j16', '-l16'], 'cwd': '/home/henryshum0/SUAS/build/flight_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('USER', 'henryshum0'), ('GIT_ASKPASS', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/henryshum0'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3e3dd1f5-3fff-44e4-a6a3-275be12ac44b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/henryshum0/SUAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'henryshum0'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/958_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/henryshum0/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/henryshum0/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/henryshum0/.dotnet/tools:/mnt/c/Users/henryshum0/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/henryshum0/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-094d2c776f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/henryshum0/SUAS/build/flight_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.100459] (-) TimerEvent: {}
+[0.146346] (flight_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200560] (-) TimerEvent: {}
+[0.254019] (flight_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300615] (-) TimerEvent: {}
+[0.360507] (flight_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.363841] (flight_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.370910] (flight_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.381564] (flight_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.394097] (flight_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400696] (-) TimerEvent: {}
+[0.429960] (flight_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.432101] (flight_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500755] (-) TimerEvent: {}
+[0.600966] (-) TimerEvent: {}
+[0.701171] (-) TimerEvent: {}
+[0.801444] (-) TimerEvent: {}
+[0.901653] (-) TimerEvent: {}
+[1.001917] (-) TimerEvent: {}
+[1.102153] (-) TimerEvent: {}
+[1.202406] (-) TimerEvent: {}
+[1.302649] (-) TimerEvent: {}
+[1.402899] (-) TimerEvent: {}
+[1.503164] (-) TimerEvent: {}
+[1.603424] (-) TimerEvent: {}
+[1.703661] (-) TimerEvent: {}
+[1.803901] (-) TimerEvent: {}
+[1.904141] (-) TimerEvent: {}
+[2.004380] (-) TimerEvent: {}
+[2.104625] (-) TimerEvent: {}
+[2.204947] (-) TimerEvent: {}
+[2.229695] (flight_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.282140] (flight_control) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/henryshum0/SUAS/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[2.294461] (flight_control) StdoutLine: {'line': b'-- Found px4_ros_com: 0.1.0 (/home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake)\n'}
+[2.305099] (-) TimerEvent: {}
+[2.331359] (flight_control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.405169] (-) TimerEvent: {}
+[2.486129] (flight_control) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.505275] (-) TimerEvent: {}
+[2.605511] (-) TimerEvent: {}
+[2.671033] (flight_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.705593] (-) TimerEvent: {}
+[2.741902] (flight_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.755467] (flight_control) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.771378] (flight_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.771521] (flight_control) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.771558] (flight_control) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.805679] (-) TimerEvent: {}
+[2.905939] (-) TimerEvent: {}
+[3.006231] (-) TimerEvent: {}
+[3.106470] (-) TimerEvent: {}
+[3.206724] (-) TimerEvent: {}
+[3.307007] (-) TimerEvent: {}
+[3.407263] (-) TimerEvent: {}
+[3.507531] (-) TimerEvent: {}
+[3.607794] (-) TimerEvent: {}
+[3.708056] (-) TimerEvent: {}
+[3.808315] (-) TimerEvent: {}
+[3.908563] (-) TimerEvent: {}
+[4.008817] (-) TimerEvent: {}
+[4.109085] (-) TimerEvent: {}
+[4.209363] (-) TimerEvent: {}
+[4.309604] (-) TimerEvent: {}
+[4.409851] (-) TimerEvent: {}
+[4.510159] (-) TimerEvent: {}
+[4.610459] (-) TimerEvent: {}
+[4.710755] (-) TimerEvent: {}
+[4.811118] (-) TimerEvent: {}
+[4.911354] (-) TimerEvent: {}
+[5.011589] (-) TimerEvent: {}
+[5.111849] (-) TimerEvent: {}
+[5.212140] (-) TimerEvent: {}
+[5.312341] (-) TimerEvent: {}
+[5.412545] (-) TimerEvent: {}
+[5.512800] (-) TimerEvent: {}
+[5.613051] (-) TimerEvent: {}
+[5.713310] (-) TimerEvent: {}
+[5.813580] (-) TimerEvent: {}
+[5.913842] (-) TimerEvent: {}
+[6.014105] (-) TimerEvent: {}
+[6.114357] (-) TimerEvent: {}
+[6.214613] (-) TimerEvent: {}
+[6.314871] (-) TimerEvent: {}
+[6.415148] (-) TimerEvent: {}
+[6.515504] (-) TimerEvent: {}
+[6.615835] (-) TimerEvent: {}
+[6.716113] (-) TimerEvent: {}
+[6.816380] (-) TimerEvent: {}
+[6.916651] (-) TimerEvent: {}
+[7.016917] (-) TimerEvent: {}
+[7.117179] (-) TimerEvent: {}
+[7.217461] (-) TimerEvent: {}
+[7.241322] (flight_control) StdoutLine: {'line': b'-- Could NOT find FFTW (missing: FFTW_INCLUDE_DIRS) \n'}
+[7.247429] (flight_control) StderrLine: {'line': b'\x1b[0mSetting matplotplusplus compiler options\x1b[0m\n'}
+[7.251852] (flight_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.317565] (-) TimerEvent: {}
+[7.345412] (flight_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.346117] (flight_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/flight_control/include>\n'}
+[7.346195] (flight_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.357943] (flight_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.388357] (flight_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.388504] (flight_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.392561] (flight_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.395578] (flight_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.417680] (-) TimerEvent: {}
+[7.472114] (flight_control) StdoutLine: {'line': b'-- Generating done\n'}
+[7.487721] (flight_control) StdoutLine: {'line': b'-- Build files have been written to: /home/henryshum0/SUAS/build/flight_control\n'}
+[7.507097] (flight_control) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.507944] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publish_trj_listener\x1b[0m\n'}
+[7.509503] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vehicle_pos_listener\x1b[0m\n'}
+[7.509960] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nodesoup\x1b[0m\n'}
+[7.510402] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_combined_listener\x1b[0m\n'}
+[7.513133] (flight_control) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.513469] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control_lib\x1b[0m\n'}
+[7.516480] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_ack_listener\x1b[0m\n'}
+[7.517732] (-) TimerEvent: {}
+[7.520956] (flight_control) StdoutLine: {'line': b'[  7%] Built target vehicle_pos_listener\n'}
+[7.521449] (flight_control) StdoutLine: {'line': b'[ 10%] Built target nodesoup\n'}
+[7.525167] (flight_control) StdoutLine: {'line': b'[ 13%] Built target publish_trj_listener\n'}
+[7.525442] (flight_control) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_copy_flight_control\n'}
+[7.525665] (flight_control) StdoutLine: {'line': b'[ 15%] Built target sensor_combined_listener\n'}
+[7.530334] (flight_control) StdoutLine: {'line': b'[ 17%] Built target cmd_ack_listener\n'}
+[7.535756] (flight_control) StdoutLine: {'line': b'[ 25%] Built target flight_control_lib\n'}
+[7.543863] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target offboard_controller\x1b[0m\n'}
+[7.545482] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target matplot\x1b[0m\n'}
+[7.556442] (flight_control) StdoutLine: {'line': b'[ 27%] Built target offboard_controller\n'}
+[7.572837] (flight_control) StdoutLine: {'line': b'[ 68%] Built target matplot\n'}
+[7.617826] (-) TimerEvent: {}
+[7.668452] (flight_control) StdoutLine: {'line': b'running egg_info\n'}
+[7.669300] (flight_control) StdoutLine: {'line': b'writing flight_control.egg-info/PKG-INFO\n'}
+[7.669557] (flight_control) StdoutLine: {'line': b'writing dependency_links to flight_control.egg-info/dependency_links.txt\n'}
+[7.669876] (flight_control) StdoutLine: {'line': b'writing top-level names to flight_control.egg-info/top_level.txt\n'}
+[7.672266] (flight_control) StdoutLine: {'line': b"reading manifest file 'flight_control.egg-info/SOURCES.txt'\n"}
+[7.672860] (flight_control) StdoutLine: {'line': b"writing manifest file 'flight_control.egg-info/SOURCES.txt'\n"}
+[7.694504] (flight_control) StdoutLine: {'line': b'[ 68%] Built target ament_cmake_python_build_flight_control_egg\n'}
+[7.717929] (-) TimerEvent: {}
+[7.722372] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_generator_c\x1b[0m\n'}
+[7.728117] (flight_control) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/flight_control__rosidl_generator_c.dir/rosidl_generator_c/flight_control/msg/detail/user_command__functions.c.o\x1b[0m\n'}
+[7.728854] (flight_control) StdoutLine: {'line': b'[ 69%] Built target flight_control__cpp\n'}
+[7.734252] (flight_control) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.734374] (flight_control) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.734413] (flight_control) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.792483] (flight_control) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking C shared library libflight_control__rosidl_generator_c.so\x1b[0m\n'}
+[7.818012] (-) TimerEvent: {}
+[7.853215] (flight_control) StdoutLine: {'line': b'[ 73%] Built target flight_control__rosidl_generator_c\n'}
+[7.858755] (flight_control) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.859294] (flight_control) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.859576] (flight_control) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.918168] (-) TimerEvent: {}
+[7.939086] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.939993] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.948286] (flight_control) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flight_control/msg/detail/user_command__type_support.cpp.o\x1b[0m\n'}
+[7.948708] (flight_control) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flight_control/msg/user_command__type_support.cpp.o\x1b[0m\n'}
+[7.969466] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.977393] (flight_control) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flight_control/msg/detail/dds_fastrtps/user_command__type_support.cpp.o\x1b[0m\n'}
+[8.018287] (-) TimerEvent: {}
+[8.101678] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_c\x1b[0m\n'}
+[8.108437] (flight_control) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/flight_control/msg/user_command__type_support.cpp.o\x1b[0m\n'}
+[8.113280] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.118430] (-) TimerEvent: {}
+[8.118819] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.120247] (flight_control) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/flight_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flight_control/msg/detail/user_command__type_support.c.o\x1b[0m\n'}
+[8.126673] (flight_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flight_control/msg/detail/user_command__type_support_c.cpp.o\x1b[0m\n'}
+[8.133601] (flight_control) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libflight_control__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.148314] (flight_control) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library libflight_control__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.218589] (-) TimerEvent: {}
+[8.220375] (flight_control) StdoutLine: {'line': b'[ 85%] Built target flight_control__rosidl_typesupport_introspection_c\n'}
+[8.220648] (flight_control) StdoutLine: {'line': b'[ 85%] Built target flight_control__rosidl_typesupport_c\n'}
+[8.235501] (flight_control) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library libflight_control__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.307206] (flight_control) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libflight_control__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.310566] (flight_control) StdoutLine: {'line': b'[ 88%] Built target flight_control__rosidl_typesupport_cpp\n'}
+[8.318673] (-) TimerEvent: {}
+[8.340386] (flight_control) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library libflight_control__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.364091] (flight_control) StdoutLine: {'line': b'[ 89%] Built target flight_control__rosidl_typesupport_introspection_cpp\n'}
+[8.375468] (flight_control) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libflight_control__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.418741] (-) TimerEvent: {}
+[8.421747] (flight_control) StdoutLine: {'line': b'[ 90%] Built target flight_control__rosidl_typesupport_fastrtps_cpp\n'}
+[8.453433] (flight_control) StdoutLine: {'line': b'[ 90%] Built target flight_control__rosidl_typesupport_fastrtps_c\n'}
+[8.466999] (flight_control) StdoutLine: {'line': b'[ 90%] Built target flight_control\n'}
+[8.480229] (flight_control) StdoutLine: {'line': b'[ 91%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.518880] (-) TimerEvent: {}
+[8.619324] (-) TimerEvent: {}
+[8.719593] (-) TimerEvent: {}
+[8.779019] (flight_control) StdoutLine: {'line': b'[ 91%] Built target flight_control__py\n'}
+[8.784749] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_generator_py\x1b[0m\n'}
+[8.791657] (flight_control) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/flight_control__rosidl_generator_py.dir/rosidl_generator_py/flight_control/msg/_user_command_s.c.o\x1b[0m\n'}
+[8.819708] (-) TimerEvent: {}
+[8.889214] (flight_control) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flight_control/libflight_control__rosidl_generator_py.so\x1b[0m\n'}
+[8.919933] (-) TimerEvent: {}
+[8.948410] (flight_control) StdoutLine: {'line': b'[ 93%] Built target flight_control__rosidl_generator_py\n'}
+[8.954484] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.954690] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.954774] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.961628] (flight_control) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/flight_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flight_control/_flight_control_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.961766] (flight_control) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/flight_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flight_control/_flight_control_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.961809] (flight_control) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/flight_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flight_control/_flight_control_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.012366] (flight_control) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flight_control/flight_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.014412] (flight_control) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flight_control/flight_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.014599] (flight_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flight_control/flight_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.020014] (-) TimerEvent: {}
+[9.056716] (flight_control) StdoutLine: {'line': b'[100%] Built target flight_control__rosidl_typesupport_c__pyext\n'}
+[9.056849] (flight_control) StdoutLine: {'line': b'[100%] Built target flight_control__rosidl_typesupport_introspection_c__pyext\n'}
+[9.057055] (flight_control) StdoutLine: {'line': b'[100%] Built target flight_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.064424] (flight_control) CommandEnded: {'returncode': 0}
+[9.065653] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'install'}
+[9.070588] (flight_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/henryshum0/SUAS/build/flight_control'], 'cwd': '/home/henryshum0/SUAS/build/flight_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('USER', 'henryshum0'), ('GIT_ASKPASS', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/henryshum0'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3e3dd1f5-3fff-44e4-a6a3-275be12ac44b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/henryshum0/SUAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'henryshum0'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/958_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/henryshum0/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/henryshum0/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/henryshum0/.dotnet/tools:/mnt/c/Users/henryshum0/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/henryshum0/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-094d2c776f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/henryshum0/SUAS/build/flight_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[9.074516] (flight_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.074710] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/rosidl_interfaces/flight_control\n'}
+[9.074890] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control\n'}
+[9.075015] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg\n'}
+[9.075048] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.075076] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail\n'}
+[9.075182] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__struct.h\n'}
+[9.075341] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__functions.h\n'}
+[9.075448] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__functions.c\n'}
+[9.075683] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__type_support.h\n'}
+[9.075880] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/user_command.h\n'}
+[9.075975] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/library_path.sh\n'}
+[9.076070] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/library_path.dsv\n'}
+[9.076857] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_generator_c.so\n'}
+[9.077024] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_generator_c.so" to ""\n'}
+[9.077181] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control\n'}
+[9.077359] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg\n'}
+[9.077503] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.077543] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail\n'}
+[9.077572] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__rosidl_typesupport_fastrtps_c.h\n'}
+[9.078011] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_fastrtps_c.so\n'}
+[9.078220] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.078363] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control\n'}
+[9.078623] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg\n'}
+[9.078684] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.078717] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/user_command.hpp\n'}
+[9.078826] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail\n'}
+[9.079011] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__traits.hpp\n'}
+[9.079344] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__struct.hpp\n'}
+[9.079400] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__type_support.hpp\n'}
+[9.079466] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__builder.hpp\n'}
+[9.079656] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control\n'}
+[9.079956] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg\n'}
+[9.080078] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.080112] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail\n'}
+[9.080240] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.080372] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/dds_fastrtps\n'}
+[9.080930] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.081117] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.081279] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control\n'}
+[9.081529] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg\n'}
+[9.081838] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.081880] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail\n'}
+[9.081908] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__type_support.c\n'}
+[9.081934] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__rosidl_typesupport_introspection_c.h\n'}
+[9.082378] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_introspection_c.so\n'}
+[9.082639] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.082947] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_c.so\n'}
+[9.083120] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_c.so" to ""\n'}
+[9.083225] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control\n'}
+[9.083366] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg\n'}
+[9.083553] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail\n'}
+[9.083598] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.083677] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__type_support.cpp\n'}
+[9.084145] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_introspection_cpp.so\n'}
+[9.084345] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.084728] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_cpp.so\n'}
+[9.084887] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_cpp.so" to ""\n'}
+[9.085021] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/pythonpath.sh\n'}
+[9.085097] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/pythonpath.dsv\n'}
+[9.085233] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info\n'}
+[9.085310] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.085350] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.085698] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.085814] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.085916] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control\n'}
+[9.085958] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.086171] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/_flight_control_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.086255] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg\n'}
+[9.086297] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/__init__.py\n'}
+[9.086508] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/_user_command.py\n'}
+[9.086583] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/_user_command_s.c\n'}
+[9.086661] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/_flight_control_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.086733] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/libflight_control__rosidl_generator_py.so\n'}
+[9.086817] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/__init__.py\n'}
+[9.086895] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/_flight_control_s.ep.rosidl_typesupport_c.c\n'}
+[9.086969] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.087047] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.110896] (flight_control) StdoutLine: {'line': b"Listing '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control'...\n"}
+[9.111035] (flight_control) StdoutLine: {'line': b"Compiling '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/__init__.py'...\n"}
+[9.111073] (flight_control) StdoutLine: {'line': b"Listing '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg'...\n"}
+[9.111102] (flight_control) StdoutLine: {'line': b"Compiling '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/__init__.py'...\n"}
+[9.111129] (flight_control) StdoutLine: {'line': b"Compiling '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/_user_command.py'...\n"}
+[9.113882] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.114101] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.114177] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.114301] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.114347] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.114418] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.114931] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_generator_py.so\n'}
+[9.115134] (flight_control) StdoutLine: {'line': b'-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_generator_py.so" to ""\n'}
+[9.115280] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/msg/UserCommand.idl\n'}
+[9.115468] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/msg/UserCommand.msg\n'}
+[9.116159] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/offboard_controller\n'}
+[9.116744] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/sensor_combined_listener\n'}
+[9.117315] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/publish_trj_listener\n'}
+[9.118261] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/vehicle_pos_listener\n'}
+[9.118916] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/cmd_ack_listener\n'}
+[9.119219] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include\n'}
+[9.119272] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib\n'}
+[9.119306] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib/utils.hpp\n'}
+[9.119332] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage\n'}
+[9.119459] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/executor_storage.hpp\n'}
+[9.119571] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/vehicle_state_storage.hpp\n'}
+[9.119614] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control\n'}
+[9.119643] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/state_subscribers.hpp\n'}
+[9.119670] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/flight_executor.hpp\n'}
+[9.119697] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/control_publishers.hpp\n'}
+[9.120068] (-) TimerEvent: {}
+[9.120317] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control_lib.so\n'}
+[9.120415] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/package_run_dependencies/flight_control\n'}
+[9.120487] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/parent_prefix_path/flight_control\n'}
+[9.120564] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.sh\n'}
+[9.120699] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.dsv\n'}
+[9.120740] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.sh\n'}
+[9.120769] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.dsv\n'}
+[9.120903] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.bash\n'}
+[9.120942] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.sh\n'}
+[9.120970] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.zsh\n'}
+[9.121002] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.dsv\n'}
+[9.121177] (flight_control) StdoutLine: {'line': b'-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.dsv\n'}
+[9.121283] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/packages/flight_control\n'}
+[9.121523] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_cExport.cmake\n'}
+[9.121636] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.121776] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.121890] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.122025] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_cppExport.cmake\n'}
+[9.122250] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.122362] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.122545] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.122618] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.122828] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_cExport.cmake\n'}
+[9.122881] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.123045] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.123154] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.123313] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_cppExport.cmake\n'}
+[9.123413] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.123698] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_pyExport.cmake\n'}
+[9.124038] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.124294] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/rosidl_cmake-extras.cmake\n'}
+[9.124331] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.124359] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.124386] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.124411] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.124436] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.124460] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.124494] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig.cmake\n'}
+[9.124628] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig-version.cmake\n'}
+[9.124692] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.xml\n'}
+[9.124739] (flight_control) StdoutLine: {'line': b'-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/matplot/detail/exports.h\n'}
+[9.126372] (flight_control) CommandEnded: {'returncode': 0}
+[9.145811] (flight_control) JobEnded: {'identifier': 'flight_control', 'rc': 0}
+[9.146742] (-) EventReactorShutdown: {}

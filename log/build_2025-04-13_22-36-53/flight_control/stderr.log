@@ -1,0 +1,7 @@
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:[m[K In member function ‘[01m[Kbool UserInput::check_valid(const string&, int&, const int&, bool&, const float&, const float&, const float&, const float&, const float&)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/user_input.cpp:119:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  119 |     if(yaw==NAN || yaw<-M_PI || yaw>M_PI)[01;31m[K)[m[K
+      |                                          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/user_input.dir/build.make:76: CMakeFiles/user_input.dir/src/user_input.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:266: CMakeFiles/user_input.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

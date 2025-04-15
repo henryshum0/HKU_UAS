@@ -1,0 +1,25 @@
+[33mCMake Warning at CMakeLists.txt:15 (find_package):
+  By not providing "Findmatplot.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "matplot", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "matplot" with any
+  of the following names:
+
+    matplotConfig.cmake
+    matplot-config.cmake
+
+  Add the installation prefix of "matplot" to CMAKE_PREFIX_PATH or set
+  "matplot_DIR" to a directory containing one of the above files.  If
+  "matplot" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'matplot' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:69 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

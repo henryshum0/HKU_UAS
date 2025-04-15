@@ -3,7 +3,7 @@
 InputParser::InputParser(std::shared_ptr<ExecutorStorage> executor_storage) : rclcpp::Node("input_parser")
 {
     this->executor_storage = executor_storage;
-    response_publisher = this->create_publisher<UserCommand>("/flight_control/input_response", 10);
+    response_publisher = this->create_publisher<UserCommand>("/flight_control/user_input_ack", 10);
 
     auto qos = rclcpp::QoS(rclcpp::QoSInitialization(qos_profile.history, 5), qos_profile);
     input_subscriber = this->create_subscription<UserCommand>("/flight_control/user_input", 
@@ -13,24 +13,24 @@ InputParser::InputParser(std::shared_ptr<ExecutorStorage> executor_storage) : rc
 void InputParser::new_input_callback(const UserCommand::UniquePtr msg)
 {
     UserCommand response_msg{};
+    int takeoff_c = executor_storage->get_mission_count(MISSION::TAKEOFF);
+    int landing_c = executor_storage->get_mission_count(MISSION::LAND);
     switch(msg->command)
     {
         //case when user input a TAKEOFF waypoint
-        case(UserCommand::TAKEOFF):
+        case UserCommand::TAKEOFF:
             //perform checking
-            int takeoff_c = executor_storage->get_mission_count(MISSION::TAKEOFF);
-            int landing_c = executor_storage->get_mission_count(MISSION::LAND);
             if(takeoff_c != landing_c)
             {
                 response_msg.response = UserCommand::REJECT_LAND_BEFORE_TAKEOFF;
                 this->response_publisher->publish(response_msg);
-                RCLCPP_INFO(this->get_logger(), "received takeoff waypoint FAILED REJECT_LAND_BEFORE_TAKEOFF");
+                print_rej_msg(UserCommand::REJECT_LAND_BEFORE_TAKEOFF);
             }
             else if (msg->z > TAKEOFF_HEIGHT_MAX)
             {
                 response_msg.response = UserCommand::REJECT_TAKEOFF_HEIGHTINFEASIBLE;
                 this->response_publisher->publish(response_msg);
-                RCLCPP_INFO(this->get_logger(), "received takeoff waypoint FAILED REJECT_TAKEOFF_HEIGHTINFEASIBLE");
+                print_rej_msg(UserCommand::REJECT_TAKEOFF_HEIGHTINFEASIBLE);
             }
 
             //add waypoint to executor storage
@@ -49,11 +49,60 @@ void InputParser::new_input_callback(const UserCommand::UniquePtr msg)
             break;
         
         //case when user input a WAYPOINT waypoint
-        case UserCommand::WAYPOINT:
+        // case UserCommand::WAYPOINT:
+        //     break;
+        case UserCommand::EXECUTE:
+            if(executor_storage->get_waypoints_count() < 1)
+            {
+                response_msg.response = UserCommand::REJECT_EMPTY_WAYPOINTS;
+                this->response_publisher->publish(response_msg);
+            }
+            else
+            {
+                executor_storage->set_is_execute(true);
+                response_msg.response = UserCommand::SUCCESS;
+                this->response_publisher->publish(response_msg);
+                RCLCPP_INFO(this->get_logger(), "received user command to EXECUTE");
+            }
+            
+            break;
             
         default:
             response_msg.response = UserCommand::REJECT;
             this->response_publisher->publish(response_msg);
             break;
     }
+}
+
+void InputParser::print_rej_msg(const uint8_t reason)
+{
+    std::string reason_str ;
+    switch (reason)
+    {
+        case UserCommand::REJECT:
+            reason_str = "none";
+            break;
+        case UserCommand::REJECT_LAND_BEFORE_TAKEOFF:
+            reason_str = "must land before takeoff";
+            break;
+        case UserCommand::REJECT_TAKEOFF_BEFORE_LAND:
+            reason_str = "must takeoff before land"; 
+            break;
+        case UserCommand::REJECT_SETPOINT_OUTOFREACH:
+            reason_str = "the waypoint is out of reach"; 
+            break;
+        case UserCommand::REJECT_TAKEOFF_HEIGHTINFEASIBLE:
+            reason_str = "take off height is not feasible";
+            break;
+        case UserCommand::REJECT_SPEED_INFEASIBLE:
+            reason_str = "speed is not feasible";
+            break;
+        case UserCommand::REJECT_EMPTY_WAYPOINTS:
+            reason_str = "has empty waypoints, cannot execute";
+            break;
+        default:
+            reason_str = "none";
+            break;
+    }
+    RCLCPP_INFO_STREAM(this->get_logger(), "WAYPOINT is rejected" <<std::endl<< "Reason:" <<reason_str);
 }

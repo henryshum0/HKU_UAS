@@ -1,0 +1,10 @@
+[0mSetting global options[0m
+[0mLooking for -fsanitize=address[0m
+[0mAdding -fsanitize=address[0m
+[0mLooking for -fsanitize=leak[0m
+[0mAdding -fsanitize=leak[0m
+[0mLooking for -fsanitize=undefined[0m
+[0mAdding -fsanitize=undefined[0m
+[0mSetting matplotplusplus compiler options[0m
+[0mCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/matplotplusplus[0m
+[0mCMAKE_INSTALL_LIBDIR=lib[0m

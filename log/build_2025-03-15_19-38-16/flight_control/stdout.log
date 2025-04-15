@@ -1,0 +1,5 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/frame_conversion.dir/src/lib/frame_conversion.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libframe_conversion.so[0m
+[ 50%] Built target frame_conversion
+[ 75%] [32mBuilding CXX object CMakeFiles/test_functions.dir/src/test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_functions[0m

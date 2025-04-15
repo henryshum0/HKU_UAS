@@ -1,0 +1,11 @@
+[31mCMake Error in CMakeLists.txt:
+  Target "frame_conversion" INTERFACE_INCLUDE_DIRECTORIES property contains
+  path:
+
+    "/home/henryshum0/SUAS/src/flight_control/include/flight_control"
+
+  which is prefixed in the source directory.
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

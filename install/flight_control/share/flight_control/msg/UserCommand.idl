@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flight_control/msg/UserCommand.msg
+// generated code does not contain a copyright notice
+
+
+module flight_control {
+  module msg {
+    module UserCommand_Constants {
+      @verbatim (language="comment", text=
+        "missions")
+      const uint8 TAKEOFF = 1;
+      const uint8 LAND = 2;
+      const uint8 WAYPOINT = 3;
+      const uint8 AIRDROP = 4;
+      const uint8 MAPPING = 5;
+      const uint8 EXECUTE = 99;
+      const uint8 POPLAST = 100;
+      const uint8 SUCCESS = 200;
+      const uint8 REJECT = 210;
+      const uint8 REJECT_SETPOINT_OUTOFREACH = 211;
+      const uint8 REJECT_SPPED_INFEASIBLE = 212;
+      const uint8 REJECT_TAKEOFF_HEIGHTINFEASIBLE = 213;
+      const uint8 REJECT_MISSING_TAKEOFF = 214;
+      const uint8 REJECT_MISSING_LAND = 215;
+    };
+    @verbatim (language="comment", text=
+      "user input" "\n"
+      "for user publishing waypoints/missions to drone")
+    struct UserCommand {
+      uint64 timestamp;
+
+      float lon;
+
+      float lat;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      float yaw;
+
+      uint8 command;
+
+      boolean use_xyz;
+
+      uint8 response;
+    };
+  };
+};

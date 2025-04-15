@@ -1,0 +1,34 @@
+[0.011s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.189s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.191s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.227s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.228s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.890s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.920s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.923s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.968s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.968s] -- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include
+[2.968s] -- Configured cppcheck exclude dirs and/or files: 
+[2.968s] -- Added test 'lint_cmake' to check CMake code style
+[2.969s] -- Added test 'uncrustify' to check C / C++ code style
+[2.969s] -- Configured uncrustify additional arguments: 
+[2.969s] -- Added test 'xmllint' to check XML markup files
+[2.970s] -- Configuring done
+[2.975s] [31mCMake Error in CMakeLists.txt:
+[2.976s]   Target "frame_conversion" INTERFACE_INCLUDE_DIRECTORIES property contains
+[2.976s]   path:
+[2.976s] 
+[2.976s]     "/home/henryshum0/SUAS/src/flight_control/include"
+[2.976s] 
+[2.976s]   which is prefixed in the source directory.
+[2.976s] 
+[2.976s] [0m
+[2.976s] -- Generating done
+[2.978s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.982s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[2.984s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16

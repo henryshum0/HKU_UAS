@@ -1,0 +1,44 @@
+[0.060s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[0.100s] [ 77%] Built target flight_control_lib
+[0.114s] [ 88%] [32mBuilding CXX object CMakeFiles/offboard_controller.dir/src/main.cpp.o[0m
+[1.951s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.951s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:15:51:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleState[m[K’ was not declared in this scope
+[1.951s]    15 |     auto vehicle_state_storage = std::make_shared<[01;31m[KVehicleState[m[K>();
+[1.951s]       |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[1.951s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:15:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.951s]    15 |     auto vehicle_state_storage = [01;31m[Kstd::make_shared<VehicleState>()[m[K;
+[1.951s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.951s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.951s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/control_publishers.hpp:4[m[K,
+[1.951s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:1[m[K:
+[1.951s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.951s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.951s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.951s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.951s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:15:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.951s]    15 |     auto vehicle_state_storage = [01;31m[Kstd::make_shared<VehicleState>()[m[K;
+[1.951s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.955s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:16:54:[m[K [01;31m[Kerror: [m[K‘[01m[KExecutorCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KExecutorCommandStorage[m[K’?
+[1.955s]    16 |     auto executor_command_storage = std::make_shared<[01;31m[KExecutorCommand[m[K>();
+[1.955s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.955s]       |                                                      [32m[KExecutorCommandStorage[m[K
+[1.955s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:16:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.955s]    16 |     auto executor_command_storage = [01;31m[Kstd::make_shared<ExecutorCommand>()[m[K;
+[1.955s]       |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.955s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.955s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/control_publishers.hpp:4[m[K,
+[1.955s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:1[m[K:
+[1.955s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.955s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.955s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.955s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.955s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/main.cpp:16:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.955s]    16 |     auto executor_command_storage = [01;31m[Kstd::make_shared<ExecutorCommand>()[m[K;
+[1.955s]       |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.244s] gmake[2]: *** [CMakeFiles/offboard_controller.dir/build.make:76: CMakeFiles/offboard_controller.dir/src/main.cpp.o] Error 1
+[2.244s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/offboard_controller.dir/all] Error 2
+[2.244s] gmake: *** [Makefile:146: all] Error 2
+[2.246s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '2': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16

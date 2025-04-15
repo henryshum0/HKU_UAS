@@ -1,0 +1,12 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/henryshum0/SUAS/src/flight_control/src/take_off_mode.cpp: No such file or directory
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp: No such file or directory
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/henryshum0/SUAS/src/flight_control/src/flight_mode.cpp: No such file or directory
+compilation terminated.
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:76: CMakeFiles/flight_control_lib.dir/src/flight_mode.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:90: CMakeFiles/flight_control_lib.dir/src/take_off_mode.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:104: CMakeFiles/flight_control_lib.dir/src/offboard_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/flight_control_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,35 @@
+[0.011s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.112s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.197s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.199s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.204s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.245s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.245s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.074s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.108s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.110s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.159s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.159s] -- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/flight_control/include/flight_control>
+[3.160s] -- Configured cppcheck exclude dirs and/or files: 
+[3.160s] -- Added test 'lint_cmake' to check CMake code style
+[3.160s] -- Added test 'uncrustify' to check C / C++ code style
+[3.160s] -- Configured uncrustify additional arguments: 
+[3.160s] -- Added test 'xmllint' to check XML markup files
+[3.161s] -- Configuring done
+[3.167s] -- Generating done
+[3.170s] -- Build files have been written to: /home/henryshum0/SUAS/build/flight_control
+[3.187s] [35m[1mConsolidate compiler generated dependencies of target frame_conversion[0m
+[3.195s] [ 50%] Built target frame_conversion
+[3.201s] [35m[1mConsolidate compiler generated dependencies of target test_functions[0m
+[3.211s] [ 75%] [32mBuilding CXX object CMakeFiles/test_functions.dir/src/test.cpp.o[0m
+[3.216s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kframe_convertion.hpp: No such file or directory
+[3.216s]     1 | #include [01;31m[K"frame_convertion.hpp"[m[K
+[3.216s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.216s] compilation terminated.
+[3.217s] gmake[2]: *** [CMakeFiles/test_functions.dir/build.make:76: CMakeFiles/test_functions.dir/src/test.cpp.o] Error 1
+[3.217s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_functions.dir/all] Error 2
+[3.217s] gmake: *** [Makefile:146: all] Error 2
+[3.219s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16

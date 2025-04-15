@@ -1,0 +1,3549 @@
+[INFO] [1744731455.909491017] [state_subscriber]: state storage initialized 
+home[lon, lat, AMSL]: 8.54561 47.3978 488.102
+pos: 0.216577 -0.0605299 0.210358
+heading: 0.0103095
+[INFO] [1744731455.919561291] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731455.919661741] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731455.924199413] [flight_executor]: vehicle state initialized, ready to execute
+[INFO] [1744731455.927653959] [state_subscriber]: vehicle land detected!
+[INFO] [1744731455.931607700] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731455.931681635] [state_subscriber]: offboard mode is active!
+[INFO] [1744731455.939481738] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731455.939540280] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731455.959511264] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731455.959599178] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731455.979540303] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731455.979641400] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731455.999584133] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731455.999693836] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.019603897] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.019804740] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.039517317] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.039584820] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.059506484] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.059588061] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.079672272] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.079803219] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.099521246] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.099592969] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.119543376] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.119619031] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.139605491] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.139801548] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.159594458] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.159707473] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.164421014] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.108
+[INFO] [1744731456.179703080] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.179892650] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.199567918] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.199677942] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.219584160] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.219691176] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.239502564] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.239572215] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.259482490] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.259542675] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.279579842] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.279689005] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.299558355] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.299722336] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.319595742] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.319705243] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.339640287] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.339778453] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.359502965] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.359571629] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.379561588] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.379664649] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.399531951] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.399614352] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.419516670] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.419593285] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.435207925] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731456.435259296] [state_subscriber]: offboard mode is active!
+[INFO] [1744731456.439609972] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.439735985] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.459644968] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.459771666] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.479617488] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.479741819] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.499501788] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.499573025] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.519543971] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.519642887] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.539622507] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.539735045] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.559517482] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.559664042] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.563690685] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.112
+[INFO] [1744731456.579520774] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.579593609] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.599650718] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.599762162] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.619632510] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.619753543] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.639511427] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.639586872] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.659475212] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.659534968] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.679653479] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.679787549] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.699626436] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.699726782] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.719527172] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.719634899] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.739632687] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.739787039] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.759758996] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.759919558] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.779684059] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.779853858] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.799594007] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.799700267] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.819543714] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.819645420] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.839589212] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.839659486] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.859636108] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.859787376] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.879621728] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.879769695] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.899618945] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.899755434] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.919601665] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.919691096] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.928383184] [state_subscriber]: vehicle land detected!
+[INFO] [1744731456.939600786] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.939739532] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.940584055] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731456.940646737] [state_subscriber]: offboard mode is active!
+[INFO] [1744731456.959630791] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.959721553] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.964538134] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.109
+[INFO] [1744731456.979522317] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.979596278] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731456.999627000] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731456.999808645] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.019701845] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.019852681] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.039554283] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.039646547] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.059585674] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.059706787] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.079578653] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.079717966] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.099534954] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.099617306] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.119516022] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.119593095] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.139535353] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.139638267] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.159547865] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.159627649] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.179561581] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.179656657] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.199541970] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.199626425] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.219577545] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.219657662] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.239636042] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.239727334] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.259549469] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.259654965] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.279538259] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.279622934] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.299527847] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.299599099] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.319494877] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.319557667] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.339614043] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.339730660] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.359666451] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.359795646] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.364943119] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.102
+[INFO] [1744731457.379591925] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.379695221] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.399635021] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.399747634] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.419611928] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.419725596] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.439506347] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.439575632] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.444872031] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731457.444951461] [state_subscriber]: offboard mode is active!
+[INFO] [1744731457.459497060] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.459560825] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.479526235] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.479600247] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.499597658] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.499701175] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.519476242] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.519537340] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.539643098] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.539780509] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.559582253] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.559690468] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.579534634] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.579627512] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.599498111] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.599564747] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.619457550] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.619530002] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.639469506] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.639528821] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.659489498] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.659596505] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.679529803] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.679613194] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.699623920] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.699733323] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.719537482] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.719618339] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.739528781] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.739621090] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.759488642] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.759567090] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.764130603] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.108
+[INFO] [1744731457.779474106] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.779538780] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.799636062] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.799798730] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.819676571] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.819849429] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.839592666] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.839711192] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.859516909] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.859595440] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.879637961] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.879711260] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.899647856] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.899789945] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.919588411] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.919672695] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.927859815] [state_subscriber]: vehicle land detected!
+[INFO] [1744731457.939625253] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.939726906] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.948088658] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731457.948169080] [state_subscriber]: offboard mode is active!
+[INFO] [1744731457.959569607] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.959714176] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.979601759] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.979754817] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731457.999554606] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731457.999636819] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.019505091] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.019573271] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.039484448] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.039544675] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.059601271] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.059697579] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.079659539] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.079747460] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.099544644] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.099665239] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.119520383] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.119586185] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.139539002] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.139641398] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.159543125] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.159612670] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.163749684] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.109
+[INFO] [1744731458.179480236] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.179539490] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.200001266] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.200497376] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.219564271] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.219675607] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.239533045] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.239600800] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.259485205] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.259548766] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.279493661] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.279554547] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.299707057] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.299879626] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.319480810] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.319540063] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.339552361] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.339645358] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.359501164] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.359571395] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.379605090] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.379712995] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.399509245] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.399588942] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.419489254] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.419552617] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.439470736] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.439528460] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.451663641] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731458.451715020] [state_subscriber]: offboard mode is active!
+[INFO] [1744731458.459669125] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.459798452] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.479602995] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.479715534] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.499527304] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.499591499] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.519482721] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.519560644] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.539680358] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.539933416] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.559565468] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.559624713] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.563949713] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.105
+[INFO] [1744731458.579474280] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.579538707] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.599812759] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.600089994] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.619593953] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.619716054] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.639454237] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.639536354] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.659484261] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.659542800] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.679498632] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.679562313] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.699580491] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.699691928] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.719530397] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.719626924] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.739533878] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.739618334] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.759515859] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.759583129] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.779691545] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.779790579] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.799581755] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.799650209] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.819475662] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.819538937] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.839498275] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.839558980] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.859652588] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.859785252] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.879585920] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.879685407] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.899475483] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.899549025] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.919483684] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.919555432] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.928022020] [state_subscriber]: vehicle land detected!
+[INFO] [1744731458.939648865] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.939804732] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.956056239] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731458.956123462] [state_subscriber]: offboard mode is active!
+[INFO] [1744731458.959486670] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.959549152] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.963927021] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.111
+[INFO] [1744731458.979547890] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.979638919] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731458.999636480] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731458.999752303] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.019569131] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.019673926] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.039477737] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.039541354] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.059459951] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.059521103] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.079518236] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.079582981] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.099567500] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.099659558] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.119589547] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.119691324] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.139621490] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.139764233] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.159493391] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.159556899] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.179553058] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.179699673] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.199523332] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.199615085] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.219487534] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.219560544] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.239537094] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.239667638] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.259576330] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.259694900] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.279560000] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.279668377] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.299500538] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.299569301] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.319482909] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.319556373] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.339563350] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.339683212] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.359486377] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.359547485] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.364216895] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.102
+[INFO] [1744731459.379554479] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.379656579] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.399631218] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.399740987] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.419570977] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.419671611] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.439481607] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.439545473] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.459450386] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.459507984] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.460668039] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731459.460823318] [state_subscriber]: offboard mode is active!
+[INFO] [1744731459.479494612] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.479564866] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.499591483] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.499678625] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.519536471] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.519646553] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.539493934] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.539560933] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.559479939] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.559545395] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.579549848] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.579637086] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.599554261] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.599660546] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.619468029] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.619537179] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.639521197] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.639608986] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.659624461] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.659806917] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.679452557] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.679511286] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.699465729] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.699523051] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.719483669] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.719561773] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.739619400] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.739689635] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.759509439] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.759599004] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.764545501] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.099
+[INFO] [1744731459.779543808] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.779647836] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.799510077] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.799577568] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.819556114] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.819664017] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.839483382] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.839545650] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.859488282] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.859554418] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.879623179] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.879736044] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.899610633] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.899727967] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.919517332] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.919624521] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.928525225] [state_subscriber]: vehicle land detected!
+[INFO] [1744731459.939486780] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.939551101] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.959486043] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.959547653] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.964653241] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731459.964748647] [state_subscriber]: offboard mode is active!
+[INFO] [1744731459.979565980] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.979643467] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731459.999494064] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731459.999557259] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.019544109] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.019644627] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.039508013] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.039579569] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.059554775] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.059660508] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.079460162] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.079523857] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.099442767] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.099513486] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.102830017] [input_parser]: received takeoff waypoint SUCCESS
+[INFO] [1744731460.119501475] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.119567048] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.139617744] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.139749254] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.159553129] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.159657246] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.164794558] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.103
+[INFO] [1744731460.179478426] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.179541823] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.199526593] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.199633307] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.219541138] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.219646323] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.239442718] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.239498165] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.259459211] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.259517268] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.279554034] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.279642228] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.299537866] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.299627385] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.319484436] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.319546792] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.339464893] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.339525666] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.359498053] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.359561541] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.379556648] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.379651778] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.399530814] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.399625191] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.419548480] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.419654523] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.439495268] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.439554156] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.459626713] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.459887469] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.468609810] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731460.468668774] [state_subscriber]: offboard mode is active!
+[INFO] [1744731460.479490774] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.479555851] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.499454031] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.499512526] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.519484245] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.519546344] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.539642340] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.539772166] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.559555233] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.559661415] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.564831980] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.092
+[INFO] [1744731460.579482933] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.579545938] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.599463863] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.599528224] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.619626161] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.619747911] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.639495734] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.639574263] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.659478150] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.659556642] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.679581239] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.679684655] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.699673645] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.699768810] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.719481697] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.719544856] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.739479541] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.739545707] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.759495756] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.759558187] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.779537847] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.779633632] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.799537017] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.799625576] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.819530183] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.819605508] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.839498437] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.839562209] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.859579962] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.859671756] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.879476472] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.879542804] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.899442574] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.899499669] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.919555005] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.919647992] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.929125634] [state_subscriber]: vehicle land detected!
+[INFO] [1744731460.939589203] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.939700817] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.959502471] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.959568757] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.965270188] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.108
+[INFO] [1744731460.973424439] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731460.973490790] [state_subscriber]: offboard mode is active!
+[INFO] [1744731460.979472777] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.979525128] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731460.999482384] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731460.999545475] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.019590986] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.019696160] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.039483091] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.039549701] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.059508027] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.059590686] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.079519711] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.079615635] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.099582027] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.099742706] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.119480720] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.119541613] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.139481951] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.139541890] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.159486343] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.159553658] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.179519369] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.179609345] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.199558843] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.199636644] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.219474755] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.219538314] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.239479454] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.239541374] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.259475130] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.259563798] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.279445051] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.279502142] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.299482708] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.299536904] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.319656544] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.319798721] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.339538138] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.339691911] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.359485011] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.359547730] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.365137236] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.102
+[INFO] [1744731461.379440084] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.379496514] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.399503739] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.399601948] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.419559893] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.419683759] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.439477748] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.439536644] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.459549525] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.459645998] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.477405695] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731461.477480238] [state_subscriber]: offboard mode is active!
+[INFO] [1744731461.479489368] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.479545492] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.499519644] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.499605060] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.519473924] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.519536399] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.539452287] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.539509632] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.559499199] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.559564606] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.579566293] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.579659109] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.599590726] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.599694036] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.619462223] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.619523683] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.639479072] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.639627503] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.659499980] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.659586666] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.679459633] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.679520198] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.699463023] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.699540775] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.719549234] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.719643711] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.739543118] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.739635142] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.759474649] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.759580206] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.765347932] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.098
+[INFO] [1744731461.779442665] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.779499551] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.799480284] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.799548075] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.819540109] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.819661030] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.839583002] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.839660713] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.859539923] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.859614281] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.879487513] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.879549376] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.899526053] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.899614788] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.919469616] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.919530762] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.929503376] [state_subscriber]: vehicle land detected!
+[INFO] [1744731461.939476477] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.939540734] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.959521585] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.959639811] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.979511113] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.979611292] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731461.981996905] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731461.982080478] [state_subscriber]: offboard mode is active!
+[INFO] [1744731461.999516211] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731461.999586317] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.019510909] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731462.019581726] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.039489773] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731462.039553096] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.059583407] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731462.059703755] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.079481526] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731462.079545384] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.099562707] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731462.099666808] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.119496811] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731462.119562889] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.134909746] [input_parser]: received user command to EXECUTE
+[INFO] [1744731462.139501350] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731462.139568936] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.159536099] [control_publisher]: Arm command send
+[INFO] [1744731462.159585725] [control_publisher]: VehicleCMD: ARM
+[INFO] [1744731462.159654477] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.166140416] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.113
+[INFO] [1744731462.173998218] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731462.174052599] [state_subscriber]: offboard mode is active!
+[INFO] [1744731462.174124582] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731462.174142173] [state_subscriber]: offboard mode is active!
+[INFO] [1744731462.179478171] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731462.184222543] [flight_executor]: nan nan nan
+[INFO] [1744731462.184331189] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.184351127] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.199485425] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.199545205] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.204325487] [flight_executor]: 0.253079 -0.0817874 nan
+[INFO] [1744731462.204447096] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.204467284] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.219574099] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.219678822] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.224351074] [flight_executor]: 0.253322 -0.0819063 nan
+[INFO] [1744731462.224471124] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.224490634] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.239539611] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.239629425] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.244224729] [flight_executor]: 0.253621 -0.0820304 nan
+[INFO] [1744731462.244296509] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.244314857] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.259480631] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.259543632] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.264213043] [flight_executor]: 0.253918 -0.0821392 nan
+[INFO] [1744731462.264277136] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.264293706] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.279476599] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.279532311] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.284334576] [flight_executor]: 0.254268 -0.0822581 nan
+[INFO] [1744731462.284466836] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.284489417] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.299530227] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.299630049] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.304210441] [flight_executor]: 0.254616 -0.0823685 nan
+[INFO] [1744731462.304272304] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.304289520] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.319485307] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.319552922] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.324259195] [flight_executor]: 0.254938 -0.0824546 nan
+[INFO] [1744731462.324352579] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.324369998] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.339476069] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.339537497] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.344278932] [flight_executor]: 0.255048 -0.0825579 nan
+[INFO] [1744731462.344386308] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.344448303] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.359613201] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.359735497] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.364231212] [flight_executor]: 0.254919 -0.082633 nan
+[INFO] [1744731462.364300992] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.364322431] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.379518218] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.379623006] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.384213912] [flight_executor]: 0.254789 -0.0826657 nan
+[INFO] [1744731462.384275926] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.384297794] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.399529666] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.399604976] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.404240931] [flight_executor]: 0.254694 -0.082668 nan
+[INFO] [1744731462.404304945] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.404325743] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.419506755] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.419615319] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.424235051] [flight_executor]: 0.254623 -0.0826572 nan
+[INFO] [1744731462.424297275] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.424314880] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.439474549] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.439534269] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.444276358] [flight_executor]: 0.254589 -0.0826506 nan
+[INFO] [1744731462.444373123] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.444395141] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.459532961] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.459762521] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.464275225] [flight_executor]: 0.254594 -0.082662 nan
+[INFO] [1744731462.464385034] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.464407015] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.479454844] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.479515680] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.484303144] [flight_executor]: 0.254632 -0.0826882 nan
+[INFO] [1744731462.484420211] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.484439843] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.499526914] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.499621439] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.504217320] [flight_executor]: 0.254702 -0.0827106 nan
+[INFO] [1744731462.504281224] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.504298236] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.519497407] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.519560889] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.524297348] [flight_executor]: 0.25482 -0.0827361 nan
+[INFO] [1744731462.524408781] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.524440571] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.539552646] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.539645275] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.544220395] [flight_executor]: 0.254966 -0.0827709 nan
+[INFO] [1744731462.544320932] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.544344293] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.559447149] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.559503570] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.564202583] [flight_executor]: 0.25517 -0.0828299 nan
+[INFO] [1744731462.564253666] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.564274380] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.566030988] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.103
+[INFO] [1744731462.579439724] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.579494705] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.584274276] [flight_executor]: 0.255393 -0.0828828 nan
+[INFO] [1744731462.584364044] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.584383802] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.599495819] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.599558967] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.604373977] [flight_executor]: 0.255673 -0.0829185 nan
+[INFO] [1744731462.604513894] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.604535318] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.619547514] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.619633357] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.624293969] [flight_executor]: 0.255952 -0.082938 nan
+[INFO] [1744731462.624401405] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.624418808] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.639563019] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.639666543] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.644223012] [flight_executor]: 0.256222 -0.0829496 nan
+[INFO] [1744731462.644304749] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.644322337] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.659477192] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.659538671] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.664292092] [flight_executor]: 0.256606 -0.0829509 nan
+[INFO] [1744731462.664367014] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.664387889] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.678343929] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731462.678398773] [state_subscriber]: offboard mode is active!
+[INFO] [1744731462.679492812] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.679547294] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.684313667] [flight_executor]: 0.257004 -0.0829458 nan
+[INFO] [1744731462.684514748] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.684538598] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.699528957] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.699630274] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.704220737] [flight_executor]: 0.257375 -0.0829365 nan
+[INFO] [1744731462.704286842] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.704304512] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.719513180] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.719579095] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.724313791] [flight_executor]: 0.257766 -0.0829099 nan
+[INFO] [1744731462.724439143] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.724519930] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.739458719] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.739523188] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.744301370] [flight_executor]: 0.257715 -0.0829378 nan
+[INFO] [1744731462.744401561] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.744418719] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.759569495] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.759660943] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.764349950] [flight_executor]: 0.257453 -0.0829836 nan
+[INFO] [1744731462.764458008] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.764483171] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.779544426] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.779644814] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.784222959] [flight_executor]: 0.257068 -0.0830477 nan
+[INFO] [1744731462.784288313] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.784306288] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.799495767] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.799560006] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.804208052] [flight_executor]: 0.256749 -0.0831026 nan
+[INFO] [1744731462.804266641] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.804284564] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.819485924] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.819547383] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.824232916] [flight_executor]: 0.256503 -0.0831399 nan
+[INFO] [1744731462.824301326] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.824318465] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.839491061] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.839549425] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.844306133] [flight_executor]: 0.256288 -0.0831658 nan
+[INFO] [1744731462.844416617] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.844448440] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.859512919] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.859591767] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.864292144] [flight_executor]: 0.256127 -0.0831914 nan
+[INFO] [1744731462.864376901] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.864395192] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.879485945] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.879547475] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.884316177] [flight_executor]: 0.255997 -0.08323 nan
+[INFO] [1744731462.884388288] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.884463110] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.899519552] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.899619242] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.904227064] [flight_executor]: 0.255904 -0.0832591 nan
+[INFO] [1744731462.904292440] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.904308700] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.919482352] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.919542440] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.924285249] [flight_executor]: 0.255839 -0.0832678 nan
+[INFO] [1744731462.924384970] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.924487645] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.930464277] [state_subscriber]: vehicle land detected!
+[INFO] [1744731462.939526538] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.939609927] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.944209610] [flight_executor]: 0.255806 -0.0832734 nan
+[INFO] [1744731462.944270486] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.944291642] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.959457917] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.959518868] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.964211819] [flight_executor]: 0.255811 -0.0832836 nan
+[INFO] [1744731462.964268289] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.964291624] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.966818389] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.103
+[INFO] [1744731462.979465957] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.979525496] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731462.984298831] [flight_executor]: 0.255845 -0.0832899 nan
+[INFO] [1744731462.984395425] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731462.984430450] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731462.999483977] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731462.999542385] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.004308411] [flight_executor]: 0.255932 -0.0832688 nan
+[INFO] [1744731463.004445117] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.004464722] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.019587489] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.019688928] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.024279648] [flight_executor]: 0.256052 -0.0832373 nan
+[INFO] [1744731463.024379627] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.024403232] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.039472748] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.039534614] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.044216339] [flight_executor]: 0.256229 -0.083213 nan
+[INFO] [1744731463.044279692] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.044297295] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.059447111] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.059512224] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.064257509] [flight_executor]: 0.256416 -0.0831948 nan
+[INFO] [1744731463.064339241] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.064357696] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.079477339] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.079540070] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.084313452] [flight_executor]: 0.256652 -0.0831648 nan
+[INFO] [1744731463.084465157] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.084500184] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.099503280] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.099579873] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.104214520] [flight_executor]: 0.256895 -0.0831204 nan
+[INFO] [1744731463.104273607] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.104291088] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.119463329] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.119561612] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.124272591] [flight_executor]: 0.257131 -0.083076 nan
+[INFO] [1744731463.124367643] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.124385939] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.139479667] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.139575625] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.144226784] [flight_executor]: 0.257016 -0.0829866 nan
+[INFO] [1744731463.144299065] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.144316784] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.159521146] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.159612885] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.164270583] [flight_executor]: 0.256565 -0.0828943 nan
+[INFO] [1744731463.164365625] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.164382980] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.179526062] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.179620939] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.183117263] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731463.183193472] [state_subscriber]: offboard mode is active!
+[INFO] [1744731463.184215879] [flight_executor]: 0.256116 -0.0828298 nan
+[INFO] [1744731463.184267549] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.184287844] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.199546279] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.199634658] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.204224178] [flight_executor]: 0.25568 -0.0827624 nan
+[INFO] [1744731463.204286364] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.204303405] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.219481306] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.219541392] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.224245392] [flight_executor]: 0.255322 -0.0826939 nan
+[INFO] [1744731463.224325837] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.224343427] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.239480634] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.239539555] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.244377886] [flight_executor]: 0.255014 -0.082607 nan
+[INFO] [1744731463.244498019] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.244517318] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.259496559] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.259572675] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.264233045] [flight_executor]: 0.254783 -0.0825269 nan
+[INFO] [1744731463.264303441] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.264320801] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.279590149] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.279729426] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.284237955] [flight_executor]: 0.254592 -0.0824572 nan
+[INFO] [1744731463.284302381] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.284319975] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.299473774] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.299534804] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.304256289] [flight_executor]: 0.254456 -0.0824138 nan
+[INFO] [1744731463.304365865] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.304392598] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.319494332] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.319563413] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.324268465] [flight_executor]: 0.254343 -0.0823871 nan
+[INFO] [1744731463.324367170] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.324386441] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.339433993] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.339506016] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.344232528] [flight_executor]: 0.254272 -0.0823857 nan
+[INFO] [1744731463.344289592] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.344306794] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.359446830] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.359500907] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.364271580] [flight_executor]: 0.254243 -0.0823816 nan
+[INFO] [1744731463.364352074] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.364368705] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.366953576] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.101
+[INFO] [1744731463.379489452] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.379553159] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.384324230] [flight_executor]: 0.254259 -0.0823669 nan
+[INFO] [1744731463.384437484] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.384463965] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.399449290] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.399570247] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.404276700] [flight_executor]: 0.25432 -0.0823337 nan
+[INFO] [1744731463.404369879] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.404388001] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.419532389] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.419635531] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.424228329] [flight_executor]: 0.254404 -0.0822942 nan
+[INFO] [1744731463.424294358] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.424311814] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.439581460] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.439677445] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.444256531] [flight_executor]: 0.254536 -0.0822498 nan
+[INFO] [1744731463.444332899] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.444350475] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.459487512] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.459545713] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.464240906] [flight_executor]: 0.254691 -0.0822233 nan
+[INFO] [1744731463.464311213] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.464328500] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.479477927] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.479535349] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.484439077] [flight_executor]: 0.254877 -0.0822091 nan
+[INFO] [1744731463.484576210] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.484613076] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.499467938] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.499572918] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.504346964] [flight_executor]: 0.255055 -0.0822035 nan
+[INFO] [1744731463.504455587] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.504491101] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.519465909] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.519525422] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.524273640] [flight_executor]: 0.255208 -0.0822094 nan
+[INFO] [1744731463.524343899] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.524360487] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.539520467] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.539601546] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.544230880] [flight_executor]: 0.255213 -0.0821853 nan
+[INFO] [1744731463.544298925] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.544314573] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.559509199] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.559602899] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.564294832] [flight_executor]: 0.254992 -0.0821074 nan
+[INFO] [1744731463.564398254] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.564416800] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.579522236] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.579591461] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.584223964] [flight_executor]: 0.254796 -0.0820333 nan
+[INFO] [1744731463.584289521] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.584306126] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.599530192] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.599608648] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.604204367] [flight_executor]: 0.254622 -0.0819599 nan
+[INFO] [1744731463.604256893] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.604273837] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.619488272] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.619551283] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.624297885] [flight_executor]: 0.254498 -0.081905 nan
+[INFO] [1744731463.624404447] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.624422443] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.639454054] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.639509594] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.644372352] [flight_executor]: 0.254413 -0.0818599 nan
+[INFO] [1744731463.644513998] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.644544350] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.659647979] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.659730690] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.664288659] [flight_executor]: 0.254368 -0.0818244 nan
+[INFO] [1744731463.664396862] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.664415161] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.679587342] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.679706891] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.684238531] [flight_executor]: 0.254362 -0.0817872 nan
+[INFO] [1744731463.684300791] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.684329638] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.687315723] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731463.687358835] [state_subscriber]: offboard mode is active!
+[INFO] [1744731463.699408803] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.699465506] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.704233256] [flight_executor]: 0.254374 -0.0817561 nan
+[INFO] [1744731463.704300131] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.704318185] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.719464920] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.719523740] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.724281411] [flight_executor]: 0.254392 -0.0817068 nan
+[INFO] [1744731463.724369578] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.724387015] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.739529739] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.739602687] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.744213693] [flight_executor]: 0.254422 -0.0816678 nan
+[INFO] [1744731463.744267430] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.744293830] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.759452814] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.759509651] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.764358980] [flight_executor]: 0.254479 -0.0816424 nan
+[INFO] [1744731463.764451322] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.764478600] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.767477823] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.105
+[INFO] [1744731463.779439430] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.779494566] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.784291379] [flight_executor]: 0.254558 -0.0816235 nan
+[INFO] [1744731463.784394994] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.784413468] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.799660643] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.799792446] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.804282611] [flight_executor]: 0.254684 -0.0816146 nan
+[INFO] [1744731463.804376765] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.804394674] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.819646143] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.819778660] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.824238207] [flight_executor]: 0.254826 -0.0816214 nan
+[INFO] [1744731463.824308867] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.824326419] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.839391246] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.839448683] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.844239233] [flight_executor]: 0.254967 -0.0816337 nan
+[INFO] [1744731463.844307459] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.844324856] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.859453478] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.859509827] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.864247241] [flight_executor]: 0.25518 -0.0816664 nan
+[INFO] [1744731463.864324974] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.864343057] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.879454056] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.879513153] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.884358401] [flight_executor]: 0.255414 -0.0817056 nan
+[INFO] [1744731463.884489757] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.884509649] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.899628120] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.899704475] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.904288420] [flight_executor]: 0.255632 -0.0817457 nan
+[INFO] [1744731463.904383454] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.904414472] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.919476890] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.919544574] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.924237759] [flight_executor]: 0.255876 -0.0818015 nan
+[INFO] [1744731463.924309190] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.924325968] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.931396569] [state_subscriber]: vehicle land detected!
+[INFO] [1744731463.939591712] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.939701488] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.944221986] [flight_executor]: 0.255601 -0.0820547 nan
+[INFO] [1744731463.944283546] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.944300799] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.959480081] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.959534728] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.964296185] [flight_executor]: 0.254976 -0.0824619 nan
+[INFO] [1744731463.964406581] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.964426041] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.979534564] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.979638690] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731463.984226933] [flight_executor]: 0.254384 -0.0828411 nan
+[INFO] [1744731463.984288206] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731463.984305330] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731463.999551576] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731463.999666986] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.004225385] [flight_executor]: 0.253787 -0.0832475 nan
+[INFO] [1744731464.004289041] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.004306422] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.019493769] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.019551049] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.024316012] [flight_executor]: 0.253276 -0.0836271 nan
+[INFO] [1744731464.024420308] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.024461847] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.039485907] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.039555799] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.044398321] [flight_executor]: 0.252782 -0.0840285 nan
+[INFO] [1744731464.044552611] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.044592635] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.059811299] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.060026560] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.064300979] [flight_executor]: 0.252363 -0.0843962 nan
+[INFO] [1744731464.064406283] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.064424378] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.079661685] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.079786390] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.084233953] [flight_executor]: 0.252032 -0.084716 nan
+[INFO] [1744731464.084300375] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.084317879] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.099480872] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.099554173] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.104207727] [flight_executor]: 0.251645 -0.0851416 nan
+[INFO] [1744731464.104266477] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.104283077] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.119421530] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.119495677] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.124351695] [flight_executor]: 0.251317 -0.0855666 nan
+[INFO] [1744731464.124497447] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.124544553] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.139567026] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.139669805] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.144207046] [flight_executor]: 0.251057 -0.08595 nan
+[INFO] [1744731464.144258365] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.144285304] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.159473972] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.159542417] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.164309277] [flight_executor]: 0.250802 -0.0863403 nan
+[INFO] [1744731464.164402677] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.164420915] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.167780563] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.103
+[INFO] [1744731464.179574774] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.179665225] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.184323690] [flight_executor]: 0.250597 -0.0867031 nan
+[INFO] [1744731464.184452338] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.184487239] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.191438047] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731464.191488997] [state_subscriber]: offboard mode is active!
+[INFO] [1744731464.199707059] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.199937438] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.204281253] [flight_executor]: 0.25043 -0.0871206 nan
+[INFO] [1744731464.204372806] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.204390425] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.219613209] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.219721030] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.224249787] [flight_executor]: 0.250315 -0.087505 nan
+[INFO] [1744731464.224311996] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.224329283] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.239567758] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.239644623] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.244311689] [flight_executor]: 0.250239 -0.0879119 nan
+[INFO] [1744731464.244417747] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.244450419] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.259546648] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.259682743] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.264261272] [flight_executor]: 0.250186 -0.0882777 nan
+[INFO] [1744731464.264333343] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.264356437] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.279616828] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.279707004] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.284314809] [flight_executor]: 0.25015 -0.0885831 nan
+[INFO] [1744731464.284426038] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.284444779] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.299598641] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.299720071] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.304328073] [flight_executor]: 0.250128 -0.0889747 nan
+[INFO] [1744731464.304443565] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.304461569] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.319531520] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.319613841] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.324249901] [flight_executor]: 0.250129 -0.0893679 nan
+[INFO] [1744731464.324328839] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.324346931] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.339702297] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.339839817] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.344249471] [flight_executor]: 0.250129 -0.0895318 nan
+[INFO] [1744731464.344346030] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.344370480] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.359615563] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.359695430] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.364454533] [flight_executor]: 0.250146 -0.0895732 nan
+[INFO] [1744731464.364852383] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.364920254] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.379622766] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.379731712] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.384233474] [flight_executor]: 0.250178 -0.0895767 nan
+[INFO] [1744731464.384299205] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.384317368] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.399733159] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.399886254] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.404228992] [flight_executor]: 0.250247 -0.0895826 nan
+[INFO] [1744731464.404294964] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.404312699] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.419605637] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.419692620] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.424261969] [flight_executor]: 0.250336 -0.0896045 nan
+[INFO] [1744731464.424477755] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.424520816] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.439575378] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.439664576] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.444326827] [flight_executor]: 0.250438 -0.0896411 nan
+[INFO] [1744731464.444459257] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.444502043] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.459660545] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.459812010] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.464298161] [flight_executor]: 0.250543 -0.0896966 nan
+[INFO] [1744731464.464397116] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.464424651] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.479633044] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.479753280] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.484221271] [flight_executor]: 0.250682 -0.089788 nan
+[INFO] [1744731464.484281222] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.484297794] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.499540508] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.499619311] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.504234438] [flight_executor]: 0.250835 -0.0898953 nan
+[INFO] [1744731464.504310326] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.504334387] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.519526872] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.519599335] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.524274810] [flight_executor]: 0.251034 -0.0900431 nan
+[INFO] [1744731464.524371596] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.524389677] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.539610624] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.539721777] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.544207578] [flight_executor]: 0.251234 -0.0901969 nan
+[INFO] [1744731464.544268672] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.544286327] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.559525591] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.559604726] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.564266932] [flight_executor]: 0.251475 -0.0903813 nan
+[INFO] [1744731464.564348394] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.564365666] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.568020177] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.095
+[INFO] [1744731464.579524843] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.579604047] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.584270116] [flight_executor]: 0.251729 -0.0905758 nan
+[INFO] [1744731464.584345243] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.584361829] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.599641162] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.599746033] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.604260972] [flight_executor]: 0.252033 -0.090834 nan
+[INFO] [1744731464.604344003] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.604361576] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.619622352] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.619751091] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.624222509] [flight_executor]: 0.252325 -0.0911016 nan
+[INFO] [1744731464.624282000] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.624299349] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.639538080] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.639607644] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.644223259] [flight_executor]: 0.252672 -0.091412 nan
+[INFO] [1744731464.644315752] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.644335058] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.659533150] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.659618159] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.664311762] [flight_executor]: 0.253016 -0.091713 nan
+[INFO] [1744731464.664386998] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.664406921] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.679552384] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.679626238] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.684300663] [flight_executor]: 0.253411 -0.0920561 nan
+[INFO] [1744731464.684417902] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.684435605] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.695734145] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731464.695785332] [state_subscriber]: offboard mode is active!
+[INFO] [1744731464.699581429] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.699760110] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.704279234] [flight_executor]: 0.253786 -0.0923929 nan
+[INFO] [1744731464.704377653] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.704410820] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.719532417] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.719610996] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.724239183] [flight_executor]: 0.254187 -0.0927832 nan
+[INFO] [1744731464.724309737] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.724327707] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.739621143] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.739764438] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.744216232] [flight_executor]: 0.254368 -0.0928989 nan
+[INFO] [1744731464.744271668] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.744288825] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.759543718] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.759645283] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.764272593] [flight_executor]: 0.25447 -0.0928616 nan
+[INFO] [1744731464.764365711] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.764382736] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.779630170] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.779749429] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.784211692] [flight_executor]: 0.254569 -0.0928266 nan
+[INFO] [1744731464.784274420] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.784292305] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.799541705] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.799624151] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.804201145] [flight_executor]: 0.25469 -0.0928261 nan
+[INFO] [1744731464.804254243] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.804270665] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.819544933] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.819627863] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.824264606] [flight_executor]: 0.254823 -0.0928545 nan
+[INFO] [1744731464.824341458] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.824380016] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.839517083] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.839616797] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.844313691] [flight_executor]: 0.254993 -0.092909 nan
+[INFO] [1744731464.844445896] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.844465736] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.859666131] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.859781461] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.864225869] [flight_executor]: 0.255172 -0.0929715 nan
+[INFO] [1744731464.864291037] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.864307957] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.879652553] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.879781104] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.884219517] [flight_executor]: 0.255412 -0.0930585 nan
+[INFO] [1744731464.884284649] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.884301626] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.899521537] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.899598079] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.904226659] [flight_executor]: 0.255658 -0.0931621 nan
+[INFO] [1744731464.904292579] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.904310271] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.919545474] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.919621213] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.924279050] [flight_executor]: 0.255881 -0.0932732 nan
+[INFO] [1744731464.924381845] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.924401220] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.932239212] [state_subscriber]: vehicle land detected!
+[INFO] [1744731464.939607891] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.939727169] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.944219149] [flight_executor]: 0.256181 -0.0934506 nan
+[INFO] [1744731464.944272458] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.944288671] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.959520173] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.959593573] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.964296999] [flight_executor]: 0.256483 -0.0936566 nan
+[INFO] [1744731464.964396833] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.964414839] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.968607237] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.11
+[INFO] [1744731464.979590796] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.979709909] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731464.984225615] [flight_executor]: 0.256752 -0.0938705 nan
+[INFO] [1744731464.984291161] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731464.984313036] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731464.999601458] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731464.999741092] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.004267163] [flight_executor]: 0.257043 -0.0941186 nan
+[INFO] [1744731465.004358763] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.004376531] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.019590045] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.019697707] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.024224772] [flight_executor]: 0.25732 -0.0943342 nan
+[INFO] [1744731465.024322378] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.024352716] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.039535877] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.039614314] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.044215916] [flight_executor]: 0.257631 -0.0945473 nan
+[INFO] [1744731465.044276726] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.044292732] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.059542609] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.059636621] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.064225571] [flight_executor]: 0.257932 -0.0947441 nan
+[INFO] [1744731465.064290744] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.064307755] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.079550181] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.079624236] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.084294865] [flight_executor]: 0.25828 -0.0949889 nan
+[INFO] [1744731465.084495801] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.084538260] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.099606222] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.099722522] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.104275752] [flight_executor]: 0.258614 -0.0952399 nan
+[INFO] [1744731465.104368895] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.104386580] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.119604007] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.119717722] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.124215623] [flight_executor]: 0.258978 -0.0955292 nan
+[INFO] [1744731465.124280080] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.124301726] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.139628446] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.139755991] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.144203945] [flight_executor]: 0.258986 -0.0954089 nan
+[INFO] [1744731465.144262010] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.144284818] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.159528960] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.159602924] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.164281104] [flight_executor]: 0.258771 -0.0950043 nan
+[INFO] [1744731465.164390197] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.164427979] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.179616275] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.179725323] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.184211183] [flight_executor]: 0.258543 -0.0946209 nan
+[INFO] [1744731465.184270812] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.184287281] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.199563550] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.199646598] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.200171592] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731465.200201873] [state_subscriber]: offboard mode is active!
+[INFO] [1744731465.204236960] [flight_executor]: 0.258315 -0.0942674 nan
+[INFO] [1744731465.204300498] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.204321732] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.219535956] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.219621418] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.224245949] [flight_executor]: 0.258121 -0.0939797 nan
+[INFO] [1744731465.224318956] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.224336929] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.239587232] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.239694127] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.244378664] [flight_executor]: 0.257935 -0.0937145 nan
+[INFO] [1744731465.244524508] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.244554225] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.259671633] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.259810719] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.264213466] [flight_executor]: 0.257778 -0.0935018 nan
+[INFO] [1744731465.264274705] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.264292156] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.279620727] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.279737370] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.284266614] [flight_executor]: 0.257631 -0.0933115 nan
+[INFO] [1744731465.284317330] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.284335572] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.299533157] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.299617640] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.304235019] [flight_executor]: 0.257506 -0.0931534 nan
+[INFO] [1744731465.304297019] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.304319007] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.319541402] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.319611781] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.324250728] [flight_executor]: 0.257416 -0.0930044 nan
+[INFO] [1744731465.324334004] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.324351013] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.339614740] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.339722148] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.344200689] [flight_executor]: 0.257382 -0.092894 nan
+[INFO] [1744731465.344257988] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.344275191] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.359526913] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.359606533] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.364273397] [flight_executor]: 0.257384 -0.0928193 nan
+[INFO] [1744731465.364369108] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.364390030] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.368215381] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.105
+[INFO] [1744731465.379578227] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.379701335] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.384293383] [flight_executor]: 0.257427 -0.092741 nan
+[INFO] [1744731465.384382310] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.384405084] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.399575894] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.399669552] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.404244572] [flight_executor]: 0.257485 -0.0926912 nan
+[INFO] [1744731465.404362907] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.404396447] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.419633612] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.419758167] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.424214016] [flight_executor]: 0.257567 -0.0926393 nan
+[INFO] [1744731465.424274250] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.424296428] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.439520699] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.439606672] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.444209895] [flight_executor]: 0.25768 -0.0925979 nan
+[INFO] [1744731465.444268717] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.444289208] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.459532736] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.459721275] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.464217005] [flight_executor]: 0.25781 -0.0925757 nan
+[INFO] [1744731465.464294757] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.464315245] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.479666600] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.479789347] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.484266571] [flight_executor]: 0.257972 -0.092565 nan
+[INFO] [1744731465.484379685] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.484425438] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.499600055] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.499697296] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.504293468] [flight_executor]: 0.258124 -0.0925624 nan
+[INFO] [1744731465.504398054] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.504415217] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.519645397] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.519789852] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.524228725] [flight_executor]: 0.258278 -0.0925748 nan
+[INFO] [1744731465.524290409] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.524311949] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.539544221] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.539624269] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.544237653] [flight_executor]: 0.258245 -0.0922326 nan
+[INFO] [1744731465.544305212] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.544323351] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.559513086] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.559582329] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.564295314] [flight_executor]: 0.258092 -0.0916383 nan
+[INFO] [1744731465.564399591] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.564417951] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.579568258] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.579672593] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.584238699] [flight_executor]: 0.257948 -0.0910916 nan
+[INFO] [1744731465.584306148] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.584328066] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.599525862] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.599604783] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.604261453] [flight_executor]: 0.257816 -0.0905434 nan
+[INFO] [1744731465.604354393] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.604385914] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.619532969] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.619604921] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.624349358] [flight_executor]: 0.257724 -0.0900762 nan
+[INFO] [1744731465.624535399] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.624584236] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.639619129] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.639731784] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.644532647] [flight_executor]: 0.257655 -0.0896175 nan
+[INFO] [1744731465.644691157] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.644749609] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.659650967] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.659847540] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.664226405] [flight_executor]: 0.257613 -0.0892376 nan
+[INFO] [1744731465.664294401] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.664312063] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.679526417] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.679605232] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.684202244] [flight_executor]: 0.257588 -0.0888731 nan
+[INFO] [1744731465.684259299] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.684282043] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.699520739] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.699595441] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.704218856] [flight_executor]: 0.257584 -0.088566 nan
+[INFO] [1744731465.704282902] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.704300525] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.704605656] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731465.704641048] [state_subscriber]: offboard mode is active!
+[INFO] [1744731465.719529574] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.719596851] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.724285460] [flight_executor]: 0.257633 -0.0882755 nan
+[INFO] [1744731465.724380005] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.724401341] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.739604638] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.739718224] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.744197529] [flight_executor]: 0.257721 -0.0880597 nan
+[INFO] [1744731465.744256491] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.744277123] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.759529366] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.759605209] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.764334982] [flight_executor]: 0.257859 -0.087879 nan
+[INFO] [1744731465.764427220] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.764446176] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.768821665] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.11
+[INFO] [1744731465.779612225] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.779728468] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.784304332] [flight_executor]: 0.258007 -0.0877248 nan
+[INFO] [1744731465.784401509] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.784469368] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.799591311] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.799691926] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.804282559] [flight_executor]: 0.258144 -0.0876022 nan
+[INFO] [1744731465.804384857] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.804402835] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.819596574] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.819709215] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.824231619] [flight_executor]: 0.258329 -0.0874761 nan
+[INFO] [1744731465.824298323] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.824316001] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.839571348] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.839650866] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.844222424] [flight_executor]: 0.258551 -0.0873895 nan
+[INFO] [1744731465.844283786] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.844309638] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.859522194] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.859592588] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.864225308] [flight_executor]: 0.25878 -0.0873335 nan
+[INFO] [1744731465.864289133] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.864306483] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.879523518] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.879592715] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.884351899] [flight_executor]: 0.259055 -0.0873124 nan
+[INFO] [1744731465.884498231] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.884563685] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.899579514] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.899809648] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.904379360] [flight_executor]: 0.259328 -0.0873086 nan
+[INFO] [1744731465.904529434] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.904543697] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.919546090] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.919627762] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.924221493] [flight_executor]: 0.259586 -0.0873139 nan
+[INFO] [1744731465.924293185] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.924311971] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.933567750] [state_subscriber]: vehicle land detected!
+[INFO] [1744731465.939539976] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.939616705] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.944199627] [flight_executor]: 0.2596 -0.0871046 nan
+[INFO] [1744731465.944256684] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.944274243] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.959526867] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.959615383] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.964307110] [flight_executor]: 0.259353 -0.0867264 nan
+[INFO] [1744731465.964436143] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.964460770] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.979593858] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.979703567] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731465.984213647] [flight_executor]: 0.259097 -0.0863594 nan
+[INFO] [1744731465.984271490] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731465.984290159] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731465.999527099] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731465.999607470] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.004218036] [flight_executor]: 0.258898 -0.0860514 nan
+[INFO] [1744731466.004298415] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.004325372] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.019522375] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.019598285] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.024648976] [flight_executor]: 0.258695 -0.0856974 nan
+[INFO] [1744731466.024805095] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.024863104] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.039588659] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.039702787] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.044313693] [flight_executor]: 0.258562 -0.0854601 nan
+[INFO] [1744731466.044450836] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.044470618] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.059735506] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.059882989] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.064224801] [flight_executor]: 0.258432 -0.0851922 nan
+[INFO] [1744731466.064292043] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.064309508] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.079545180] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.079629365] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.084232433] [flight_executor]: 0.258354 -0.0849707 nan
+[INFO] [1744731466.084304576] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.084322800] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.099514266] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.099683560] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.104259449] [flight_executor]: 0.258312 -0.0848148 nan
+[INFO] [1744731466.104325932] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.104344455] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.119605225] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.119676008] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.124250120] [flight_executor]: 0.258273 -0.0847037 nan
+[INFO] [1744731466.124324000] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.124343646] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.139600802] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.139709650] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.144192069] [flight_executor]: 0.258236 -0.0846338 nan
+[INFO] [1744731466.144243484] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.144264749] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.159514110] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.159591217] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.164258457] [flight_executor]: 0.258211 -0.0845932 nan
+[INFO] [1744731466.164342425] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.164360858] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.168906681] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.107
+[INFO] [1744731466.179579371] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.179691825] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.184236722] [flight_executor]: 0.258185 -0.0845846 nan
+[INFO] [1744731466.184308049] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.184327942] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.199592351] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.199727053] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.204284189] [flight_executor]: 0.258173 -0.0846069 nan
+[INFO] [1744731466.204395965] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.204438803] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.209054234] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731466.209102906] [state_subscriber]: offboard mode is active!
+[INFO] [1744731466.219546662] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.219654072] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.224248621] [flight_executor]: 0.258183 -0.0846316 nan
+[INFO] [1744731466.224318493] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.224339725] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.239508590] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.239578178] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.244210643] [flight_executor]: 0.258227 -0.0846701 nan
+[INFO] [1744731466.244281792] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.244299654] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.259494411] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.259634379] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.264205525] [flight_executor]: 0.258284 -0.0847305 nan
+[INFO] [1744731466.264267168] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.264284791] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.279528719] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.279598156] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.284342844] [flight_executor]: 0.258379 -0.084823 nan
+[INFO] [1744731466.284496006] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.284544267] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.299582801] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.299682729] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.304278855] [flight_executor]: 0.258498 -0.0849103 nan
+[INFO] [1744731466.304379102] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.304402185] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.319511255] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.319590511] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.324216236] [flight_executor]: 0.258673 -0.0850007 nan
+[INFO] [1744731466.324285491] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.324307386] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.339615724] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.339725494] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.344206122] [flight_executor]: 0.258386 -0.0848805 nan
+[INFO] [1744731466.344267516] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.344288252] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.359543935] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.359620782] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.364261173] [flight_executor]: 0.257757 -0.0846055 nan
+[INFO] [1744731466.364382826] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.364405273] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.379575084] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.379689051] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.384209895] [flight_executor]: 0.257145 -0.0843117 nan
+[INFO] [1744731466.384269867] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.384287616] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.399514090] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.399593223] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.404178112] [flight_executor]: 0.256517 -0.0839859 nan
+[INFO] [1744731466.404228240] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.404249683] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.419535788] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.419619068] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.424599697] [flight_executor]: 0.25597 -0.0837039 nan
+[INFO] [1744731466.424710355] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.424735638] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.439609496] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.439676406] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.444358860] [flight_executor]: 0.255419 -0.0834214 nan
+[INFO] [1744731466.444501480] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.444519235] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.459666606] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.459859511] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.464225099] [flight_executor]: 0.254939 -0.083167 nan
+[INFO] [1744731466.464288699] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.464307981] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.479603660] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.479745488] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.484210385] [flight_executor]: 0.254456 -0.0828872 nan
+[INFO] [1744731466.484265420] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.484282816] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.499545901] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.499634870] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.504220239] [flight_executor]: 0.254041 -0.0826238 nan
+[INFO] [1744731466.504289069] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.504308493] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.519577013] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.519652616] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.524284897] [flight_executor]: 0.253661 -0.0823412 nan
+[INFO] [1744731466.524377562] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.524395502] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.539589927] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.539710738] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.544181270] [flight_executor]: 0.253348 -0.082086 nan
+[INFO] [1744731466.544229396] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.544249593] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.559551677] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.559626773] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.564268261] [flight_executor]: 0.253061 -0.081817 nan
+[INFO] [1744731466.564356432] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.564377834] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.569134647] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.106
+[INFO] [1744731466.579529019] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.579607500] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.584225969] [flight_executor]: 0.252851 -0.0815785 nan
+[INFO] [1744731466.584289348] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.584310863] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.599604614] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.599724912] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.604235469] [flight_executor]: 0.252673 -0.0813363 nan
+[INFO] [1744731466.604315639] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.604338851] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.619575900] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.619695292] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.624255674] [flight_executor]: 0.252522 -0.0811271 nan
+[INFO] [1744731466.624337988] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.624361750] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.639546208] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.639621162] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.644193598] [flight_executor]: 0.25235 -0.080926 nan
+[INFO] [1744731466.644251045] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.644268661] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.659496010] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.659633501] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.664223241] [flight_executor]: 0.2522 -0.0807595 nan
+[INFO] [1744731466.664296616] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.664315268] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.679538685] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.679614226] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.684359138] [flight_executor]: 0.252084 -0.0805836 nan
+[INFO] [1744731466.684507540] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.684533949] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.699558699] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.699683627] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.704273695] [flight_executor]: 0.252019 -0.080423 nan
+[INFO] [1744731466.704363782] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.704381445] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.713505486] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731466.713597475] [state_subscriber]: offboard mode is active!
+[INFO] [1744731466.719502566] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.719608521] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.724199988] [flight_executor]: 0.251996 -0.0802581 nan
+[INFO] [1744731466.724260164] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.724281477] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.739606753] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.739714320] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.744213221] [flight_executor]: 0.251765 -0.0799713 nan
+[INFO] [1744731466.744309403] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.744329120] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.759522990] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.759677389] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.764280846] [flight_executor]: 0.251383 -0.0795818 nan
+[INFO] [1744731466.764380646] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.764404792] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.779573713] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.779680047] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.784190969] [flight_executor]: 0.251043 -0.0792143 nan
+[INFO] [1744731466.784247255] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.784267279] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.799514382] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.799599931] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.804193200] [flight_executor]: 0.250718 -0.0788379 nan
+[INFO] [1744731466.804242354] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.804258885] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.819523643] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.819592511] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.824364327] [flight_executor]: 0.250453 -0.0785081 nan
+[INFO] [1744731466.824460772] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.824482038] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.839514952] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.839623027] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.844304626] [flight_executor]: 0.250204 -0.0781687 nan
+[INFO] [1744731466.844421315] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.844444906] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.859677763] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.859808361] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.864229411] [flight_executor]: 0.249993 -0.077866 nan
+[INFO] [1744731466.864288390] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.864308371] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.879582182] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.879701446] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.884192110] [flight_executor]: 0.249804 -0.0775511 nan
+[INFO] [1744731466.884253036] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.884274481] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.899513893] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.899614390] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.904202392] [flight_executor]: 0.249667 -0.0772698 nan
+[INFO] [1744731466.904256967] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.904277050] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.919513296] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.919583419] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.924204729] [flight_executor]: 0.249558 -0.0769816 nan
+[INFO] [1744731466.924290430] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.924308784] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.933130909] [state_subscriber]: vehicle land detected!
+[INFO] [1744731466.939546422] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.939698475] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.944207102] [flight_executor]: 0.249481 -0.0767359 nan
+[INFO] [1744731466.944260560] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.944277252] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.959507642] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.959581005] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.964250087] [flight_executor]: 0.249417 -0.0764986 nan
+[INFO] [1744731466.964332743] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.964350266] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.969457565] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.098
+[INFO] [1744731466.979577088] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.979702512] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731466.984257260] [flight_executor]: 0.249357 -0.0762909 nan
+[INFO] [1744731466.984325766] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731466.984343596] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731466.999642345] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731466.999794032] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.004251480] [flight_executor]: 0.249291 -0.0760567 nan
+[INFO] [1744731467.004334740] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.004353797] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.019607933] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.019716703] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.024216561] [flight_executor]: 0.249242 -0.0758437 nan
+[INFO] [1744731467.024279556] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.024297142] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.039518928] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.039584763] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.044197776] [flight_executor]: 0.249208 -0.0756189 nan
+[INFO] [1744731467.044254216] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.044272146] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.059494730] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.059565904] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.064211647] [flight_executor]: 0.249187 -0.0754155 nan
+[INFO] [1744731467.064273089] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.064290196] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.079513332] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.079588520] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.084279063] [flight_executor]: 0.249172 -0.0752561 nan
+[INFO] [1744731467.084413779] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.084433942] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.099562614] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.099678651] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.104265725] [flight_executor]: 0.249167 -0.0750739 nan
+[INFO] [1744731467.104368264] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.104387240] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.119573999] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.119657913] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.124208668] [flight_executor]: 0.249167 -0.0749385 nan
+[INFO] [1744731467.124266821] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.124307900] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.139521370] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.139595052] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.144208041] [flight_executor]: 0.249014 -0.074588 nan
+[INFO] [1744731467.144265770] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.144283359] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.159503688] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.159570894] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.164249422] [flight_executor]: 0.248737 -0.0741065 nan
+[INFO] [1744731467.164345386] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.164364302] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.179570392] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.179680918] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.184219861] [flight_executor]: 0.24848 -0.0736689 nan
+[INFO] [1744731467.184281673] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.184301111] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.199498998] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.199576542] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.204210052] [flight_executor]: 0.248282 -0.0733187 nan
+[INFO] [1744731467.204293893] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.204312139] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.217216867] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731467.217272790] [state_subscriber]: offboard mode is active!
+[INFO] [1744731467.219495332] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.219552429] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.224253690] [flight_executor]: 0.248055 -0.0729011 nan
+[INFO] [1744731467.224342681] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.224361056] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.239581101] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.239690040] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.244351739] [flight_executor]: 0.247881 -0.0725325 nan
+[INFO] [1744731467.244484544] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.244506040] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.259697030] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.259874915] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.264189025] [flight_executor]: 0.247759 -0.0722266 nan
+[INFO] [1744731467.264245748] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.264263459] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.279515361] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.279590636] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.284193864] [flight_executor]: 0.247688 -0.0719748 nan
+[INFO] [1744731467.284240392] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.284246483] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.299517618] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.299593017] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.304274127] [flight_executor]: 0.247632 -0.0716573 nan
+[INFO] [1744731467.304348245] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.304369996] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.319518428] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.319587532] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.324224144] [flight_executor]: 0.247598 -0.0713812 nan
+[INFO] [1744731467.324294176] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.324312042] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.339586462] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.339692261] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.344208981] [flight_executor]: 0.247579 -0.0711531 nan
+[INFO] [1744731467.344279411] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.344297323] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.359519868] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.359595719] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.364252233] [flight_executor]: 0.247591 -0.070938 nan
+[INFO] [1744731467.364403755] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.364458525] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.369527539] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.106
+[INFO] [1744731467.379562358] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.379676543] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.384231991] [flight_executor]: 0.247625 -0.0707347 nan
+[INFO] [1744731467.384301050] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.384317892] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.399564545] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.399664469] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.404256917] [flight_executor]: 0.247698 -0.0705207 nan
+[INFO] [1744731467.404346434] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.404364699] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.419557154] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.419663635] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.424211258] [flight_executor]: 0.24778 -0.0703455 nan
+[INFO] [1744731467.424278543] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.424296406] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.439506548] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.439583790] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.444205427] [flight_executor]: 0.247895 -0.0701898 nan
+[INFO] [1744731467.444265625] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.444283610] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.459531073] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.459646884] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.464220466] [flight_executor]: 0.248018 -0.0700599 nan
+[INFO] [1744731467.464287976] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.464305336] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.479521676] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.479663777] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.484313686] [flight_executor]: 0.24817 -0.0699444 nan
+[INFO] [1744731467.484433036] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.484454002] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.499536813] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.499634992] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.504252806] [flight_executor]: 0.248323 -0.0698548 nan
+[INFO] [1744731467.504349057] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.504414392] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.519578687] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.519681042] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.524206499] [flight_executor]: 0.248509 -0.0697598 nan
+[INFO] [1744731467.524267356] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.524284910] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.539576008] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.539657836] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.544197888] [flight_executor]: 0.248497 -0.0697048 nan
+[INFO] [1744731467.544252337] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.544269725] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.559523488] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.559594858] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.564321959] [flight_executor]: 0.248384 -0.069673 nan
+[INFO] [1744731467.564429920] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.564449548] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.579590791] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.579713345] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.584209291] [flight_executor]: 0.248292 -0.0696593 nan
+[INFO] [1744731467.584269836] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.584287126] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.599514993] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.599601571] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.604189006] [flight_executor]: 0.248227 -0.0696575 nan
+[INFO] [1744731467.604239767] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.604256975] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.619497046] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.619562869] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.624276480] [flight_executor]: 0.248196 -0.0696554 nan
+[INFO] [1744731467.624400909] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.624421825] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.639537992] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.639626610] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.644322513] [flight_executor]: 0.248197 -0.0696485 nan
+[INFO] [1744731467.644454619] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.644474458] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.659601693] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.659720861] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.664211242] [flight_executor]: 0.248216 -0.069644 nan
+[INFO] [1744731467.664268552] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.664286716] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.679600587] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.679689603] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.684211689] [flight_executor]: 0.248277 -0.06964 nan
+[INFO] [1744731467.684271064] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.684288544] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.699512978] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.699590012] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.704209639] [flight_executor]: 0.248357 -0.0696356 nan
+[INFO] [1744731467.704269811] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.704317665] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.719521907] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.719594220] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.721724476] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731467.721777103] [state_subscriber]: offboard mode is active!
+[INFO] [1744731467.724238728] [flight_executor]: 0.248477 -0.0696517 nan
+[INFO] [1744731467.724314298] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.724331313] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.739564173] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.739671935] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.744164606] [flight_executor]: 0.248602 -0.0696858 nan
+[INFO] [1744731467.744207798] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.744225080] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.759499946] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.759578445] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.764306421] [flight_executor]: 0.248749 -0.0697527 nan
+[INFO] [1744731467.764417194] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.764435742] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.769930191] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.114
+[INFO] [1744731467.779507989] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.779578017] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.784200598] [flight_executor]: 0.248899 -0.0698219 nan
+[INFO] [1744731467.784260080] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.784277377] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.799682450] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.799777093] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.804258232] [flight_executor]: 0.249087 -0.0699086 nan
+[INFO] [1744731467.804344308] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.804363180] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.819584488] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.819707217] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.824207251] [flight_executor]: 0.249276 -0.0700195 nan
+[INFO] [1744731467.824265657] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.824283317] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.839525261] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.839600626] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.844210172] [flight_executor]: 0.249498 -0.07017 nan
+[INFO] [1744731467.844268075] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.844285963] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.859496405] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.859583632] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.864212326] [flight_executor]: 0.249709 -0.0703325 nan
+[INFO] [1744731467.864272564] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.864300344] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.877694444] [state_subscriber]: vehicle land detected!
+[INFO] [1744731467.879481495] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.879539921] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.884322548] [flight_executor]: 0.249955 -0.0705412 nan
+[INFO] [1744731467.884501969] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.884664129] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.899566667] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.899675454] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.904232721] [flight_executor]: 0.250226 -0.0707492 nan
+[INFO] [1744731467.904316279] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.904334655] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.919508282] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.919606490] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.924204933] [flight_executor]: 0.25057 -0.0709965 nan
+[INFO] [1744731467.924263725] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.924281237] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.939597627] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.939704578] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.944204325] [flight_executor]: 0.25087 -0.07119 nan
+[INFO] [1744731467.944261927] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.944279448] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.959507150] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.959578458] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.964312399] [flight_executor]: 0.251188 -0.0713618 nan
+[INFO] [1744731467.964418650] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.964436852] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.979565623] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.979665042] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731467.984201889] [flight_executor]: 0.251488 -0.0715122 nan
+[INFO] [1744731467.984258512] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731467.984275838] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731467.999501568] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731467.999577749] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.004180780] [flight_executor]: 0.251827 -0.0716829 nan
+[INFO] [1744731468.004234653] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.004252103] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.019504519] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.019576555] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.024316435] [flight_executor]: 0.252155 -0.0718361 nan
+[INFO] [1744731468.024414318] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.024431915] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.039512540] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.039576537] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.044286456] [flight_executor]: 0.252451 -0.0719669 nan
+[INFO] [1744731468.044391528] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.044410788] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.059631675] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.059757672] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.064206259] [flight_executor]: 0.252822 -0.0721232 nan
+[INFO] [1744731468.064266343] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.064283787] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.079572576] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.079681580] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.084209882] [flight_executor]: 0.253253 -0.0723184 nan
+[INFO] [1744731468.084294487] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.084313407] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.099525217] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.099603977] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.104204817] [flight_executor]: 0.253626 -0.0724971 nan
+[INFO] [1744731468.104268733] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.104286974] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.119514636] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.119582239] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.124239338] [flight_executor]: 0.254048 -0.0727127 nan
+[INFO] [1744731468.124327084] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.124346750] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.139565684] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.139678991] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.144197602] [flight_executor]: 0.254453 -0.0729095 nan
+[INFO] [1744731468.144251816] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.144269364] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.159569373] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.159648524] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.164226276] [flight_executor]: 0.254808 -0.0730798 nan
+[INFO] [1744731468.164304881] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.164322556] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.169900559] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.114
+[INFO] [1744731468.179509377] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.179582265] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.184271033] [flight_executor]: 0.255289 -0.0732912 nan
+[INFO] [1744731468.184370827] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.184392661] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.199605789] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.199725631] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.204242245] [flight_executor]: 0.255771 -0.0734894 nan
+[INFO] [1744731468.204326752] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.204344838] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.219623777] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.219717603] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.224219649] [flight_executor]: 0.256214 -0.0736737 nan
+[INFO] [1744731468.224283806] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.224302086] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.225759704] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731468.225793295] [state_subscriber]: offboard mode is active!
+[INFO] [1744731468.239521736] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.239595364] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.244239050] [flight_executor]: 0.256689 -0.0738931 nan
+[INFO] [1744731468.244317358] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.244336845] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.259500897] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.259576189] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.264221641] [flight_executor]: 0.257114 -0.0741124 nan
+[INFO] [1744731468.264295152] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.264350644] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.279514633] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.279583442] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.284355237] [flight_executor]: 0.257564 -0.0743628 nan
+[INFO] [1744731468.284499539] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.284520648] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.299578649] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.299685646] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.304239659] [flight_executor]: 0.257985 -0.0746045 nan
+[INFO] [1744731468.304309408] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.304328056] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.319512200] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.319596251] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.324209507] [flight_executor]: 0.258433 -0.0748833 nan
+[INFO] [1744731468.324269934] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.324287191] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.339602123] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.339725438] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.344207992] [flight_executor]: 0.258501 -0.0750391 nan
+[INFO] [1744731468.344268874] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.344286957] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.359606781] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.359684870] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.364253456] [flight_executor]: 0.258354 -0.0751383 nan
+[INFO] [1744731468.364343818] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.364361416] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.379569861] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.379674000] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.384200960] [flight_executor]: 0.258195 -0.0752321 nan
+[INFO] [1744731468.384260629] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.384278667] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.399518842] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.399596309] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.404196732] [flight_executor]: 0.258045 -0.0753599 nan
+[INFO] [1744731468.404256461] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.404274174] [flight_executor]: TAKEOFF set to user defined
+[INFO] [1744731468.419518890] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731468.419588445] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731468.424258208] [rclcpp]: signal_handler(signum=2)
+[INFO] [1744731468.424384991] [flight_executor]: 0.257925 -0.075499 nan
+[INFO] [1744731468.424472291] [flight_executor]: received TAKEOFF waypoint
+[INFO] [1744731468.424501751] [flight_executor]: TAKEOFF set to user defined

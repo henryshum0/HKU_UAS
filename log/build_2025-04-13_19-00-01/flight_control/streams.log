@@ -1,0 +1,266 @@
+[0.099s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.146s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.253s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.360s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.363s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.370s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.429s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.431s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.281s] -- Found px4_msgs: 2.0.1 (/home/henryshum0/SUAS/install/px4_msgs/share/px4_msgs/cmake)
+[2.294s] -- Found px4_ros_com: 0.1.0 (/home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake)
+[2.331s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.485s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.755s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.771s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.771s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.771s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.241s] -- Could NOT find FFTW (missing: FFTW_INCLUDE_DIRS) 
+[7.247s] [0mSetting matplotplusplus compiler options[0m
+[7.251s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.345s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.345s] -- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/flight_control/include>
+[7.345s] -- Configured cppcheck exclude dirs and/or files: 
+[7.357s] -- Added test 'lint_cmake' to check CMake code style
+[7.388s] -- Added test 'uncrustify' to check C / C++ code style
+[7.388s] -- Configured uncrustify additional arguments: 
+[7.392s] -- Added test 'xmllint' to check XML markup files
+[7.395s] -- Configuring done
+[7.471s] -- Generating done
+[7.487s] -- Build files have been written to: /home/henryshum0/SUAS/build/flight_control
+[7.506s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.507s] [35m[1mConsolidate compiler generated dependencies of target publish_trj_listener[0m
+[7.509s] [35m[1mConsolidate compiler generated dependencies of target vehicle_pos_listener[0m
+[7.509s] [35m[1mConsolidate compiler generated dependencies of target nodesoup[0m
+[7.510s] [35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[7.512s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.513s] [35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[7.516s] [35m[1mConsolidate compiler generated dependencies of target cmd_ack_listener[0m
+[7.520s] [  7%] Built target vehicle_pos_listener
+[7.521s] [ 10%] Built target nodesoup
+[7.525s] [ 13%] Built target publish_trj_listener
+[7.525s] [ 13%] Built target ament_cmake_python_copy_flight_control
+[7.525s] [ 15%] Built target sensor_combined_listener
+[7.530s] [ 17%] Built target cmd_ack_listener
+[7.535s] [ 25%] Built target flight_control_lib
+[7.543s] [35m[1mConsolidate compiler generated dependencies of target offboard_controller[0m
+[7.545s] [35m[1mConsolidate compiler generated dependencies of target matplot[0m
+[7.556s] [ 27%] Built target offboard_controller
+[7.572s] [ 68%] Built target matplot
+[7.668s] running egg_info
+[7.669s] writing flight_control.egg-info/PKG-INFO
+[7.669s] writing dependency_links to flight_control.egg-info/dependency_links.txt
+[7.669s] writing top-level names to flight_control.egg-info/top_level.txt
+[7.672s] reading manifest file 'flight_control.egg-info/SOURCES.txt'
+[7.672s] writing manifest file 'flight_control.egg-info/SOURCES.txt'
+[7.694s] [ 68%] Built target ament_cmake_python_build_flight_control_egg
+[7.722s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_generator_c[0m
+[7.727s] [ 69%] [32mBuilding C object CMakeFiles/flight_control__rosidl_generator_c.dir/rosidl_generator_c/flight_control/msg/detail/user_command__functions.c.o[0m
+[7.728s] [ 69%] Built target flight_control__cpp
+[7.734s] [ 72%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.734s] [ 72%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.734s] [ 72%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.792s] [ 73%] [32m[1mLinking C shared library libflight_control__rosidl_generator_c.so[0m
+[7.853s] [ 73%] Built target flight_control__rosidl_generator_c
+[7.858s] [ 76%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.859s] [ 76%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.859s] [ 77%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.939s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_introspection_cpp[0m
+[7.939s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_cpp[0m
+[7.948s] [ 78%] [32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flight_control/msg/detail/user_command__type_support.cpp.o[0m
+[7.948s] [ 79%] [32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flight_control/msg/user_command__type_support.cpp.o[0m
+[7.969s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_fastrtps_cpp[0m
+[7.977s] [ 80%] [32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flight_control/msg/detail/dds_fastrtps/user_command__type_support.cpp.o[0m
+[8.101s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_c[0m
+[8.108s] [ 81%] [32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/flight_control/msg/user_command__type_support.cpp.o[0m
+[8.113s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_introspection_c[0m
+[8.118s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_fastrtps_c[0m
+[8.120s] [ 82%] [32mBuilding C object CMakeFiles/flight_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flight_control/msg/detail/user_command__type_support.c.o[0m
+[8.126s] [ 83%] [32mBuilding CXX object CMakeFiles/flight_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flight_control/msg/detail/user_command__type_support_c.cpp.o[0m
+[8.133s] [ 84%] [32m[1mLinking CXX shared library libflight_control__rosidl_typesupport_c.so[0m
+[8.148s] [ 85%] [32m[1mLinking C shared library libflight_control__rosidl_typesupport_introspection_c.so[0m
+[8.220s] [ 85%] Built target flight_control__rosidl_typesupport_introspection_c
+[8.220s] [ 85%] Built target flight_control__rosidl_typesupport_c
+[8.235s] [ 86%] [32m[1mLinking CXX shared library libflight_control__rosidl_typesupport_cpp.so[0m
+[8.307s] [ 88%] [32m[1mLinking CXX shared library libflight_control__rosidl_typesupport_introspection_cpp.so[0m
+[8.310s] [ 88%] Built target flight_control__rosidl_typesupport_cpp
+[8.340s] [ 89%] [32m[1mLinking CXX shared library libflight_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.363s] [ 89%] Built target flight_control__rosidl_typesupport_introspection_cpp
+[8.375s] [ 90%] [32m[1mLinking CXX shared library libflight_control__rosidl_typesupport_fastrtps_c.so[0m
+[8.421s] [ 90%] Built target flight_control__rosidl_typesupport_fastrtps_cpp
+[8.453s] [ 90%] Built target flight_control__rosidl_typesupport_fastrtps_c
+[8.467s] [ 90%] Built target flight_control
+[8.480s] [ 91%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.778s] [ 91%] Built target flight_control__py
+[8.784s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_generator_py[0m
+[8.791s] [ 92%] [32mBuilding C object CMakeFiles/flight_control__rosidl_generator_py.dir/rosidl_generator_py/flight_control/msg/_user_command_s.c.o[0m
+[8.889s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/flight_control/libflight_control__rosidl_generator_py.so[0m
+[8.948s] [ 93%] Built target flight_control__rosidl_generator_py
+[8.954s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.954s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_c__pyext[0m
+[8.954s] [35m[1mConsolidate compiler generated dependencies of target flight_control__rosidl_typesupport_introspection_c__pyext[0m
+[8.961s] [ 96%] [32mBuilding C object CMakeFiles/flight_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flight_control/_flight_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.961s] [ 96%] [32mBuilding C object CMakeFiles/flight_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flight_control/_flight_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.961s] [ 96%] [32mBuilding C object CMakeFiles/flight_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flight_control/_flight_control_s.ep.rosidl_typesupport_c.c.o[0m
+[9.012s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/flight_control/flight_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.014s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/flight_control/flight_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.014s] [100%] [32m[1mLinking C shared library rosidl_generator_py/flight_control/flight_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.056s] [100%] Built target flight_control__rosidl_typesupport_c__pyext
+[9.056s] [100%] Built target flight_control__rosidl_typesupport_introspection_c__pyext
+[9.056s] [100%] Built target flight_control__rosidl_typesupport_fastrtps_c__pyext
+[9.064s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '0': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[9.070s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/henryshum0/SUAS/build/flight_control
+[9.074s] -- Install configuration: ""
+[9.074s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/rosidl_interfaces/flight_control
+[9.074s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control
+[9.074s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg
+[9.074s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_generator_c__visibility_control.h
+[9.074s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail
+[9.074s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__struct.h
+[9.075s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__functions.h
+[9.075s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__functions.c
+[9.075s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__type_support.h
+[9.075s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/user_command.h
+[9.075s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/library_path.sh
+[9.075s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/library_path.dsv
+[9.076s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_generator_c.so
+[9.076s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_generator_c.so" to ""
+[9.076s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control
+[9.077s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg
+[9.077s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.077s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail
+[9.077s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__rosidl_typesupport_fastrtps_c.h
+[9.077s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_fastrtps_c.so
+[9.077s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_fastrtps_c.so" to ""
+[9.078s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control
+[9.078s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg
+[9.078s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.078s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/user_command.hpp
+[9.078s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail
+[9.078s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__traits.hpp
+[9.079s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__struct.hpp
+[9.079s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__type_support.hpp
+[9.079s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__builder.hpp
+[9.079s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control
+[9.079s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg
+[9.079s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.079s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail
+[9.080s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.080s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/dds_fastrtps
+[9.080s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_fastrtps_cpp.so
+[9.080s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.081s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control
+[9.081s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg
+[9.081s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.081s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail
+[9.081s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__type_support.c
+[9.081s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__rosidl_typesupport_introspection_c.h
+[9.082s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_introspection_c.so
+[9.082s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_introspection_c.so" to ""
+[9.082s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_c.so
+[9.082s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_c.so" to ""
+[9.082s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control
+[9.083s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg
+[9.083s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail
+[9.083s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__rosidl_typesupport_introspection_cpp.hpp
+[9.083s] -- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/flight_control/msg/detail/user_command__type_support.cpp
+[9.083s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_introspection_cpp.so
+[9.084s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_introspection_cpp.so" to ""
+[9.084s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_cpp.so
+[9.084s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_typesupport_cpp.so" to ""
+[9.084s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/pythonpath.sh
+[9.084s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/pythonpath.dsv
+[9.085s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info
+[9.085s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info/top_level.txt
+[9.085s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.085s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.085s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control-0.0.0-py3.10.egg-info/PKG-INFO
+[9.085s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control
+[9.085s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.085s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/_flight_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.086s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/__init__.py
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/_user_command.py
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/_user_command_s.c
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/_flight_control_s.ep.rosidl_typesupport_introspection_c.c
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/libflight_control__rosidl_generator_py.so
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/__init__.py
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/_flight_control_s.ep.rosidl_typesupport_c.c
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.086s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.110s] Listing '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control'...
+[9.110s] Compiling '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/__init__.py'...
+[9.110s] Listing '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg'...
+[9.110s] Compiling '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/__init__.py'...
+[9.110s] Compiling '/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/msg/_user_command.py'...
+[9.113s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.113s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.113s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.114s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.114s] -- Installing: /home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.114s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/local/lib/python3.10/dist-packages/flight_control/flight_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.114s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_generator_py.so
+[9.114s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/libflight_control__rosidl_generator_py.so" to ""
+[9.115s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/msg/UserCommand.idl
+[9.115s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/msg/UserCommand.msg
+[9.115s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/offboard_controller
+[9.116s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/sensor_combined_listener
+[9.117s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/publish_trj_listener
+[9.118s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/vehicle_pos_listener
+[9.118s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/cmd_ack_listener
+[9.118s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib/utils.hpp
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/executor_storage.hpp
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/vehicle_state_storage.hpp
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/state_subscribers.hpp
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/flight_executor.hpp
+[9.119s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/control_publishers.hpp
+[9.120s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/lib/libflight_control_lib.so
+[9.120s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/package_run_dependencies/flight_control
+[9.120s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/parent_prefix_path/flight_control
+[9.120s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.sh
+[9.120s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.dsv
+[9.120s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.sh
+[9.120s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.dsv
+[9.120s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.bash
+[9.120s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.sh
+[9.120s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.zsh
+[9.120s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.dsv
+[9.120s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.dsv
+[9.121s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/packages/flight_control
+[9.121s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_cExport.cmake
+[9.121s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_cExport-noconfig.cmake
+[9.121s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_typesupport_fastrtps_cExport.cmake
+[9.121s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.121s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_cppExport.cmake
+[9.122s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.122s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.122s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_introspection_cExport.cmake
+[9.122s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.122s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_cExport.cmake
+[9.122s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_cExport-noconfig.cmake
+[9.122s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_introspection_cppExport.cmake
+[9.122s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.123s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_cppExport.cmake
+[9.123s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_control__rosidl_typesupport_cppExport-noconfig.cmake
+[9.123s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_pyExport.cmake
+[9.123s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/export_flight_control__rosidl_generator_pyExport-noconfig.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/rosidl_cmake-extras.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/ament_cmake_export_libraries-extras.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/ament_cmake_export_targets-extras.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig-version.cmake
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.xml
+[9.124s] -- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/matplot/detail/exports.h
+[9.126s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '0': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/henryshum0/SUAS/build/flight_control

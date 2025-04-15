@@ -23,6 +23,7 @@ add_library(flight_control_lib SHARED
   src/flight_control/control_publishers.cpp
   src/flight_control/state_subscribers.cpp
   src/flight_control/flight_executor.cpp
+  src/flight_control/input_parser.cpp
   src/vehicle_storage/vehicle_state_storage.cpp
   src/vehicle_storage/executor_storage.cpp
   src/lib/frame_conversion.cpp
@@ -32,6 +33,7 @@ ament_target_dependencies(flight_control_lib
   px4_msgs
   px4_ros_com  
   Eigen3
+  offboard_control_interfaces
 )
 target_include_directories(flight_control_lib PUBLIC 
 	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>

@@ -59,3 +59,7 @@ int ExecutorStorage::get_mission_count(MISSION mission)
     }
     return count;
 }
+int ExecutorStorage::get_waypoints_count()
+{
+    return this->waypoints.size();
+}

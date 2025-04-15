@@ -1,0 +1,17 @@
+[0.107s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[0.147s] [ 30%] Built target publish_trj_listener
+[0.147s] [ 30%] Built target sensor_combined_listener
+[0.162s] [ 38%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/state_subscribers.cpp.o[0m
+[0.162s] [ 46%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/control_publishers.cpp.o[0m
+[0.162s] [ 53%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o[0m
+[0.162s] [ 61%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/vehicle_storage/vehicle_state_storage.cpp.o[0m
+[3.264s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:[m[K In member function ‘[01m[Kbool FlightExecutor::checked_desired_actual(Eigen::Vector3f, float)[m[K’:
+[3.265s] [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:124:9:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.265s]   124 |         [01;31m[Kreturn[m[K;
+[3.265s]       |         [01;31m[K^~~~~~[m[K
+[3.790s] gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:104: CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o] Error 1
+[3.790s] gmake[2]: *** Waiting for unfinished jobs....
+[10.267s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/flight_control_lib.dir/all] Error 2
+[10.267s] gmake: *** [Makefile:146: all] Error 2
+[10.269s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '2': CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16

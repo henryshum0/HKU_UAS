@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o[0m
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:[m[K In member function ‘[01m[Kvoid FlightExecutor::checked_desired_actual()[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/flight_executor.cpp:123:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  123 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:104: CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/flight_control_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

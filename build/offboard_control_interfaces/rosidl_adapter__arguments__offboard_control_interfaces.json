@@ -1,0 +1,6 @@
+{
+  "package_name": "offboard_control_interfaces",
+  "non_idl_tuples": [
+    "/home/henryshum0/SUAS/src/offboard_control_interfaces:msg/UserCommand.msg"
+  ]
+}

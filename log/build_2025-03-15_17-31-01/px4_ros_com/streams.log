@@ -1,0 +1,64 @@
+[0.043s] Invoking command in '/home/henryshum0/SUAS/build/px4_ros_com': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/henryshum0/SUAS/build/px4_ros_com -- -j16 -l16
+[0.058s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.220s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.221s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.224s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.672s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.673s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.681s] -- Found px4_msgs: 2.0.1 (/home/henryshum0/SUAS/install/px4_msgs/share/px4_msgs/cmake)
+[2.687s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.697s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[2.700s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.745s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.747s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.747s] -- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/px4_ros_com/include/px4_ros_com>
+[2.747s] -- Configured cppcheck exclude dirs and/or files: 
+[2.749s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.749s] -- Configured cpplint exclude dirs and/or files: 
+[2.749s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.749s] -- Added test 'lint_cmake' to check CMake code style
+[2.750s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.751s] -- Added test 'uncrustify' to check C / C++ code style
+[2.751s] -- Configured uncrustify additional arguments: 
+[2.751s] -- Added test 'xmllint' to check XML markup files
+[2.752s] -- Configuring done
+[2.767s] -- Generating done
+[2.773s] -- Build files have been written to: /home/henryshum0/SUAS/build/px4_ros_com
+[2.790s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_srv[0m
+[2.791s] [35m[1mConsolidate compiler generated dependencies of target debug_vect_advertiser[0m
+[2.791s] [35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[2.791s] [35m[1mConsolidate compiler generated dependencies of target frame_transforms[0m
+[2.791s] [35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[2.791s] [35m[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener[0m
+[2.802s] [  8%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[2.803s] [ 25%] Built target debug_vect_advertiser
+[2.803s] [ 41%] Built target sensor_combined_listener
+[2.804s] [ 58%] Built target vehicle_gps_position_listener
+[2.804s] [ 66%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[2.806s] [ 66%] Built target ament_cmake_python_copy_px4_ros_com
+[2.806s] [ 83%] Built target offboard_control_srv
+[2.958s] running egg_info
+[2.958s] writing px4_ros_com.egg-info/PKG-INFO
+[2.958s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[2.958s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[2.960s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[2.961s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[2.984s] [ 83%] Built target ament_cmake_python_build_px4_ros_com_egg
+[3.007s] In file included from [01m[K/home/henryshum0/SUAS/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:52[m[K:
+[3.007s] [01m[K/home/henryshum0/SUAS/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:50:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/point.hpp: No such file or directory
+[3.007s]    50 | #include [01;31m[K<geometry_msgs/msg/point.hpp>[m[K
+[3.007s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.007s] compilation terminated.
+[3.009s] gmake[2]: *** [CMakeFiles/offboard_control.dir/build.make:76: CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o] Error 1
+[3.009s] gmake[1]: *** [CMakeFiles/Makefile2:254: CMakeFiles/offboard_control.dir/all] Error 2
+[3.009s] gmake[1]: *** Waiting for unfinished jobs....
+[7.469s] [ 91%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[7.672s] [ 91%] Built target frame_transforms
+[7.672s] gmake: *** [Makefile:146: all] Error 2
+[7.674s] Invoked command in '/home/henryshum0/SUAS/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/henryshum0/SUAS/build/px4_ros_com -- -j16 -l16

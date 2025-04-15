@@ -1,0 +1,6 @@
+{
+  "package_name": "flight_control",
+  "non_idl_tuples": [
+    "/home/henryshum0/SUAS/src/flight_control:msg/UserCommand.msg"
+  ]
+}

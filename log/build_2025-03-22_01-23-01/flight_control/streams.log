@@ -1,0 +1,70 @@
+[0.071s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/henryshum0/SUAS/src/flight_control -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/flight_control
+[0.137s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.435s] -- Detecting C compiler ABI info
+[0.505s] -- Detecting C compiler ABI info - done
+[0.509s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.509s] -- Detecting C compile features
+[0.510s] -- Detecting C compile features - done
+[0.512s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.588s] -- Detecting CXX compile features
+[0.588s] -- Detecting CXX compile features - done
+[0.590s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.687s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.740s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.814s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.816s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.821s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.827s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.863s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.864s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.495s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.124s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.061s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.065s] -- Looking for pthread.h
+[3.129s] -- Looking for pthread.h - found
+[3.129s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.197s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.198s] -- Found Threads: TRUE  
+[3.229s] -- Found px4_msgs: 2.0.1 (/home/henryshum0/SUAS/install/px4_msgs/share/px4_msgs/cmake)
+[3.237s] -- Found px4_ros_com: 0.1.0 (/home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake)
+[3.265s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.267s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.315s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.315s] -- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/flight_control/include>
+[3.315s] -- Configured cppcheck exclude dirs and/or files: 
+[3.316s] -- Added test 'lint_cmake' to check CMake code style
+[3.317s] -- Added test 'uncrustify' to check C / C++ code style
+[3.317s] -- Configured uncrustify additional arguments: 
+[3.318s] -- Added test 'xmllint' to check XML markup files
+[3.319s] -- Configuring done
+[3.332s] -- Generating done
+[3.335s] -- Build files have been written to: /home/henryshum0/SUAS/build/flight_control
+[3.343s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '0': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/henryshum0/SUAS/src/flight_control -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/flight_control
+[3.344s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[3.373s] [ 16%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_mode.cpp.o[0m
+[3.373s] [ 33%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/take_off_mode.cpp.o[0m
+[3.373s] [ 50%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/lib/frame_conversion.cpp.o[0m
+[5.311s] In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+[5.311s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:6[m[K,
+[5.311s]                  from [01m[K/home/henryshum0/SUAS/src/flight_control/src/flight_mode.cpp:1[m[K:
+[5.311s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:9:5:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[5.311s]     9 |     [01;31m[K{[m[K
+[5.311s]       |     [01;31m[K^[m[K
+[5.317s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kflight_control[m[K’ was not declared in this scope
+[5.317s]    11 |         TakeoffMode(std::shared_ptr<[01;31m[Kflight_control[m[K::OffboardController> offboard_controller, float takeoff_height);
+[5.317s]       |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.317s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.317s]    11 |         TakeoffMode(std::shared_ptr<flight_control::OffboardController[01;31m[K>[m[K offboard_controller, float takeoff_height);
+[5.317s]       |                                                                       [01;31m[K^[m[K
+[5.318s] [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+[5.318s]    17 |         [01;31m[KVector3f[m[K target_pos;
+[5.318s]       |         [01;31m[K^~~~~~~~[m[K
+[5.751s] gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:76: CMakeFiles/flight_control_lib.dir/src/flight_mode.cpp.o] Error 1
+[5.752s] gmake[2]: *** Waiting for unfinished jobs....
+[5.809s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/flight_control_lib.dir/all] Error 2
+[5.809s] gmake: *** [Makefile:146: all] Error 2
+[5.811s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '2': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16

@@ -1,0 +1,146 @@
+[0.035s] Invoking command in '/home/henryshum0/SUAS/build/px4_ros_com': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/henryshum0/SUAS/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/px4_ros_com
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.264s] -- The CXX compiler identification is GNU 11.4.0
+[0.381s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.447s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.546s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.547s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.631s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.686s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.767s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.769s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.774s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.789s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.832s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.835s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.409s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.978s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.844s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.852s] -- Looking for pthread.h
+[2.918s] -- Looking for pthread.h - found
+[2.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.986s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.987s] -- Found Threads: TRUE  
+[3.031s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.035s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.036s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.048s] -- Found px4_msgs: 2.0.1 (/home/henryshum0/SUAS/install/px4_msgs/share/px4_msgs/cmake)
+[3.055s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.070s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[3.076s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.135s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.140s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.140s] -- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/px4_ros_com/include/px4_ros_com>
+[3.140s] -- Configured cppcheck exclude dirs and/or files: 
+[3.142s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.142s] -- Configured cpplint exclude dirs and/or files: 
+[3.143s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.144s] -- Added test 'lint_cmake' to check CMake code style
+[3.145s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.147s] -- Added test 'uncrustify' to check C / C++ code style
+[3.147s] -- Configured uncrustify additional arguments: 
+[3.147s] -- Added test 'xmllint' to check XML markup files
+[3.149s] -- Configuring done
+[3.171s] -- Generating done
+[3.176s] -- Build files have been written to: /home/henryshum0/SUAS/build/px4_ros_com
+[3.183s] Invoked command in '/home/henryshum0/SUAS/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/henryshum0/SUAS/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/px4_ros_com
+[3.184s] Invoking command in '/home/henryshum0/SUAS/build/px4_ros_com': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/henryshum0/SUAS/build/px4_ros_com -- -j16 -l16
+[3.208s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[3.208s] [ 16%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[3.208s] [ 25%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[3.210s] [ 33%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[3.210s] [ 41%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[3.211s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[3.216s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[3.369s] running egg_info
+[3.369s] creating px4_ros_com.egg-info
+[3.370s] writing px4_ros_com.egg-info/PKG-INFO
+[3.370s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[3.370s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[3.371s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.372s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.372s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.400s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[6.864s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[7.191s] [ 58%] Built target debug_vect_advertiser
+[7.496s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[7.713s] [ 66%] Built target offboard_control
+[8.172s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[8.386s] [ 75%] Built target offboard_control_srv
+[9.086s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[9.290s] [ 83%] Built target frame_transforms
+[9.777s] [ 91%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[9.801s] [100%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[10.067s] [100%] Built target sensor_combined_listener
+[10.081s] [100%] Built target vehicle_gps_position_listener
+[10.087s] Invoked command in '/home/henryshum0/SUAS/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/henryshum0/SUAS/build/px4_ros_com -- -j16 -l16
+[10.088s] Invoking command in '/home/henryshum0/SUAS/build/px4_ros_com': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/henryshum0/SUAS/build/px4_ros_com
+[10.091s] -- Install configuration: ""
+[10.092s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[10.094s] -- Set runtime path of "/home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[10.095s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[10.096s] -- Set runtime path of "/home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[10.096s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[10.097s] -- Set runtime path of "/home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[10.097s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[10.098s] -- Set runtime path of "/home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[10.098s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[10.099s] -- Set runtime path of "/home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[10.099s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[10.100s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[10.100s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/include/px4_ros_com
+[10.100s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[10.100s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/lib/libframe_transforms.so
+[10.102s] -- Set runtime path of "/home/henryshum0/SUAS/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[10.102s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//launch
+[10.102s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[10.102s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[10.102s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test
+[10.103s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[10.103s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[10.103s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[10.103s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[10.103s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[10.103s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[10.103s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[10.104s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[10.104s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[10.104s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[10.104s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[10.104s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[10.104s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[10.104s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[10.123s] Listing '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[10.123s] Compiling '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[10.123s] Compiling '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[10.126s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[10.127s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/package.dsv
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[10.128s] -- Installing: /home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/package.xml
+[10.130s] Invoked command in '/home/henryshum0/SUAS/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/henryshum0/SUAS/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/henryshum0/SUAS/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/henryshum0/SUAS/build/px4_ros_com

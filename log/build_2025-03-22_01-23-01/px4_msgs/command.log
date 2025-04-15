@@ -1,0 +1,6 @@
+Invoking command in '/home/henryshum0/SUAS/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/henryshum0/SUAS/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/px4_msgs
+Invoked command in '/home/henryshum0/SUAS/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/henryshum0/SUAS/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/px4_msgs
+Invoking command in '/home/henryshum0/SUAS/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/px4_msgs -- -j16 -l16
+Invoked command in '/home/henryshum0/SUAS/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/px4_msgs -- -j16 -l16
+Invoking command in '/home/henryshum0/SUAS/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/henryshum0/SUAS/build/px4_msgs
+Invoked command in '/home/henryshum0/SUAS/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/henryshum0/SUAS/build/px4_msgs

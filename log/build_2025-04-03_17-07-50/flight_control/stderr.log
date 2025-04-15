@@ -1,0 +1,147 @@
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h: In instantiation of ‘[01m[Kauto matplot::plot(matplot::NotAxesHandle<T>, Args&& ...) [with T1 = float; Args = {float&}; matplot::NotAxesHandle<T> = float][m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:54:22:[m[K   required from here
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmatplot::axes_type::plot(matplot::NotAxesHandle<float>&, float&)[m[K’
+   37 |         return [01;31m[Kgca()->plot(x, std::forward<Args>(args)...)[m[K;
+      |                [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:670:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> auto matplot::axes_type::plot(const std::vector<double>&, const std::vector<double>&, std::string_view, Args&& ...)[m[K’
+  670 |         auto [01;36m[Kplot[m[K(const std::vector<double> &x, const std::vector<double> &y,
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:670:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K [01;36m[Knote: [m[K  candidate expects at least 3 arguments, 2 provided
+   37 |         return [01;36m[Kgca()->plot(x, std::forward<Args>(args)...)[m[K;
+      |                [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:696:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> auto matplot::axes_type::plot(const std::vector<double>&, const std::vector<double>&, const std::vector<double>&, Args&& ...)[m[K’
+  696 |         auto [01;36m[Kplot[m[K(const std::vector<double> &x, const std::vector<double> &y,
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:696:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K [01;36m[Knote: [m[K  candidate expects at least 3 arguments, 2 provided
+   37 |         return [01;36m[Kgca()->plot(x, std::forward<Args>(args)...)[m[K;
+      |                [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:721:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> auto matplot::axes_type::plot(const std::vector<double>&, std::string_view, Args&& ...)[m[K’
+  721 |         auto [01;36m[Kplot[m[K(const std::vector<double> &y, std::string_view line_spec,
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:721:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:28:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kx[m[K’ (type ‘[01m[Kmatplot::NotAxesHandle<float>[m[K’ {aka ‘[01m[Kfloat[m[K’}) to type ‘[01m[Kconst std::vector<double>&[m[K’
+   37 |         return gca()->plot([01;36m[Kx[m[K, std::forward<Args>(args)...);
+      |                            [01;36m[K^[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1771:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2> matplot::line_handle matplot::axes_type::plot(matplot::IterableValues<T1>&, matplot::IterableValues<T2>&, std::string_view)[m[K’
+ 1771 |         line_handle [01;36m[Kplot[m[K(const IterableValues<T1> &x,
+      |                     [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1771:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/util/common.h:14[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:9[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/util/concepts.h: In substitution of ‘[01m[Ktemplate<class T, bool C> using TypeConcept = matplot::type_concept<T, typename std::enable_if<C, void>::type> [with T = float; bool C = false][m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/util/concepts.h:96:11:[m[K   required by substitution of ‘[01m[Ktemplate<class T> using IterableValues = matplot::TypeConcept<T, is_iterable_value_v<typename std::decay<_Tp>::type> > [with T = float][m[K’
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1771:21:[m[K   required by substitution of ‘[01m[Ktemplate<class T1, class T2> matplot::line_handle matplot::axes_type::plot(matplot::IterableValues<T1>&, matplot::IterableValues<T2>&, std::string_view) [with T1 = float; T2 = float][m[K’
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K   required from ‘[01m[Kauto matplot::plot(matplot::NotAxesHandle<T>, Args&& ...) [with T1 = float; Args = {float&}; matplot::NotAxesHandle<T> = float][m[K’
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:54:22:[m[K   required from here
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/util/concepts.h:19:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+   19 |     using [01;31m[KTypeConcept[m[K = type_concept<T, typename std::enable_if_t<C>>;
+      |           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h: In instantiation of ‘[01m[Kauto matplot::plot(matplot::NotAxesHandle<T>, Args&& ...) [with T1 = float; Args = {float&}; matplot::NotAxesHandle<T> = float][m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:54:22:[m[K   required from here
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1778:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1> matplot::line_handle matplot::axes_type::plot(matplot::IterableValues<T1>&, std::string_view)[m[K’
+ 1778 |         line_handle [01;36m[Kplot[m[K(const IterableValues<T1> &y,
+      |                     [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1778:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<float&>((* & args#0))[m[K’ (type ‘[01m[Kfloat[m[K’) to type ‘[01m[Kstd::string_view[m[K’ {aka ‘[01m[Kstd::basic_string_view<char>[m[K’}
+   37 |         return [01;36m[Kgca()->plot(x, std::forward<Args>(args)...)[m[K;
+      |                [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1784:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2, class ... Args> auto matplot::axes_type::plot(matplot::IterableValues<T1>&, matplot::IterableValues<T2>&, std::string_view, Args&& ...)[m[K’
+ 1784 |         auto [01;36m[Kplot[m[K(const IterableValues<T1> &x, const IterableValues<T2> &y,
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1784:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K [01;36m[Knote: [m[K  candidate expects at least 3 arguments, 2 provided
+   37 |         return [01;36m[Kgca()->plot(x, std::forward<Args>(args)...)[m[K;
+      |                [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1791:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2, class T3, class ... Args> auto matplot::axes_type::plot(matplot::IterableValues<T1>&, matplot::IterableValues<T2>&, matplot::IterableValues<T3>&, Args&& ...)[m[K’
+ 1791 |         auto [01;36m[Kplot[m[K(const IterableValues<T1> &x, const IterableValues<T2> &y,
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1791:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K [01;36m[Knote: [m[K  candidate expects at least 3 arguments, 2 provided
+   37 |         return [01;36m[Kgca()->plot(x, std::forward<Args>(args)...)[m[K;
+      |                [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1798:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class ... Args> auto matplot::axes_type::plot(matplot::IterableValues<T1>&, std::string_view, Args&& ...)[m[K’
+ 1798 |         auto [01;36m[Kplot[m[K(const IterableValues<T1> &y, std::string_view line_spec,
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1798:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<float&>((* & args#0))[m[K’ (type ‘[01m[Kfloat[m[K’) to type ‘[01m[Kstd::string_view[m[K’ {aka ‘[01m[Kstd::basic_string_view<char>[m[K’}
+   37 |         return [01;36m[Kgca()->plot(x, std::forward<Args>(args)...)[m[K;
+      |                [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1805:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2> std::vector<std::shared_ptr<matplot::line> > matplot::axes_type::plot(matplot::IterableValues<T1>&, matplot::IterableIterables<T2>&, std::string_view)[m[K’
+ 1805 |         std::vector<line_handle> [01;36m[Kplot[m[K(const IterableValues<T1> &x,
+      |                                  [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1805:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1812:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1> std::vector<std::shared_ptr<matplot::line> > matplot::axes_type::plot(matplot::IterableIterables<T1>&, std::string_view)[m[K’
+ 1812 |         std::vector<line_handle> [01;36m[Kplot[m[K(const IterableIterables<T1> &Y,
+      |                                  [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:1812:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:49[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/freestanding/plot.h:37:27:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<float&>((* & args#0))[m[K’ (type ‘[01m[Kfloat[m[K’) to type ‘[01m[Kstd::string_view[m[K’ {aka ‘[01m[Kstd::basic_string_view<char>[m[K’}
+   37 |         return [01;36m[Kgca()->plot(x, std::forward<Args>(args)...)[m[K;
+      |                [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/matplot.h:22[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/test.cpp:5[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:651:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmatplot::line_handle matplot::axes_type::plot(const std::vector<double>&, const std::vector<double>&, std::string_view)[m[K’
+  651 |         line_handle [01;36m[Kplot[m[K(const std::vector<double> &x,
+      |                     [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:651:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmatplot::NotAxesHandle<float>[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kconst std::vector<double>&[m[K’
+  651 |         line_handle plot([01;36m[Kconst std::vector<double> &x[m[K,
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:656:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmatplot::line_handle matplot::axes_type::plot(const std::vector<double>&, std::string_view)[m[K’
+  656 |         line_handle [01;36m[Kplot[m[K(const std::vector<double> &y,
+      |                     [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:656:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmatplot::NotAxesHandle<float>[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kconst std::vector<double>&[m[K’
+  656 |         line_handle plot([01;36m[Kconst std::vector<double> &y[m[K,
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:737:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::shared_ptr<matplot::line> > matplot::axes_type::plot(const std::vector<double>&, const std::vector<std::vector<double> >&, std::string_view)[m[K’
+  737 |         std::vector<line_handle> [01;36m[Kplot[m[K(const std::vector<double> &x,
+      |                                  [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:737:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmatplot::NotAxesHandle<float>[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kconst std::vector<double>&[m[K’
+  737 |         std::vector<line_handle> plot([01;36m[Kconst std::vector<double> &x[m[K,
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:742:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::shared_ptr<matplot::line> > matplot::axes_type::plot(const std::vector<std::vector<double> >&, std::string_view)[m[K’
+  742 |         std::vector<line_handle> [01;36m[Kplot[m[K(const std::vector<std::vector<double>> &Y,
+      |                                  [01;36m[K^~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/matplotplusplus/source/matplot/core/axes_type.h:742:79:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmatplot::NotAxesHandle<float>[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kconst std::vector<std::vector<double> >&[m[K’
+  742 |         std::vector<line_handle> plot([01;36m[Kconst std::vector<std::vector<double>> &Y[m[K,
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+gmake[2]: *** [CMakeFiles/test_function.dir/build.make:76: CMakeFiles/test_function.dir/src/test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/test_function.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

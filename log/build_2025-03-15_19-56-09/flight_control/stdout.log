@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target frame_conversion[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/frame_conversion.dir/src/lib/frame_conversion.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libframe_conversion.so[0m
+[ 50%] Built target frame_conversion
+[35m[1mConsolidate compiler generated dependencies of target test_functions[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_functions.dir/src/test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_functions[0m
+[100%] Built target test_functions
+-- Install configuration: ""
+-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/test_functions
+-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/flight_control/test_functions" to ""
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/package_run_dependencies/flight_control
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/parent_prefix_path/flight_control
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.sh
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.dsv
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.sh
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.dsv
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.bash
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.sh
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.zsh
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.dsv
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.dsv
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/packages/flight_control
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig.cmake
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig-version.cmake
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.xml

@@ -1,0 +1,149 @@
+[0.006s] Invoking command in '/home/henryshum0/SUAS/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/henryshum0/SUAS/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/px4_msgs
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.241s] -- The CXX compiler identification is GNU 11.4.0
+[0.367s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.435s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.437s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.512s] -- Detecting CXX compile features
+[0.513s] -- Detecting CXX compile features - done
+[0.514s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.602s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.652s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.723s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.725s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.730s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.752s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.715s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.716s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.717s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.719s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.964s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.120s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.120s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.275s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.275s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.275s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.275s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.288s] -- Found PythonExtra: .so  
+[2.339s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.340s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.348s] -- Configuring done
+[2.569s] -- Generating done
+[2.593s] -- Build files have been written to: /home/henryshum0/SUAS/build/px4_msgs
+[2.606s] Invoked command in '/home/henryshum0/SUAS/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/henryshum0/SUAS/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/px4_msgs
+[2.607s] Invoking command in '/home/henryshum0/SUAS/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/px4_msgs -- -j16 -l16
+[2.919s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.922s] [  0%] Built target ament_cmake_python_copy_px4_msgs
+[2.932s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.052s] running egg_info
+[3.052s] creating px4_msgs.egg-info
+[3.052s] writing px4_msgs.egg-info/PKG-INFO
+[3.053s] writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+[3.053s] writing top-level names to px4_msgs.egg-info/top_level.txt
+[3.053s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[3.054s] reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[3.054s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[3.072s] [  0%] Built target ament_cmake_python_build_px4_msgs_egg
+[8.985s] Traceback (most recent call last):
+[8.985s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[8.986s] gmake[2]: *** Deleting file 'rosidl_generator_cpp/px4_msgs/msg/action_request.hpp'
+[8.986s] gmake[2]: *** Deleting file 'rosidl_generator_c/px4_msgs/msg/action_request.h'
+[8.986s] Traceback (most recent call last):
+[8.986s]     sys.exit(main())
+[8.986s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[8.986s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[8.986s]     generate_cpp(args.generator_arguments_file)
+[8.986s]     sys.exit(main())
+[8.986s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[8.986s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 39, in generate_cpp
+[8.987s]     generate_c(args.generator_arguments_file)
+[8.987s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[8.987s]     return generate_files(
+[8.987s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[8.987s]     return generate_files(
+[8.987s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[8.987s]     idl_file = parse_idl_file(locator)
+[8.987s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[8.987s]     content = parse_idl_string(string, png_file=png_file)
+[8.987s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[8.988s]     expand_template(
+[8.988s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[8.988s]     interpreter.string(template_content, template_path, locals=data)
+[8.988s]     tree = get_ast_from_idl_string(idl_string)
+[8.988s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[8.988s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[8.988s]     return _parser.parse(idl_string)
+[8.988s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[8.988s]     return self.parser.parse(text, start=start, on_error=on_error)
+[8.988s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[8.988s]     return self.parser.parse(stream, chosen_start, **kw)
+[8.988s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[8.988s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[8.988s]     self.safe(scanner, True, locals)
+[8.988s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+[8.988s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[8.988s]     self.predict_and_complete(i, to_scan, columns, transitives)
+[8.988s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 122, in predict_and_complete
+[8.988s]     originators = [originator for originator in columns[item.start] if originator.expect is not None and originator.expect == item.s]
+[8.988s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 122, in <listcomp>
+[8.988s]     originators = [originator for originator in columns[item.start] if originator.expect is not None and originator.expect == item.s]
+[8.988s]   File "/usr/lib/python3/dist-packages/lark/grammar.py", line 20, in __eq__
+[8.988s]     return self.is_term == other.is_term and self.name == other.name
+[8.988s]   File "/usr/lib/python3/dist-packages/lark/lexer.py", line 192, in __eq__
+[8.988s]     self.parse(scanner, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[8.989s]     token.run(self, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[8.989s]     self.subrun(info[0][1], interpreter, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[8.989s]     token.run(interpreter, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[8.989s]     if isinstance(other, Token) and self.type != other.type:
+[8.989s] KeyboardInterrupt
+[8.989s]     interpreter.execute(self.code, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[8.989s]     _exec(statements, self.globals, locals)
+[8.989s]   File "<string>", line 2, in <module>
+[8.989s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[8.989s]     interpreter.string(content, str(template_path), kwargs)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[8.989s]     self.safe(scanner, True, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[8.989s]     self.parse(scanner, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[8.989s]     token.run(self, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 1527, in run
+[8.989s]     self.subrun(subtokens, interpreter, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[8.989s]     token.run(interpreter, locals)
+[8.989s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[8.989s]     self.subrun(info[0][1], interpreter, locals)
+[8.990s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[8.990s]     token.run(interpreter, locals)
+[8.990s]   File "/usr/lib/python3/dist-packages/em.py", line 1333, in run
+[8.990s]     result = interpreter.evaluate(self.testCode, locals)
+[8.990s]   File "/usr/lib/python3/dist-packages/em.py", line 2573, in evaluate
+[8.990s]     result = eval(expression, self.globals, locals)
+[8.990s]   File "<string>", line 1, in <module>
+[8.990s] KeyboardInterrupt
+[9.004s] Exception ignored in: <function Interpreter.__del__ at 0x7fa64fa97e20>
+[9.004s] Traceback (most recent call last):
+[9.004s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[9.004s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[9.004s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[9.004s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[9.004s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[9.010s] gmake[2]: *** [CMakeFiles/px4_msgs__cpp.dir/build.make:1427: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp] Interrupt
+[9.010s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/px4_msgs__cpp.dir/all] Interrupt
+[9.013s] gmake[2]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/build.make:311: rosidl_generator_c/px4_msgs/msg/action_request.h] Interrupt
+[9.014s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/px4_msgs__rosidl_generator_c.dir/all] Interrupt
+[9.014s] gmake: *** [Makefile:146: all] Interrupt
+[9.015s] Invoked command in '/home/henryshum0/SUAS/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/px4_msgs -- -j16 -l16

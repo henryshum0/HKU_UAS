@@ -1,0 +1,2846 @@
+[INFO] [1744731216.410579280] [state_subscriber]: state storage initialized 
+home[lon, lat, AMSL]: 8.54561 47.3978 488.102
+pos: 0.00835978 -0.00343876 0.046814
+heading: 0.0747561
+[INFO] [1744731216.420031189] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.420152932] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.424428216] [flight_executor]: vehicle state initialized, ready to execute
+[INFO] [1744731216.424807279] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731216.424847194] [state_subscriber]: offboard mode is active!
+[INFO] [1744731216.425024244] [state_subscriber]: vehicle land detected!
+[INFO] [1744731216.439893584] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.439979137] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.459862670] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.459930782] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.479792760] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.479858944] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.500118826] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.500234014] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.519926456] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.520026523] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.539923434] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.540025911] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.559944822] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.560024640] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.579969809] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.580070675] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.597513168] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.109
+[INFO] [1744731216.599854604] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.599903877] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.619967055] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.620041247] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.639914174] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.640024750] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.659959704] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.660064716] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.679921326] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.680023374] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.699957242] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.700066407] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.719925157] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.720018731] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.739947470] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.740047762] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.759995574] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.760116307] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.779852184] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.779921249] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.799841145] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.799950334] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.819906912] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.820006741] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.839883908] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.839970083] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.859876625] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.859954182] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.879797384] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.879863794] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.899964509] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.900075577] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.919859060] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.919943359] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.930642003] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731216.930789656] [state_subscriber]: offboard mode is active!
+[INFO] [1744731216.939799816] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.939897976] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.959946259] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.960021669] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.979839395] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.979925338] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731216.998266629] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.102
+[INFO] [1744731216.999925169] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731216.999999659] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.019888475] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.019981928] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.039844236] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.039909492] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.059874181] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.059973424] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.079823922] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.079894251] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.099874908] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.099967963] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.119841075] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.119902115] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.139923526] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.140031353] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.160013121] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.160186534] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.179831622] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.179893329] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.199831887] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.199895810] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.219896738] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.220083793] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.239801499] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.239879301] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.259777706] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.259841397] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.279847161] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.279932744] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.300018079] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.300157068] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.319873804] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.319978186] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.339774216] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.339839107] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.359884981] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.359956404] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.379832765] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.379913276] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.398956892] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.105
+[INFO] [1744731217.399846090] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.399894428] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.419932394] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.420072462] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.426990178] [state_subscriber]: vehicle land detected!
+[INFO] [1744731217.434504663] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731217.434560669] [state_subscriber]: offboard mode is active!
+[INFO] [1744731217.439958691] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.440056942] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.459862918] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.459959780] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.479833988] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.479896688] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.499887244] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.499952799] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.519776865] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.519842824] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.539844721] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.539917165] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.560091177] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.560243529] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.579895947] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.579985659] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.599797951] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.599862703] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.619955787] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.620044667] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.639894238] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.640001755] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.659776709] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.659847142] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.679778843] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.679850765] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.700175320] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.700326514] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.719912236] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.719994738] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.739791864] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.739865681] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.759963759] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.760067704] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.779929957] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.780018231] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.799084315] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.101
+[INFO] [1744731217.799798451] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.799866990] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.819842663] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.819917660] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.839893169] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.839976365] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.859895276] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.859981433] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.879853936] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.879941759] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.899881580] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.899943686] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.919829793] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.919888145] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.939101155] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731217.939164910] [state_subscriber]: offboard mode is active!
+[INFO] [1744731217.939908107] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.939981926] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.960037504] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.960170211] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.979803867] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.979881773] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731217.999773210] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731217.999840655] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.019922630] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.020049115] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.040022609] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.040186420] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.059778838] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.059847269] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.079845920] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.079908917] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.099804123] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.099912611] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.119783683] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.119868964] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.139791168] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.139889896] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.159841875] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.159917307] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.179809674] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.179898338] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.198957036] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.1
+[INFO] [1744731218.199801126] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.199872523] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.219810293] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.219905139] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.239777924] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.239846198] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.259829192] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.259923682] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.279858181] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.279937506] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.299836486] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.299896942] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.319791216] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.319856153] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.339787329] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.339885983] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.359775266] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.359838143] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.379769157] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.379828766] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.399901056] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.399995099] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.420004567] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.420185419] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.426457312] [state_subscriber]: vehicle land detected!
+[INFO] [1744731218.439856986] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.439926775] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.442714326] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731218.442758872] [state_subscriber]: offboard mode is active!
+[INFO] [1744731218.459772054] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.459831221] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.479796145] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.479861285] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.499848077] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.499924762] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.519833665] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.519917362] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.539853957] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.539914445] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.559832479] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.559892408] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.579850624] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.579955276] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.598573584] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.108
+[INFO] [1744731218.599798288] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.599856786] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.619910174] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.620047571] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.639869577] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.639968880] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.659883190] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.659974110] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.679897997] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.680107793] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.699778183] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.699834382] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.719798291] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.719900993] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.739886181] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.739967501] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.759809610] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.759918973] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.779878744] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.779959767] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.799792635] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.799874750] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.819905490] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.820006765] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.839851618] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.839914116] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.859783806] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.859860444] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.879828811] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.879888631] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.899899776] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.899981199] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.919801215] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.919885528] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.939796796] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.939921889] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.946310098] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731218.946353904] [state_subscriber]: offboard mode is active!
+[INFO] [1744731218.959791390] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.959888566] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.979894645] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.979981653] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731218.998838819] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.114
+[INFO] [1744731218.999823682] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731218.999872375] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.019908756] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.020020900] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.039847113] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.039929760] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.059912955] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.060009187] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.079854472] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.079922369] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.099854026] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.099919670] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.119855873] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.119931482] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.139841628] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.139924578] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.159810461] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.159896881] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.179883317] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.179966777] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.199850918] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.199924702] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.219901460] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.219992228] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.239794026] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.239862348] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.259777391] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.259848367] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.279796896] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.279864545] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.299959380] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.300084462] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.319866472] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.319944116] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.339803778] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.339898521] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.359836080] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.359898769] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.379859328] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.379953985] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.398926557] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.109
+[INFO] [1744731219.399797482] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.399858729] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.419838363] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.419903391] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.426994154] [state_subscriber]: vehicle land detected!
+[INFO] [1744731219.439869052] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.439942707] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.451002387] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731219.451055656] [state_subscriber]: offboard mode is active!
+[INFO] [1744731219.459865935] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.459963716] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.479849536] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.479909442] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.499808082] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.499880091] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.519794672] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.519878784] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.539900141] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.539989906] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.559775708] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.559854328] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.579811618] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.579918488] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.599801391] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.599868536] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.620001701] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.620113567] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.639880807] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.639942095] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.659795827] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.659866290] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.679846820] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.679911936] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.699982885] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.700081059] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.719868796] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.719948444] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.739776180] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.739879988] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.759800769] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.759873052] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.779828647] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.779913173] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.799234538] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.104
+[INFO] [1744731219.799814104] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.799896639] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.819807350] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.819882264] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.839854443] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.839913557] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.859746510] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.859869680] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.879814110] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.879892908] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.899792269] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.899851822] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.919802625] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.919879483] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.939853767] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.939929276] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.955247655] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731219.955299800] [state_subscriber]: offboard mode is active!
+[INFO] [1744731219.959869937] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.959959195] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.979840220] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.979920271] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731219.999863382] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731219.999925969] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.019877164] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.019975462] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.039784897] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.039879775] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.059934577] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.060008069] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.079823541] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.079894024] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.099905482] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.099991115] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.120020154] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.120103775] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.139783282] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.139886188] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.159875060] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.159962161] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.179875822] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.179963188] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.199327071] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.102
+[INFO] [1744731220.199771092] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.199806641] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.219839288] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.219955438] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.239861197] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.239992694] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.259871042] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.259946733] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.279769745] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.279844472] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.299804255] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.299908261] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.319851547] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.319918720] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.339870683] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.339965268] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.359795901] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.359893703] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.379802662] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.379879496] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.399783985] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.399872919] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.419839716] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.419928359] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.427296298] [state_subscriber]: vehicle land detected!
+[INFO] [1744731220.440177924] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.440235610] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.459339657] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731220.459395186] [state_subscriber]: offboard mode is active!
+[INFO] [1744731220.459788629] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.459847352] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.479873144] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.479942857] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.499850468] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.499960359] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.519804054] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.519881348] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.539834995] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.539896076] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.559808685] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.559882250] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.579841646] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.579919856] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.599441057] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.098
+[INFO] [1744731220.599797364] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.599870481] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.619854755] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.619946173] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.639807839] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.639873545] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.659895305] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.659979463] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.679808203] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.679882040] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.699800676] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.699890741] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.719791208] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.719863304] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.739784780] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.739902389] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.759936506] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.760123521] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.779797460] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.779876211] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.799804055] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.799919261] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.819845334] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.819925679] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.839794527] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.839869540] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.859853955] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.859944689] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.879862338] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.879940930] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.899847463] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.899927158] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.919807547] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.919887447] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.939806203] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.939872185] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.959792147] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.959889486] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.963697996] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731220.963790362] [state_subscriber]: offboard mode is active!
+[INFO] [1744731220.979830597] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731220.979904500] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731220.999807733] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.106
+[INFO] [1744731221.000305597] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.000400352] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.019811080] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.019889207] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.040074694] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.040181391] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.059834761] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.059908312] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.079807852] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.079991641] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.099805854] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.099895492] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.119861951] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.119937402] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.139978280] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.140106082] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.159880840] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.159987937] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.179768040] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.179833623] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.199805715] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.199897885] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.219833721] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.219924980] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.239768827] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.239844012] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.259801191] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.260032787] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.279845392] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.279905995] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.299777939] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.299884355] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.319799027] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.319903030] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.339781765] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.339882923] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.359781708] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.359849462] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.380100161] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.380185076] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.399952618] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.099
+[INFO] [1744731221.400244750] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.400315696] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.419771894] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.419841270] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.427481447] [state_subscriber]: vehicle land detected!
+[INFO] [1744731221.439796682] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.439872553] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.459746286] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.459847001] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.467543321] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731221.467629216] [state_subscriber]: offboard mode is active!
+[INFO] [1744731221.479769292] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.479840728] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.499836185] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.499917100] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.519831026] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.519903557] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.539907080] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.539981913] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.559829101] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.559879105] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.579766958] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.579842979] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.599792869] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.599904347] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.620176997] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.620316172] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.639734799] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.639800039] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.659893317] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.660019143] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.679878805] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.679936041] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.699901964] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.699998558] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.719850978] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.719921738] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.739839827] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.739895136] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.759910362] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.760019528] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.780000803] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.780185925] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.799998989] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.800159941] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.800776783] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.105
+[INFO] [1744731221.819886314] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.819970254] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.839853228] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.839954726] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.859891060] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.859979459] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.879887864] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.879968000] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.899963075] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.900054202] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.919977472] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.920057510] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.939989032] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.940148581] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.959889423] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.959970620] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.972755431] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731221.972857877] [state_subscriber]: offboard mode is active!
+[INFO] [1744731221.979873237] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.979950548] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731221.999915103] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731221.999987289] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.019926901] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.020052527] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.039998310] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.040103591] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.059895300] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.059977209] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.079887706] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.079965250] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.099962980] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.100056159] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.119924346] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.120014175] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.139862090] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.139933463] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.159953425] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.160072239] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.179987236] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.180111653] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.199908446] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.199995591] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.200374499] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.102
+[INFO] [1744731222.219864416] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.219935333] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.239847563] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.239916934] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.259911058] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.260061885] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.279865730] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.279956417] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.299940308] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.300034242] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.319867800] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.319942304] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.339949461] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.340070131] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.359863796] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.359945107] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.379876716] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.379948480] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.399836079] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.399908154] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.419972699] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.420100959] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.428766349] [state_subscriber]: vehicle land detected!
+[INFO] [1744731222.440024394] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.440151564] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.459873648] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.459962272] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.476645604] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731222.476698358] [state_subscriber]: offboard mode is active!
+[INFO] [1744731222.479836960] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.479903518] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.499902078] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.499995561] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.519849253] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.519922838] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.539810977] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.539890956] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.559899857] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.559995821] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.579981885] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.580100844] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.599871238] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.599950507] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.600789356] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.106
+[INFO] [1744731222.619918936] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.619993681] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.639877439] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.639948041] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.659911016] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.659996756] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.679911905] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.680027942] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.699897255] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.699981810] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.719886160] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.719955217] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.739961674] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.740067463] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.759871682] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.759943336] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.779865152] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.779930109] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.799810148] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.799875618] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.820065564] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.820283831] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.839962973] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.840067177] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.859900958] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.859975486] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.879848839] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.879924209] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.899949763] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.900052026] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.919864779] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.919940224] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.939842901] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.939923327] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.959879768] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.959976506] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.980027473] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731222.980168889] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731222.982580436] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731222.982661513] [state_subscriber]: offboard mode is active!
+[INFO] [1744731223.000009488] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.000149429] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.001167766] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.106
+[INFO] [1744731223.019860120] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.019929494] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.039812017] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.039890448] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.059915448] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.060007122] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.079875509] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.079955133] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.099940728] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.100041379] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.119873164] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.119945889] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.139912377] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.140017174] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.159864093] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.159948116] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.179842496] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.179911651] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.199821672] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.199884280] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.219951613] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.220065241] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.239959505] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.240081906] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.259906197] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.259988155] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.279843234] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.279938709] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.299897339] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.299988653] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.319857053] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.319929323] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.339916072] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.340023001] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.359993383] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.360105708] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.379930159] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.380072939] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.399881540] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.399960919] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.401114391] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.11
+[INFO] [1744731223.419833474] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.419897168] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.429087429] [state_subscriber]: vehicle land detected!
+[INFO] [1744731223.439832916] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.439919387] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.459892801] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.459991642] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.479944615] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.480054814] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.484879729] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731223.484925335] [state_subscriber]: offboard mode is active!
+[INFO] [1744731223.499868727] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.499941500] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.519859255] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.519932264] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.539936728] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.540021308] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.559864808] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.559941284] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.579812549] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.579886806] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.599927972] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.600038390] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.619964228] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.620118758] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.639913214] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.639984758] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.659831114] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.659894600] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.679929197] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.680005202] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.699916620] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.700038351] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.719902076] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.720011447] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.739953266] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.740054060] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.759857310] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.759930487] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.779901199] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.780001584] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.799874717] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.799951074] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.801373016] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.097
+[INFO] [1744731223.819812755] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.819890836] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.839805549] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.839879092] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.860000149] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.860127869] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.880080714] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.880210803] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.899864984] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.899938889] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.903091861] [input_parser]: received takeoff waypoint SUCCESS
+[INFO] [1744731223.919837940] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.919902580] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.939905185] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.940000890] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.959851650] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.959927697] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.979877772] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731223.979974037] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731223.989582954] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731223.989724259] [state_subscriber]: offboard mode is active!
+[INFO] [1744731223.999958718] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.000075902] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.019948828] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.020068969] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.039857014] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.039933612] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.059868526] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.059934488] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.079916447] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.079990702] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.099973599] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.100090373] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.119901929] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.119990957] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.139992000] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.140091588] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.159884009] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.159960718] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.179912689] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.180004462] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.199860919] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.199937464] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.201522127] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.1
+[INFO] [1744731224.219842535] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.219933472] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.239835897] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.239948606] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.260014849] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.260145720] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.279934782] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.280008427] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.299807879] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.299866241] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.319835866] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.319900195] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.339998023] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.340110350] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.359882193] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.359993180] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.379950820] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.380071194] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.399842034] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.399915015] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.419926571] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.420043320] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.429697236] [state_subscriber]: vehicle land detected!
+[INFO] [1744731224.439851099] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.439928690] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.459803897] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.459896460] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.479938423] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.480051853] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.493771380] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731224.493820667] [state_subscriber]: offboard mode is active!
+[INFO] [1744731224.499935378] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.500044107] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.519944538] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.520057208] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.539836021] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.539905641] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.559849220] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.559918004] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.579916759] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.580023307] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.599844947] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.599917014] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.601849353] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.109
+[INFO] [1744731224.619872895] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.619964166] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.639941179] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.640049234] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.659910042] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.660014596] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.679832901] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.679929513] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.699804999] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.699911446] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.719796102] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.719907244] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.739951736] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.740071291] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.760008513] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.760113950] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.779853215] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.779926504] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.799836200] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.799900923] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.819900678] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.819975492] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.839847722] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.839916014] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.859855980] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.859918620] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.879957295] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.880055888] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.899913037] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.900013401] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.919852966] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.919924214] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.939812130] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.939920235] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.959851028] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.959913446] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.979915271] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731224.980011736] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731224.998069452] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731224.998120617] [state_subscriber]: offboard mode is active!
+[INFO] [1744731224.999931326] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.000068908] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.002452069] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.109
+[INFO] [1744731225.019857902] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.019930345] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.039838333] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.039904494] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.059902039] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.060001175] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.079879616] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.079950022] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.099821168] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.099906487] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.119902548] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.119992896] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.140058007] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.140231858] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.159916202] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.160021012] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.179842956] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.179909001] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.199833413] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.199897083] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.219877691] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.219971031] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.239847171] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.239916693] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.259882430] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.259983802] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.279856315] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.279927558] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.299905744] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.300007525] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.319863248] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.319937289] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.339807192] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.339895636] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.359849925] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.359919231] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.379946235] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.380069096] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.399922683] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.400068630] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.402481361] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.113
+[INFO] [1744731225.419843741] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.419911966] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.430361283] [state_subscriber]: vehicle land detected!
+[INFO] [1744731225.439840149] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.439930368] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.459884558] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.459970939] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.479878242] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.479956968] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.499859926] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.499974920] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.502934236] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731225.503023823] [state_subscriber]: offboard mode is active!
+[INFO] [1744731225.519960138] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.520077178] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.539928907] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.540062478] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.559977729] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.560056225] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.579834938] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.579927798] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.599822619] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.599884474] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.619870688] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.619982567] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.639897555] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.639993683] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.659845449] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.659940715] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.679826579] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.679896166] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.699882460] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.699980164] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.719843656] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.719917611] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.739792716] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.739913419] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.759933294] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.760021601] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.779996107] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.780119039] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.800034706] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.800183723] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.804122498] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.096
+[INFO] [1744731225.819837101] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.819894453] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.839809391] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.839885067] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.859900545] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.859993476] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.879849431] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.879924024] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.899920871] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.900022142] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.919862691] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.919932220] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.939965185] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.940057489] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.959854079] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.959923076] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.979811545] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.979889383] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731225.999835672] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731225.999924644] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.006626796] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731226.006925275] [state_subscriber]: offboard mode is active!
+[INFO] [1744731226.019939880] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.020048142] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.030542731] [state_subscriber]: vehicle land detected!
+[INFO] [1744731226.039927394] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.040025919] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.059894107] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.059960987] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.079813883] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.079899880] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.099919132] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.100020512] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.119832977] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.119896547] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.139887905] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.139974295] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.160002325] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.160117670] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.179956581] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.180055775] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.199882629] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.199954702] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.202982283] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.1
+[INFO] [1744731226.219810385] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.219887099] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.240022250] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.240165222] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.260008852] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.260137124] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.279958139] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.280065315] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.299884809] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.299961356] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.319836641] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.319909225] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.339870662] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.339947279] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.359835976] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.359911337] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.379888151] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.379967413] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.399986849] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.400090184] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.419922512] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.420049560] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.439848521] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.439919295] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.459800692] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.459874869] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.479791501] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.479896570] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.499905833] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.499997091] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.510762597] [state_subscriber]: Vehicle is disarmed!
+[INFO] [1744731226.510810880] [state_subscriber]: offboard mode is active!
+[INFO] [1744731226.519945243] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.520048594] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.539864493] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.539938664] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.551089201] [input_parser]: received user command to EXECUTE
+[INFO] [1744731226.559834681] [control_publisher]: VehicleCMD: NO_CMD
+[INFO] [1744731226.559901961] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.579983404] [control_publisher]: Arm command send
+[INFO] [1744731226.580053028] [control_publisher]: VehicleCMD: ARM
+[INFO] [1744731226.580103986] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.595417362] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731226.595600457] [state_subscriber]: offboard mode is active!
+[INFO] [1744731226.599862742] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 0 nan
+NED: 0 0 -0 nan
+[INFO] [1744731226.602960694] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.102
+[INFO] [1744731226.619800466] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.619890982] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.639867867] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.639938946] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.659886929] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.659980383] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.679889245] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.680000700] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.699809578] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.699885352] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.719808294] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.719884587] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.739872627] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.739963575] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.759842240] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.759909482] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.779854032] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.779940514] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.800391856] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.800606962] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.820013054] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.820186685] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.839893533] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.839994723] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.859802819] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.859874350] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.879808011] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.879883425] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.899934122] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.900047756] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.919898102] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.919993773] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.939832704] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.939922521] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.959842653] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.959934878] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.979898614] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.979999964] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731226.999811514] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731226.999925158] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.003359497] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.109
+[INFO] [1744731227.019806211] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.019905822] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.031164554] [state_subscriber]: vehicle land detected!
+[INFO] [1744731227.039362417] [state_subscriber]: vehicle land detected!
+[INFO] [1744731227.040096841] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.040195884] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.059918973] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.060027790] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.079881711] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.079959510] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.099072820] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731227.099121787] [state_subscriber]: offboard mode is active!
+[INFO] [1744731227.099791069] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.099870050] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.119809891] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.119877150] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.139884861] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.139992859] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.159881548] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.160001738] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.180167168] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.180342335] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.199872824] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.199945431] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.220090190] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.220193166] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.239885034] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.239961556] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.259812793] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.259896622] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.279903578] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.279995441] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.300037073] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.300165760] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.319985710] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.320105509] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.339821001] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.339879698] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.359837088] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.359906696] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.379940611] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.380069838] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.399899709] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.399996590] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.403867099] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.108
+[INFO] [1744731227.419885859] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.419975065] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.439868818] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.439960982] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.459969374] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.460084943] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.479854336] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.479929405] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.499939305] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.500069335] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.519812638] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.519892149] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.539951103] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.540067767] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.559946789] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.560045979] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.579839683] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.579911215] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.599851430] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.599919455] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.603957818] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731227.604033775] [state_subscriber]: offboard mode is active!
+[INFO] [1744731227.619912830] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.620027790] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.639844116] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.639918859] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.659799158] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.659890210] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.680031591] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.680244618] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.699886615] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.699984468] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.719894860] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.719988518] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.739790014] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.739860878] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.759856560] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.759924440] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.779887918] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.779967605] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.799958359] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.800113234] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.804037595] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.106
+[INFO] [1744731227.819954896] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.820103430] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.839851684] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.839914889] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.859875643] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.859946463] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.879833033] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.879903039] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.899854285] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.899919714] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.919976312] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.920134285] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.939956155] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.940072748] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.959919433] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.959999873] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.979809996] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.979875594] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731227.999849020] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731227.999928223] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.019911249] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.020014019] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.039794193] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.039881233] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.040014141] [state_subscriber]: vehicle land detected!
+[INFO] [1744731228.059806988] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.059871659] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.079949467] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.080070815] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.099929772] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.100058914] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.107983002] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731228.108035284] [state_subscriber]: offboard mode is active!
+[INFO] [1744731228.119883559] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.119954289] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.139812888] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.139879978] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.159834457] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.159895661] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.179899292] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.180001107] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.199807193] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.199893451] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.204625624] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.107
+[INFO] [1744731228.219966447] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.220149857] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.240036206] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.240115916] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.260017344] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.260106141] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.279866856] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.279950387] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.299809021] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.299891088] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.319837825] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.319902853] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.339909980] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.340017121] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.359947084] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.360068171] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.379844187] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.379924190] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.399873897] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.399977512] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.419856326] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.419951690] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.439871371] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.439989252] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.459889310] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.460008437] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.479943981] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.480055075] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.499941978] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.500038019] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.519954812] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.520028026] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.539812851] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.539884366] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.559805743] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.559885268] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.579881181] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.579974080] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.600123886] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.600259177] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.604569429] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.106
+[INFO] [1744731228.613280621] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731228.613388134] [state_subscriber]: offboard mode is active!
+[INFO] [1744731228.619849547] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.619936016] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.639814337] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.639899461] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.659835989] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.659927467] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.679842231] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.679912864] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.699801953] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.699874611] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.719893152] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.720052030] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.739874701] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.739979527] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.759891599] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.760064084] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.779837191] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.779904997] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.799835956] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.799909659] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.819924353] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.820036189] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.839847623] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.839947303] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.859889033] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.859979512] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.879848657] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.879927451] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.899898488] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.899993533] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.919847486] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.919908614] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.939792538] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.939855470] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.959844891] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.959912662] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.979910910] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731228.980021421] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731228.999914028] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.000030231] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.004561650] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.096
+[INFO] [1744731229.019849218] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.019923310] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.039833063] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.039892630] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.040502309] [state_subscriber]: vehicle land detected!
+[INFO] [1744731229.059866828] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.059971712] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.079865577] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.079942577] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.099848396] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.099931965] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.116588010] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731229.116645431] [state_subscriber]: offboard mode is active!
+[INFO] [1744731229.119915176] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.120004489] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.139848820] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.139941349] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.159898288] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.159972340] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.179804059] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.179867234] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.199833437] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.199908906] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.219887942] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.219985046] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.239969515] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.240201029] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.259930551] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.260025276] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.279852640] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.279921216] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.299919303] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.300020545] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.319830827] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.319898375] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.339787243] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.339874559] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.359809674] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.359883943] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.379927653] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.380023199] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.399873059] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.400006404] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.404871418] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.106
+[INFO] [1744731229.419849208] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.419919888] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.439838621] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.439908498] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.459866434] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.459956529] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.479801227] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.479880402] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.499837048] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.499923388] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.519813073] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.519902822] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.539865808] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.539951805] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.559813363] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.559892607] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.579809052] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.579918355] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.599779036] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.599838737] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.619937357] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.620040290] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.622406871] [state_subscriber]: Vehicle is armed!
+[INFO] [1744731229.622516919] [state_subscriber]: offboard mode is active!
+[INFO] [1744731229.639940993] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.640090219] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.659840962] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.659902545] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.679812435] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.679890038] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.699894619] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.699986750] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.719807825] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.719876321] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.739785009] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.739850413] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.759888904] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.759963130] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.779876036] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.780074355] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.799803452] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.799913464] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.805317582] [state_subscriber]: pos[lon, lat, AMSL]: 8.54561 47.3978 488.111
+[INFO] [1744731229.819807967] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.819881970] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.839808268] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.839884990] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.859833313] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.859908158] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.879902770] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.880007306] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.899853335] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.899915446] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.919813008] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.919900776] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.939853463] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.939929867] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.959798928] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.959868666] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.979809349] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731229.979894936] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731229.999916023] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731230.000010169] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731230.019964844] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731230.020077514] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731230.039812312] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731230.039889595] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731230.041704136] [state_subscriber]: vehicle land detected!
+[INFO] [1744731230.059789625] [control_publisher]: VehicleCMD: PUBLISH_TRJ
+[INFO] [1744731230.059874208] [control_publisher]: published VELOCITY setpoints: 
+ENU: 0 0 nan nan
+NED: 0 0 -nan nan
+[INFO] [1744731230.071555914] [rclcpp]: signal_handler(signum=2)

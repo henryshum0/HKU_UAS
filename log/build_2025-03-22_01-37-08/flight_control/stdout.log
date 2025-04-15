@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[ 66%] Built target flight_control_lib
+[35m[1mConsolidate compiler generated dependencies of target offboard_controller[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/offboard_controller.dir/src/offboard_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable offboard_controller[0m

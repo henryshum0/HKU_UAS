@@ -1,0 +1,157 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found px4_msgs: 2.0.1 (/home/henryshum0/SUAS/install/px4_msgs/share/px4_msgs/cmake)
+-- Found px4_ros_com: 0.1.0 (/home/henryshum0/SUAS/install/px4_ros_com/share/px4_ros_com/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/henryshum0/SUAS/src/flight_control/include;$<BUILD_INTERFACE:/home/henryshum0/SUAS/src/flight_control/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/henryshum0/SUAS/build/flight_control
+[35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/offboard_controller.cpp.o[0m
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:4[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:21:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kflight_control[m[K’ was not declared in this scope
+   21 |         std::shared_ptr<[01;31m[Kflight_control[m[K::OffboardController> offboard_controller;
+      |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:21:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         std::shared_ptr<flight_control::OffboardController[01;31m[K>[m[K offboard_controller;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:25:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kflight_control[m[K’ was not declared in this scope
+   25 |         FlightMode(std::shared_ptr<[01;31m[Kflight_control[m[K::OffboardController> offboard_controller, std::string mode_name)
+      |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:25:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |         FlightMode(std::shared_ptr<flight_control::OffboardController[01;31m[K>[m[K offboard_controller, std::string mode_name)
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:55:48:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+   55 |         void publish_trajectory_setpoint(const [01;31m[KVector3f[m[K& input, const float yaw = 0.0){
+      |                                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+   60 |         [01;31m[KVector3f[m[K get_enu_local()
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+   64 |         [01;31m[KVector3f[m[K get_enu_vel()
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+   68 |         [01;31m[KVector3f[m[K get_enu_accel()
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:11[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:[m[K In constructor ‘[01m[Kflight_mode::FlightMode::FlightMode(int, std::string)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:29:44:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   29 |             RCLCPP_INFO(offboard_controller[01;31m[K->[m[Kget_logger(), ("starting mode: " + mode_name).c_str());
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:29:44:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:29:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |             [01;31m[KRCLCPP_INFO[m[K(offboard_controller->get_logger(), ("starting mode: " + mode_name).c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:29:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |             [01;31m[KRCLCPP_INFO[m[K(offboard_controller->get_logger(), ("starting mode: " + mode_name).c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:29:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |             [01;31m[KRCLCPP_INFO[m[K(offboard_controller->get_logger(), ("starting mode: " + mode_name).c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:11[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:29:44:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   29 |             RCLCPP_INFO(offboard_controller[01;31m[K->[m[Kget_logger(), ("starting mode: " + mode_name).c_str());
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:29:44:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   29 |             RCLCPP_INFO(offboard_controller[01;31m[K->[m[Kget_logger(), ("starting mode: " + mode_name).c_str());
+      |                                            [01;31m[K^~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:4[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:[m[K In member function ‘[01m[Kvoid flight_mode::FlightMode::publish_vehicle_command(uint16_t, float, float)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:37:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   37 |             offboard_controller [01;31m[K->[m[K publish_vehicle_command(command, param1, param2);
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:[m[K In member function ‘[01m[Kvoid flight_mode::FlightMode::publish_offboard_mode()[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:45:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   45 |             offboard_controller [01;31m[K->[m[K publish_offboard_mode();
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:[m[K In member function ‘[01m[Kvoid flight_mode::FlightMode::publish_trajectory_setpoint(const int&, float)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:56:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   56 |             offboard_controller [01;31m[K->[m[K publish_trajectory_setpoint(input, yaw);
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:[m[K In member function ‘[01m[Kbool flight_mode::FlightMode::get_armed()[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:74:45:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   74 |             return this->offboard_controller[01;31m[K->[m[Kget_is_armed();
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:[m[K In member function ‘[01m[Kvoid flight_mode::FlightMode::set_trajectory_mode(flight_mode::OffboardTrajectoryControlModeEnum)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:81:41:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   81 |             this -> offboard_controller [01;31m[K->[m[Kset_trajectory_mode(mode);
+      |                                         [01;31m[K^~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:[m[K In member function ‘[01m[Kvoid flight_mode::FlightMode::set_is_complete(bool)[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/flight_mode.hpp:85:41:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   85 |             this -> offboard_controller [01;31m[K->[m[Kset_mode_complete(is_not);
+      |                                         [01;31m[K^~[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:[m[K At global scope:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kflight_control[m[K’ was not declared in this scope
+   11 |         TakeoffMode(std::shared_ptr<[01;31m[Kflight_control[m[K::OffboardController> offboard_controller, float takeoff_height);
+      |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |         TakeoffMode(std::shared_ptr<flight_control::OffboardController[01;31m[K>[m[K offboard_controller, float takeoff_height);
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3f[m[K’ does not name a type
+   17 |         [01;31m[KVector3f[m[K target_pos;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:[m[K In member function ‘[01m[Kvoid flight_control::OffboardController::execute()[m[K’:
+[01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:47:110:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kflight_mode::TakeoffMode::TakeoffMode(std::shared_ptr<flight_control::OffboardController>&, float)[m[K’
+   47 |             auto take_off = std::unique_ptr<flight_mode::TakeoffMode>(new flight_mode::TakeoffMode(self, 5.0f[01;31m[K)[m[K);
+      |                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_control/offboard_controller.hpp:21[m[K,
+                 from [01m[K/home/henryshum0/SUAS/src/flight_control/src/offboard_controller.cpp:1[m[K:
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kflight_mode::TakeoffMode::TakeoffMode(int, float)[m[K’
+   11 |         [01;36m[KTakeoffMode[m[K(std::shared_ptr<flight_control::OffboardController> offboard_controller, float takeoff_height);
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:11:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<flight_control::OffboardController>[m[K’ to ‘[01m[Kint[m[K’
+   11 |         TakeoffMode([01;36m[Kstd::shared_ptr<flight_control::OffboardController> offboard_controller[m[K, float takeoff_height);
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:8:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kflight_mode::TakeoffMode::TakeoffMode(const flight_mode::TakeoffMode&)[m[K’
+    8 |     class [01;36m[KTakeoffMode[m[K : public FlightMode
+      |           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:8:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:8:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kflight_mode::TakeoffMode::TakeoffMode(flight_mode::TakeoffMode&&)[m[K’
+[01m[K/home/henryshum0/SUAS/src/flight_control/include/flight_mode/takeoff_mode.hpp:8:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:76: CMakeFiles/flight_control_lib.dir/src/offboard_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/flight_control_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

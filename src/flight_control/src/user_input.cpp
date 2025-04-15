@@ -8,9 +8,9 @@ class UserInput : public rclcpp::Node
     public:
     UserInput() : Node("user_input")
     {
-        user_input_publisher = this->create_publisher<UserCommand>("flight_control/user_input",10);
+        user_input_publisher = this->create_publisher<UserCommand>("/flight_control/user_input",10);
         auto qos = rclcpp::QoS(rclcpp::QoSInitialization(qos_profile.history, 5), qos_profile);
-        response_subscriber = this->create_subscription<UserCommand>("/flight_control/user_input", 
+        response_subscriber = this->create_subscription<UserCommand>("/flight_control/user_input_ack", 
             qos, std::bind(&UserInput::response_callback, this, std::placeholders::_1));
 
         user_input_thread = std::thread(&UserInput::query_user, this);
@@ -136,6 +136,10 @@ void UserInput::query_user()
             std::cout << "unavailable" << std::endl;  
             continue;
         }
+        else if (input_cmd == "EXECUTE")
+        {
+            send(UserCommand::EXECUTE, 1, NAN, NAN, NAN, NAN, NAN);
+        }
         else
         {
             std::cout << "incorrect input\n" << std::endl;  
@@ -143,43 +147,6 @@ void UserInput::query_user()
         }
     }
 }
-
-bool UserInput::check_valid_coord(const bool &use_xy, const float &x_lon, const float &y_lat)
-{
-    if(!use_xy && (x_lon < -180 || x_lon > 180 || y_lat < -90 || y_lat > 90))
-    {
-        return false;
-    }
-    return true;
-}
-
-bool UserInput::check_valid_z(const float &z)
-{
-    if(z < 1 || z > 150)
-    {
-        return false;
-    }
-    return true;
-}
-
-bool UserInput::check_valid_yaw(const float &yaw)
-{
-    if(yaw < -180 || yaw > 180)
-    {
-        return false;
-    }
-    return true;
-}
-
-bool UserInput::check_valid_speed(const float &speed)
-{
-    if (speed<0 || speed > 20)
-    {
-        return false;
-    }
-    return true;
-}
-
 
 void UserInput::send(const int &cmd, const bool &use_xy, const float &x_lon,
     const float &y_lat, const float &z, const float &speed, const float &yaw)
@@ -228,6 +195,43 @@ void UserInput::response_callback(const UserCommand::UniquePtr msg)
     }
 }
 
+bool UserInput::check_valid_coord(const bool &use_xy, const float &x_lon, const float &y_lat)
+{
+    if(!use_xy && (x_lon < -180 || x_lon > 180 || y_lat < -90 || y_lat > 90))
+    {
+        return false;
+    }
+    return true;
+}
+
+bool UserInput::check_valid_z(const float &z)
+{
+    if(z < 1 || z > 150)
+    {
+        return false;
+    }
+    return true;
+}
+
+bool UserInput::check_valid_yaw(const float &yaw)
+{
+    if(yaw < -180 || yaw > 180)
+    {
+        return false;
+    }
+    return true;
+}
+
+bool UserInput::check_valid_speed(const float &speed)
+{
+    if (speed<0 || speed > 20)
+    {
+        return false;
+    }
+    return true;
+}
+
+
 void UserInput::print_rej_msg(const uint8_t reason)
 {
     std::string reason_str ;
@@ -247,8 +251,13 @@ void UserInput::print_rej_msg(const uint8_t reason)
             break;
         case UserCommand::REJECT_TAKEOFF_HEIGHTINFEASIBLE:
             reason_str = "take off height is not feasible";
-        case UserCommand::REJECT_SPPED_INFEASIBLE:
+            break;
+        case UserCommand::REJECT_SPEED_INFEASIBLE:
             reason_str = "speed is not feasible";
+            break;
+        case UserCommand::REJECT_EMPTY_WAYPOINTS:
+            reason_str = "has empty waypoints, cannot execute";
+            break;
         default:
             reason_str = "none";
             break;

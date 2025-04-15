@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target frame_conversion[0m
+[0.043s] [ 25%] [32mBuilding CXX object CMakeFiles/frame_conversion.dir/src/lib/frame_conversion.cpp.o[0m
+[1.116s] [ 50%] [32m[1mLinking CXX shared library libframe_conversion.so[0m
+[1.126s] [ 50%] Built target frame_conversion
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target test_functions[0m
+[1.126s] [ 75%] [32mBuilding CXX object CMakeFiles/test_functions.dir/src/test.cpp.o[0m
+[1.812s] [100%] [32m[1mLinking CXX executable test_functions[0m
+[1.897s] [100%] Built target test_functions
+[1.907s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/henryshum0/SUAS/build/flight_control -- -j16 -l16
+[1.908s] Invoking command in '/home/henryshum0/SUAS/build/flight_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/henryshum0/SUAS/build/flight_control
+[1.911s] -- Install configuration: ""
+[1.911s] -- Installing: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/test_functions
+[1.912s] -- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/flight_control/test_functions" to ""
+[1.912s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/package_run_dependencies/flight_control
+[1.912s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/parent_prefix_path/flight_control
+[1.912s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.sh
+[1.912s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.dsv
+[1.913s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.sh
+[1.913s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.dsv
+[1.913s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.bash
+[1.913s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.sh
+[1.913s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.zsh
+[1.913s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.dsv
+[1.913s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.dsv
+[1.913s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/packages/flight_control
+[1.914s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig.cmake
+[1.914s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig-version.cmake
+[1.914s] -- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.xml
+[1.916s] Invoked command in '/home/henryshum0/SUAS/build/flight_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/henryshum0/SUAS/build/flight_control

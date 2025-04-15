@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "offboard_control_interfaces__py",
+		"source" : "/home/henryshum0/SUAS/build/offboard_control_interfaces/offboard_control_interfaces__py"
+	}
+}

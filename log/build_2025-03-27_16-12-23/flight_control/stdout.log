@@ -1,0 +1,33 @@
+[ 66%] Built target flight_control_lib
+[35m[1mConsolidate compiler generated dependencies of target executor_test[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/executor_test.dir/src/flight_control/flight_executor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable executor_test[0m
+[100%] Built target executor_test
+-- Install configuration: ""
+-- Installing: /home/henryshum0/SUAS/install/flight_control/lib/flight_control/executor_test
+-- Set runtime path of "/home/henryshum0/SUAS/install/flight_control/lib/flight_control/executor_test" to ""
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib
+-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/lib/utils.hpp
+-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage
+-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/executor_cmd.hpp
+-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/vehicle_storage/vehicle_state.hpp
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control
+-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/state_subscribers.hpp
+-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/flight_executor.hpp
+-- Installing: /home/henryshum0/SUAS/install/flight_control/include/flight_control/include/flight_control/control_publishers.hpp
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/package_run_dependencies/flight_control
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/parent_prefix_path/flight_control
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.sh
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.sh
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/environment/path.dsv
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.bash
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.sh
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.zsh
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/local_setup.dsv
+-- Installing: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.dsv
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/ament_index/resource_index/packages/flight_control
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig.cmake
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/cmake/flight_controlConfig-version.cmake
+-- Up-to-date: /home/henryshum0/SUAS/install/flight_control/share/flight_control/package.xml

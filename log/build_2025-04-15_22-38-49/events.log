@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (-) JobUnselected: {'identifier': 'offboard_control_interfaces'}
+[0.000339] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000363] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000388] (flight_control) JobQueued: {'identifier': 'flight_control', 'dependencies': OrderedDict([('offboard_control_interfaces', '/home/henryshum0/SUAS/install/offboard_control_interfaces'), ('px4_msgs', '/home/henryshum0/SUAS/install/px4_msgs'), ('px4_ros_com', '/home/henryshum0/SUAS/install/px4_ros_com')])}
+[0.000427] (flight_control) JobStarted: {'identifier': 'flight_control'}
+[0.073359] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'cmake'}
+[0.073928] (flight_control) JobProgress: {'identifier': 'flight_control', 'progress': 'build'}
+[0.074503] (flight_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henryshum0/SUAS/build/flight_control', '--', '-j16', '-l16'], 'cwd': '/home/henryshum0/SUAS/build/flight_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('USER', 'henryshum0'), ('GIT_ASKPASS', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/henryshum0/SUAS/install/px4_ros_com/lib:/home/henryshum0/SUAS/install/px4_msgs/lib:/home/henryshum0/SUAS/install/offboard_control_interfaces/lib:/home/henryshum0/SUAS/install/flight_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/henryshum0'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-40d79dc9-ca8f-4383-8cbf-3d507f7fb45f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/henryshum0/SUAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'henryshum0'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/618_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/henryshum0/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/henryshum0/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/henryshum0/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/henryshum0/.dotnet/tools:/mnt/c/Users/henryshum0/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/henryshum0/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-094d2c776f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/henryshum0/SUAS/install/flight_control:/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/offboard_control_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/henryshum0/SUAS/build/flight_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/henryshum0/SUAS/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/px4_msgs/local/lib/python3.10/dist-packages:/home/henryshum0/SUAS/install/offboard_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/henryshum0/SUAS/install/px4_ros_com:/home/henryshum0/SUAS/install/px4_msgs:/home/henryshum0/SUAS/install/offboard_control_interfaces:/home/henryshum0/SUAS/install/flight_control:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099397] (-) TimerEvent: {}
+[0.105171] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target user_input\x1b[0m\n'}
+[0.106557] (flight_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flight_control_lib\x1b[0m\n'}
+[0.114312] (flight_control) StdoutLine: {'line': b'[  9%] Built target nodesoup\n'}
+[0.114995] (flight_control) StdoutLine: {'line': b'[ 12%] Built target publish_trj_listener\n'}
+[0.115740] (flight_control) StdoutLine: {'line': b'[ 15%] Built target sensor_combined_listener\n'}
+[0.116841] (flight_control) StdoutLine: {'line': b'[ 18%] Built target cmd_ack_listener\n'}
+[0.117716] (flight_control) StdoutLine: {'line': b'[ 21%] Built target vehicle_pos_listener\n'}
+[0.120999] (flight_control) StdoutLine: {'line': b'[ 25%] Built target user_input\n'}
+[0.126487] (flight_control) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/input_parser.cpp.o\x1b[0m\n'}
+[0.140248] (flight_control) StdoutLine: {'line': b'[ 85%] Built target matplot\n'}
+[0.199521] (-) TimerEvent: {}
+[0.299864] (-) TimerEvent: {}
+[0.400170] (-) TimerEvent: {}
+[0.500481] (-) TimerEvent: {}
+[0.600831] (-) TimerEvent: {}
+[0.701148] (-) TimerEvent: {}
+[0.801463] (-) TimerEvent: {}
+[0.901773] (-) TimerEvent: {}
+[1.002076] (-) TimerEvent: {}
+[1.102512] (-) TimerEvent: {}
+[1.202924] (-) TimerEvent: {}
+[1.303367] (-) TimerEvent: {}
+[1.403667] (-) TimerEvent: {}
+[1.504005] (-) TimerEvent: {}
+[1.604316] (-) TimerEvent: {}
+[1.704627] (-) TimerEvent: {}
+[1.804936] (-) TimerEvent: {}
+[1.905285] (-) TimerEvent: {}
+[2.005682] (-) TimerEvent: {}
+[2.094425] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid InputParser::new_input_callback(offboard_control_interfaces::msg::UserCommand_<std::allocator<void> >::UniquePtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.094626] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:21:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[2.094669] (flight_control) StderrLine: {'line': b'   21 |         case UserCommand::\x1b[01;31m\x1b[KTAKEOFF\x1b[m\x1b[K:\n'}
+[2.094699] (flight_control) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.094727] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:19:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kint landing_c\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.094755] (flight_control) StderrLine: {'line': b'   19 |         int \x1b[01;36m\x1b[Klanding_c\x1b[m\x1b[K = executor_storage->get_mission_count(MISSION::LAND);\n'}
+[2.094781] (flight_control) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.094806] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:18:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kint takeoff_c\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.094831] (flight_control) StderrLine: {'line': b'   18 |         int \x1b[01;36m\x1b[Ktakeoff_c\x1b[m\x1b[K = executor_storage->get_mission_count(MISSION::TAKEOFF);\n'}
+[2.094857] (flight_control) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.096952] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:55:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[2.097066] (flight_control) StderrLine: {'line': b'   55 |         case UserCommand::\x1b[01;31m\x1b[KEXECUTE\x1b[m\x1b[K:\n'}
+[2.097097] (flight_control) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.097124] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:19:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kint landing_c\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.097385] (flight_control) StderrLine: {'line': b'   19 |         int \x1b[01;36m\x1b[Klanding_c\x1b[m\x1b[K = executor_storage->get_mission_count(MISSION::LAND);\n'}
+[2.097482] (flight_control) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.097514] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:18:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kint takeoff_c\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.097544] (flight_control) StderrLine: {'line': b'   18 |         int \x1b[01;36m\x1b[Ktakeoff_c\x1b[m\x1b[K = executor_storage->get_mission_count(MISSION::TAKEOFF);\n'}
+[2.097571] (flight_control) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.097596] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:62:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[2.097622] (flight_control) StderrLine: {'line': b'   62 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[2.097646] (flight_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.097671] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:19:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kint landing_c\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.097702] (flight_control) StderrLine: {'line': b'   19 |         int \x1b[01;36m\x1b[Klanding_c\x1b[m\x1b[K = executor_storage->get_mission_count(MISSION::LAND);\n'}
+[2.097728] (flight_control) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.097752] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:18:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kint takeoff_c\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.097775] (flight_control) StderrLine: {'line': b'   18 |         int \x1b[01;36m\x1b[Ktakeoff_c\x1b[m\x1b[K = executor_storage->get_mission_count(MISSION::TAKEOFF);\n'}
+[2.097799] (flight_control) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.105873] (-) TimerEvent: {}
+[2.206234] (-) TimerEvent: {}
+[2.306582] (-) TimerEvent: {}
+[2.406967] (-) TimerEvent: {}
+[2.507266] (-) TimerEvent: {}
+[2.607575] (-) TimerEvent: {}
+[2.707892] (-) TimerEvent: {}
+[2.808213] (-) TimerEvent: {}
+[2.908603] (-) TimerEvent: {}
+[3.008972] (-) TimerEvent: {}
+[3.109315] (-) TimerEvent: {}
+[3.209657] (-) TimerEvent: {}
+[3.310042] (-) TimerEvent: {}
+[3.410366] (-) TimerEvent: {}
+[3.510719] (-) TimerEvent: {}
+[3.611005] (-) TimerEvent: {}
+[3.711282] (-) TimerEvent: {}
+[3.811637] (-) TimerEvent: {}
+[3.869629] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:18:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement will never be executed [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-unreachable\x07-Wswitch-unreachable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.870034] (flight_control) StderrLine: {'line': b'   18 |         int takeoff_c = \x1b[01;35m\x1b[Kexecutor_storage\x1b[m\x1b[K->get_mission_count(MISSION::TAKEOFF);\n'}
+[3.870097] (flight_control) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.870130] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid InputParser::print_rej_msg(uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.870167] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:87:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=\x07-Wimplicit-fallthrough=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.870198] (flight_control) StderrLine: {'line': b'   87 |             reason_str = \x1b[01;35m\x1b[K"take off height is not feasible"\x1b[m\x1b[K;\n'}
+[3.870226] (flight_control) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.870252] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:88:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[3.870279] (flight_control) StderrLine: {'line': b'   88 |         \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K UserCommand::REJECT_SPEED_INFEASIBLE:\n'}
+[3.870304] (flight_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.870329] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:89:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=\x07-Wimplicit-fallthrough=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.870357] (flight_control) StderrLine: {'line': b'   89 |             reason_str = \x1b[01;35m\x1b[K"speed is not feasible"\x1b[m\x1b[K;\n'}
+[3.870383] (flight_control) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.870410] (flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henryshum0/SUAS/src/flight_control/src/flight_control/input_parser.cpp:90:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[3.870435] (flight_control) StderrLine: {'line': b'   90 |         \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[3.870459] (flight_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.888373] (flight_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/flight_control_lib.dir/build.make:118: CMakeFiles/flight_control_lib.dir/src/flight_control/input_parser.cpp.o] Error 1\n'}
+[3.888563] (flight_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/flight_control_lib.dir/all] Error 2\n'}
+[3.888724] (flight_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.890159] (flight_control) CommandEnded: {'returncode': 2}
+[3.898180] (flight_control) JobEnded: {'identifier': 'flight_control', 'rc': 2}
+[3.908799] (-) EventReactorShutdown: {}

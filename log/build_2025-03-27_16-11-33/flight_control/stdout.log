@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
+[ 66%] Built target flight_control_lib
+[35m[1mConsolidate compiler generated dependencies of target executor_test[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/executor_test.dir/src/flight_control/flight_executor.cpp.o[0m

@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000463] (-) JobUnselected: {'identifier': 'flight_control'}
+[0.000517] (-) JobUnselected: {'identifier': 'offboard_control_interfaces'}
+[0.000543] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000567] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000775] (-) EventReactorShutdown: {}

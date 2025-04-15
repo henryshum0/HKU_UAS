@@ -12,70 +12,62 @@ FlightExecutor::FlightExecutor( const std::shared_ptr<VehicleStateStorage> vehic
 
 void FlightExecutor::publish_control()
 {
-    if(!executor_storage->get_is_init())
+    if(vehicle_state_storage->get_is_init())
     {
-        if(vehicle_state_storage->get_is_init())
-        {
-            init_executor_storage();
-            RCLCPP_INFO_ONCE(this->get_logger(), "executor storage initialized");
-            executor_storage->set_is_init();
-        }
-        else 
-        {
-            RCLCPP_INFO(this->get_logger(), "state storage is not init, must init before executor storage");
-            return;
-        }
+        RCLCPP_INFO_ONCE(this->get_logger(), "vehicle state initialized, ready to execute");
     }
+    else
+    {
+        RCLCPP_INFO(this->get_logger(), "await vehicle state to initialize");
+        return;
+    }
+
+    if(!executor_storage->get_is_execute()) {return;}
 
     if(!this->vehicle_state_storage->get_is_arm()) {this->executor_storage->set_vehicle_cmd_curr(VehicleCMD::ARM); return;}
     else {this->executor_storage->set_vehicle_cmd_curr(VehicleCMD::PUBLISH_TRJ);}
 
     //execute main loop only when user input command EXECUTE
-    if(executor_storage->get_is_execute())
+    
+    
+    auto waypoint_curr = executor_storage->get_waypoint_curr();
+
+    if(waypoint_curr == nullptr)
     {
-        auto waypoint_curr = executor_storage->get_waypoint_curr();
-
-        if(waypoint_curr == nullptr)
-        {
-            RCLCPP_INFO(this->get_logger(), "All setpoints completed");
-            std::shared_ptr<Waypoint> waypoint_cmplt_last = executor_storage->get_waypoint_completed_last();
-            if(waypoint_cmplt_last == nullptr) {set_trj_setpoint_vel(Vector3f(0.f,0.f,0.f));}
-            else {set_trj_setpoint_pos(waypoint_cmplt_last->target);}
-            executor_storage->set_is_execute(false);
-            return;
-        }
-
-        switch(waypoint_curr->mission)
-        {
-            case MISSION::TAKEOFF:
-                take_off(waypoint_curr);
-                break;
-
-            case MISSION::LAND:
-                break;
-
-            case MISSION::WAYPOINT:
-                move_to_waypoint(waypoint_curr);
-                break;
-
-            case MISSION::AIDROP:
-                break;
-            
-            case MISSION::MAPPING:
-                break;
-            
-            default:
-                RCLCPP_WARN(this->get_logger(), "unknown mission");
-                break;
-        }
+        RCLCPP_INFO(this->get_logger(), "All setpoints completed");
+        std::shared_ptr<Waypoint> waypoint_cmplt_last = executor_storage->get_waypoint_completed_last();
+        if(waypoint_cmplt_last == nullptr) {set_trj_setpoint_vel(Vector3f(0.f,0.f,0.f));}
+        else {set_trj_setpoint_pos(waypoint_cmplt_last->target);}
+        executor_storage->set_is_execute(false);
+        return;
     }
+
+    switch(waypoint_curr->mission)
+    {
+        case MISSION::TAKEOFF:
+            take_off(waypoint_curr);
+            break;
+
+        case MISSION::LAND:
+            break;
+
+        case MISSION::WAYPOINT:
+            move_to_waypoint(waypoint_curr);
+            break;
+
+        case MISSION::AIDROP:
+            break;
+            
+        case MISSION::MAPPING:
+            break;
+            
+        default:
+            RCLCPP_WARN(this->get_logger(), "unknown mission");
+            break;
+    }
+    
 }
 
-
-void FlightExecutor::init_executor_storage()
-{
-    executor_storage->set_is_execute(true); //FIXME: 
-}
 
 //take_off is just a special way point
 void FlightExecutor::take_off(std::shared_ptr<Waypoint> take_off_waypoint)
@@ -84,13 +76,13 @@ void FlightExecutor::take_off(std::shared_ptr<Waypoint> take_off_waypoint)
     if(take_off_waypoint->target.hasNaN())
     {
         float height;
-        if(take_off_waypoint->target.z() == NAN)
+        if(std::isnan(take_off_waypoint->target.z()))
         {
             height = TAKEOFF_HEIGHT_DEFAULT;
         }
         else
         {
-            float height = take_off_waypoint->target.z();
+            height = take_off_waypoint->target.z();
         }
         Vector3f pos_curr = vehicle_state_storage->get_pos_avg();
         pos_curr.z()+=height;
