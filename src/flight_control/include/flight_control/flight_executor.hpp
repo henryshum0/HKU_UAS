@@ -9,6 +9,7 @@
 
 #include <vehicle_storage/vehicle_state_storage.hpp>
 #include <vehicle_storage/executor_storage.hpp>
+#include <lib/utils.hpp>
 
 using namespace Eigen;
 
@@ -28,8 +29,10 @@ class FlightExecutor : public rclcpp::Node
 
 
     void take_off(std::shared_ptr<Waypoint> take_off_waypoint);
+    void land(std::shared_ptr<Waypoint> land_waypoint);
 
     void move_to_waypoint(std::shared_ptr<Waypoint> waypoint);
+    void move_to_waypoint_lonlat(std::shared_ptr<Waypoint> waypoint);
     void run_avoidance(std::shared_ptr<Waypoint> waypoint, Vector3f ideal_vel); //TODO
     void get_desired_yaw(); //TODO
 

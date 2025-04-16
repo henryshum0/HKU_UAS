@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
-[ 15%] Built target sensor_combined_listener
-[ 30%] Built target publish_trj_listener
-[ 38%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/flight_executor.cpp.o[0m
-[ 46%] [32m[1mLinking CXX shared library libflight_control_lib.so[0m
-[ 84%] Built target flight_control_lib
-[ 92%] [32mBuilding CXX object CMakeFiles/offboard_controller.dir/src/main.cpp.o[0m

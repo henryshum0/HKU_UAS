@@ -42,7 +42,7 @@ void UserInput::query_user()
 {
     while (rclcpp::ok())
     {
-        std::cout << "\n[COMMAND] [XYZ?1/0] [x/lon] [y/lat] [z wrp to drone start pos] [speed] [yaw in rad optional wrt ENU]" << std::endl
+        std::cout << "\n[COMMAND] [XYZ?] [x/lon] [y/lat] [z wrp to drone start pos] [speed] [yaw in rad optional wrt ENU]" << std::endl
                   << "input your command: " <<std::endl;
 
         std::string input;
@@ -104,21 +104,18 @@ void UserInput::query_user()
             }
 
             if(!(iss>>z) || !check_valid_z(z))
-            {
+            {   
                 std::cout<<"invalid z"<<std::endl;
                 continue;
             }
+            
             if(!(iss>>speed) || !check_valid_speed(speed))
             {
                 std::cout<<"invalid speed"<<std::endl;
                 continue;
             }
             
-            if(!(iss>>yaw))
-            {
-                yaw = NAN;
-            }
-            if(!check_valid_yaw(yaw))
+            if(!(iss>>yaw) || !check_valid_yaw(yaw))
             {
                 std::cout<<"invalid yaw"<<std::endl;
                 continue;
@@ -168,19 +165,19 @@ void UserInput::send(const int &cmd, const bool &use_xy, const float &x_lon,
         msg.x = NAN;
         msg.y = NAN;
     }
-    msg.z = z;
-    msg.speed = speed;
-    msg.yaw = yaw;
+    z == -1.f ? msg.z = NAN : msg.z = z;
+    speed == -1.f ? msg.speed = NAN : msg.speed = speed;
+    yaw == -1.f ? msg.yaw = NAN : msg.yaw = yaw;
     this->user_input_publisher->publish(msg);
-    RCLCPP_INFO_STREAM(this->get_logger(),
-        "\nsend command: "<<cmd<<std::endl
-        <<"use_xyz: "<<use_xy<<std::endl
-        <<"x or longitude: "<< x_lon<<std::endl
-        <<"y or latitude: "<< y_lat<<std::endl
-        <<"z: "<<z<<std::endl
-        <<"speed: " <<speed<<std::endl
-        <<"yaw: "<<yaw  
-    );
+    // RCLCPP_INFO_STREAM(this->get_logger(),
+    //     "\nsend command: "<<cmd<<std::endl
+    //     <<"use_xyz: "<<use_xy<<std::endl
+    //     <<"x or longitude: "<< x_lon<<std::endl
+    //     <<"y or latitude: "<< y_lat<<std::endl
+    //     <<"z: "<<z<<std::endl
+    //     <<"speed: " <<speed<<std::endl
+    //     <<"yaw: "<<yaw  
+    // );
 }
 
 void UserInput::response_callback(const UserCommand::UniquePtr msg)
@@ -206,6 +203,7 @@ bool UserInput::check_valid_coord(const bool &use_xy, const float &x_lon, const 
 
 bool UserInput::check_valid_z(const float &z)
 {
+    if(z == -1) {return true;}
     if(z < 1 || z > 150)
     {
         return false;
@@ -215,6 +213,7 @@ bool UserInput::check_valid_z(const float &z)
 
 bool UserInput::check_valid_yaw(const float &yaw)
 {
+    if(yaw == -1) {return true;}
     if(yaw < -180 || yaw > 180)
     {
         return false;
@@ -224,6 +223,7 @@ bool UserInput::check_valid_yaw(const float &yaw)
 
 bool UserInput::check_valid_speed(const float &speed)
 {
+    if(speed == -1) {return true;}
     if (speed<0 || speed > 20)
     {
         return false;
@@ -242,6 +242,9 @@ void UserInput::print_rej_msg(const uint8_t reason)
             break;
         case UserCommand::REJECT_LAND_BEFORE_TAKEOFF:
             reason_str = "must land before takeoff";
+            break;
+        case UserCommand::REJECT_TAKEOFF_REQUIRED:
+            reason_str = "must take off first";
             break;
         case UserCommand::REJECT_TAKEOFF_BEFORE_LAND:
             reason_str = "must takeoff before land"; 

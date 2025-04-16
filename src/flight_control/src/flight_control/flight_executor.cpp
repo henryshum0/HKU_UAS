@@ -15,17 +15,15 @@ void FlightExecutor::publish_control()
     if(vehicle_state_storage->get_is_init())
     {
         RCLCPP_INFO_ONCE(this->get_logger(), "vehicle state initialized, ready to execute");
+        executor_storage->set_is_init();
     }
     else
     {
-        RCLCPP_INFO(this->get_logger(), "await vehicle state to initialize");
+        RCLCPP_INFO_ONCE(this->get_logger(), "await vehicle state to initialize");
         return;
     }
 
     if(!executor_storage->get_is_execute()) {return;}
-
-    if(!this->vehicle_state_storage->get_is_arm()) {this->executor_storage->set_vehicle_cmd_curr(VehicleCMD::ARM); return;}
-    else {this->executor_storage->set_vehicle_cmd_curr(VehicleCMD::PUBLISH_TRJ);}
 
     //execute main loop only when user input command EXECUTE
     
@@ -49,10 +47,15 @@ void FlightExecutor::publish_control()
             break;
 
         case MISSION::LAND:
+            land(waypoint_curr);
             break;
 
-        case MISSION::WAYPOINT:
+        case MISSION::WAYPOINT_XY:
             move_to_waypoint(waypoint_curr);
+            break;
+
+        case MISSION::WAYPONT_LONLAT:
+            move_to_waypoint_lonlat(waypoint_curr);
             break;
 
         case MISSION::AIDROP:
@@ -72,7 +75,16 @@ void FlightExecutor::publish_control()
 //take_off is just a special way point
 void FlightExecutor::take_off(std::shared_ptr<Waypoint> take_off_waypoint)
 {
-    if(take_off_waypoint->is_reached) {take_off_waypoint->mission_completed = true;}
+    if(take_off_waypoint->is_reached) 
+    {
+        take_off_waypoint->mission_completed = true;
+        set_trj_setpoint_pos(take_off_waypoint->target);
+        return;
+    }
+    if(!vehicle_state_storage->get_is_arm())
+    {
+        executor_storage->set_vehicle_cmd_curr(VehicleCMD::ARM);
+    }
     if(take_off_waypoint->target.hasNaN())
     {
         float height;
@@ -89,7 +101,42 @@ void FlightExecutor::take_off(std::shared_ptr<Waypoint> take_off_waypoint)
         take_off_waypoint->target = pos_curr;
     }
     move_to_waypoint(take_off_waypoint);
-    if(take_off_waypoint->is_reached) take_off_waypoint->mission_completed = true;
+}
+
+void FlightExecutor::land(std::shared_ptr<Waypoint> land_waypoint)
+{
+    if(land_waypoint->is_reached) 
+    {
+        if(!vehicle_state_storage->get_is_arm()) {land_waypoint->mission_completed = true; executor_storage->set_vehicle_cmd_curr(VehicleCMD::NO_CMD);}
+        if(!vehicle_state_storage->get_is_landed()) {set_trj_setpoint_vel(Vector3f(0.f, 0.f, -.5));}
+        else {executor_storage->set_vehicle_cmd_curr(VehicleCMD::DISARM);}
+        return;
+    }
+    
+    if(land_waypoint->target.hasNaN())
+    {
+        Vector3f pos_land = vehicle_state_storage->get_pos_avg();
+        pos_land.z() = 0;
+        land_waypoint->target = pos_land;
+        land_waypoint->speed = LAND_DESCENT_SPEED;
+    }
+    move_to_waypoint(land_waypoint);
+}
+
+void FlightExecutor::move_to_waypoint_lonlat(std::shared_ptr<Waypoint> waypoint_lonlat)
+{
+    const Vector3f vector_relative = utils::gps_vector_enu
+    (
+        waypoint_lonlat->target.x(), 
+        waypoint_lonlat->target.y(),
+        vehicle_state_storage->get_pos_lon_lat().x(),
+        vehicle_state_storage->get_pos_lon_lat().y()
+    );
+    const Vector3f pos_avg = vehicle_state_storage->get_pos_avg();
+    waypoint_lonlat->target.x() = vector_relative.x() + pos_avg.x();
+    waypoint_lonlat->target.y() = vector_relative.y() + pos_avg.y();
+    if(std::isnan(waypoint_lonlat->target.z())) { waypoint_lonlat->target.z() = executor_storage->get_waypoint_completed_last()->target.z();}
+    move_to_waypoint(waypoint_lonlat);
 }
 
 void FlightExecutor::move_to_waypoint(std::shared_ptr<Waypoint> waypoint)
@@ -98,14 +145,15 @@ void FlightExecutor::move_to_waypoint(std::shared_ptr<Waypoint> waypoint)
     {
         Vector3f pos_avg_curr = vehicle_state_storage->get_pos_avg();
         Vector3f dir = (waypoint->target - pos_avg_curr).normalized();
+        if(std::isnan(waypoint->target.z())) { waypoint->target.z() = executor_storage->get_waypoint_completed_last()->target.z();}
+        if(std::isnan(waypoint->speed))  {waypoint->speed = WAYPOINT_SPEED_DEFAULT;}
         set_trj_setpoint_vel(dir * waypoint->speed);
-        
-        if((waypoint->target - pos_avg_curr).norm() < 2) 
+        if((waypoint->target - pos_avg_curr).norm() < 0.5) 
         {
             waypoint->is_reached = true;
             RCLCPP_INFO_STREAM(this->get_logger(), "Waypoint "<<waypoint->target.transpose()<<" is reached");
             set_trj_setpoint_pos(waypoint->target);
-            if(waypoint->mission == MISSION::WAYPOINT) {waypoint->mission_completed = true;}
+            if(waypoint->mission == MISSION::WAYPOINT_XY || waypoint->mission == MISSION::WAYPONT_LONLAT) {waypoint->mission_completed = true;}
         }
     }
 }

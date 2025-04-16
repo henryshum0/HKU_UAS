@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
-[ 12%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_control/state_subscribers.cpp.o[0m
-[ 25%] [32m[1mLinking CXX shared library libflight_control_lib.so[0m
-[ 75%] Built target flight_control_lib
-[ 87%] [32mBuilding CXX object CMakeFiles/offboard_controller.dir/src/main.cpp.o[0m

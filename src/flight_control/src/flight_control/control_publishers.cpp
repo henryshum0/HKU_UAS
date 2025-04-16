@@ -135,25 +135,25 @@ void ControlPublisher::timer_query_cmd_callback()
             this->publish_vehicle_command(VehicleCommand::VEHICLE_CMD_DO_SET_MODE, 1, 6);
             this->arm();
             arm_cmd_sent_time = this->get_clock()->now();
-            RCLCPP_INFO(this->get_logger(), "VehicleCMD: ARM");
+            // RCLCPP_INFO(this->get_logger(), "VehicleCMD: ARM");
         }
         break;
 
         case VehicleCMD::DISARM:
             this->disarm();
-            RCLCPP_INFO(this->get_logger(), "VehicleCMD: DISARM");
+            // RCLCPP_INFO(this->get_logger(), "VehicleCMD: DISARM");
             break;
 
         case VehicleCMD::PUBLISH_TRJ:
-            RCLCPP_INFO(this->get_logger(), "VehicleCMD: PUBLISH_TRJ");
+            // RCLCPP_INFO(this->get_logger(), "VehicleCMD: PUBLISH_TRJ");
             break;
 
         case VehicleCMD::NO_CMD:
-            RCLCPP_INFO(this->get_logger(), "VehicleCMD: NO_CMD");
+            // RCLCPP_INFO(this->get_logger(), "VehicleCMD: NO_CMD");
             break;
 
         default:
-            RCLCPP_INFO(this->get_logger(), "ERROR");
+            RCLCPP_INFO(this->get_logger(), "CMD ERROR");
     }
     
     if(true)//executor_storage->get_is_init())

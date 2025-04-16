@@ -6,6 +6,8 @@
 
 using namespace Eigen;
 
+
+
 namespace utils{
     
     /**
@@ -22,6 +24,7 @@ namespace utils{
     Vector3f flu_frd_convert(const Vector3f& in);
 
     float enu_ned_yaw_convert(const float yaw);
+    Vector3f gps_vector_enu(const float target_lon, const float target_lat, const float source_lon, const float source_lat);
 }
 
 #endif

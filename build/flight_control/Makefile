@@ -434,6 +434,30 @@ src/lib/frame_conversion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_control_lib.dir/build.make CMakeFiles/flight_control_lib.dir/src/lib/frame_conversion.cpp.s
 .PHONY : src/lib/frame_conversion.cpp.s
 
+src/lib/gps_conversion.o: src/lib/gps_conversion.cpp.o
+.PHONY : src/lib/gps_conversion.o
+
+# target to build an object file
+src/lib/gps_conversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_control_lib.dir/build.make CMakeFiles/flight_control_lib.dir/src/lib/gps_conversion.cpp.o
+.PHONY : src/lib/gps_conversion.cpp.o
+
+src/lib/gps_conversion.i: src/lib/gps_conversion.cpp.i
+.PHONY : src/lib/gps_conversion.i
+
+# target to preprocess a source file
+src/lib/gps_conversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_control_lib.dir/build.make CMakeFiles/flight_control_lib.dir/src/lib/gps_conversion.cpp.i
+.PHONY : src/lib/gps_conversion.cpp.i
+
+src/lib/gps_conversion.s: src/lib/gps_conversion.cpp.s
+.PHONY : src/lib/gps_conversion.s
+
+# target to generate assembly for a file
+src/lib/gps_conversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_control_lib.dir/build.make CMakeFiles/flight_control_lib.dir/src/lib/gps_conversion.cpp.s
+.PHONY : src/lib/gps_conversion.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -665,6 +689,9 @@ help:
 	@echo "... src/lib/frame_conversion.o"
 	@echo "... src/lib/frame_conversion.i"
 	@echo "... src/lib/frame_conversion.s"
+	@echo "... src/lib/gps_conversion.o"
+	@echo "... src/lib/gps_conversion.i"
+	@echo "... src/lib/gps_conversion.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

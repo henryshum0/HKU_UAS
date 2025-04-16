@@ -54,14 +54,19 @@ static bool _UserCommand__cdr_serialize(
     cdr << ros_message->timestamp;
   }
 
-  // Field name: lon
+  // Field name: command
   {
-    cdr << ros_message->lon;
+    cdr << ros_message->command;
   }
 
-  // Field name: lat
+  // Field name: response
   {
-    cdr << ros_message->lat;
+    cdr << ros_message->response;
+  }
+
+  // Field name: use_xy
+  {
+    cdr << (ros_message->use_xy ? true : false);
   }
 
   // Field name: x
@@ -72,6 +77,16 @@ static bool _UserCommand__cdr_serialize(
   // Field name: y
   {
     cdr << ros_message->y;
+  }
+
+  // Field name: lon
+  {
+    cdr << ros_message->lon;
+  }
+
+  // Field name: lat
+  {
+    cdr << ros_message->lat;
   }
 
   // Field name: z
@@ -87,21 +102,6 @@ static bool _UserCommand__cdr_serialize(
   // Field name: yaw
   {
     cdr << ros_message->yaw;
-  }
-
-  // Field name: command
-  {
-    cdr << ros_message->command;
-  }
-
-  // Field name: use_xy
-  {
-    cdr << (ros_message->use_xy ? true : false);
-  }
-
-  // Field name: response
-  {
-    cdr << ros_message->response;
   }
 
   return true;
@@ -121,14 +121,21 @@ static bool _UserCommand__cdr_deserialize(
     cdr >> ros_message->timestamp;
   }
 
-  // Field name: lon
+  // Field name: command
   {
-    cdr >> ros_message->lon;
+    cdr >> ros_message->command;
   }
 
-  // Field name: lat
+  // Field name: response
   {
-    cdr >> ros_message->lat;
+    cdr >> ros_message->response;
+  }
+
+  // Field name: use_xy
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->use_xy = tmp ? true : false;
   }
 
   // Field name: x
@@ -139,6 +146,16 @@ static bool _UserCommand__cdr_deserialize(
   // Field name: y
   {
     cdr >> ros_message->y;
+  }
+
+  // Field name: lon
+  {
+    cdr >> ros_message->lon;
+  }
+
+  // Field name: lat
+  {
+    cdr >> ros_message->lat;
   }
 
   // Field name: z
@@ -154,23 +171,6 @@ static bool _UserCommand__cdr_deserialize(
   // Field name: yaw
   {
     cdr >> ros_message->yaw;
-  }
-
-  // Field name: command
-  {
-    cdr >> ros_message->command;
-  }
-
-  // Field name: use_xy
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->use_xy = tmp ? true : false;
-  }
-
-  // Field name: response
-  {
-    cdr >> ros_message->response;
   }
 
   return true;
@@ -196,15 +196,21 @@ size_t get_serialized_size_offboard_control_interfaces__msg__UserCommand(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name lon
+  // field.name command
   {
-    size_t item_size = sizeof(ros_message->lon);
+    size_t item_size = sizeof(ros_message->command);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name lat
+  // field.name response
   {
-    size_t item_size = sizeof(ros_message->lat);
+    size_t item_size = sizeof(ros_message->response);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name use_xy
+  {
+    size_t item_size = sizeof(ros_message->use_xy);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -217,6 +223,18 @@ size_t get_serialized_size_offboard_control_interfaces__msg__UserCommand(
   // field.name y
   {
     size_t item_size = sizeof(ros_message->y);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name lon
+  {
+    size_t item_size = sizeof(ros_message->lon);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name lat
+  {
+    size_t item_size = sizeof(ros_message->lat);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -235,24 +253,6 @@ size_t get_serialized_size_offboard_control_interfaces__msg__UserCommand(
   // field.name yaw
   {
     size_t item_size = sizeof(ros_message->yaw);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name command
-  {
-    size_t item_size = sizeof(ros_message->command);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name use_xy
-  {
-    size_t item_size = sizeof(ros_message->use_xy);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name response
-  {
-    size_t item_size = sizeof(ros_message->response);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -293,21 +293,26 @@ size_t max_serialized_size_offboard_control_interfaces__msg__UserCommand(
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
-  // member: lon
+  // member: command
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: lat
+  // member: response
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: use_xy
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
   }
   // member: x
   {
@@ -318,6 +323,22 @@ size_t max_serialized_size_offboard_control_interfaces__msg__UserCommand(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: y
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: lon
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: lat
   {
     size_t array_size = 1;
 
@@ -349,27 +370,6 @@ size_t max_serialized_size_offboard_control_interfaces__msg__UserCommand(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: command
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: use_xy
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: response
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -379,7 +379,7 @@ size_t max_serialized_size_offboard_control_interfaces__msg__UserCommand(
     using DataType = offboard_control_interfaces__msg__UserCommand;
     is_plain =
       (
-      offsetof(DataType, response) +
+      offsetof(DataType, yaw) +
       last_member_size
       ) == ret_val;
   }

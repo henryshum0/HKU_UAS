@@ -34,26 +34,26 @@ cdr_serialize(
 {
   // Member: timestamp
   cdr << ros_message.timestamp;
-  // Member: lon
-  cdr << ros_message.lon;
-  // Member: lat
-  cdr << ros_message.lat;
+  // Member: command
+  cdr << ros_message.command;
+  // Member: response
+  cdr << ros_message.response;
+  // Member: use_xy
+  cdr << (ros_message.use_xy ? true : false);
   // Member: x
   cdr << ros_message.x;
   // Member: y
   cdr << ros_message.y;
+  // Member: lon
+  cdr << ros_message.lon;
+  // Member: lat
+  cdr << ros_message.lat;
   // Member: z
   cdr << ros_message.z;
   // Member: speed
   cdr << ros_message.speed;
   // Member: yaw
   cdr << ros_message.yaw;
-  // Member: command
-  cdr << ros_message.command;
-  // Member: use_xy
-  cdr << (ros_message.use_xy ? true : false);
-  // Member: response
-  cdr << ros_message.response;
   return true;
 }
 
@@ -66,17 +66,30 @@ cdr_deserialize(
   // Member: timestamp
   cdr >> ros_message.timestamp;
 
-  // Member: lon
-  cdr >> ros_message.lon;
+  // Member: command
+  cdr >> ros_message.command;
 
-  // Member: lat
-  cdr >> ros_message.lat;
+  // Member: response
+  cdr >> ros_message.response;
+
+  // Member: use_xy
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.use_xy = tmp ? true : false;
+  }
 
   // Member: x
   cdr >> ros_message.x;
 
   // Member: y
   cdr >> ros_message.y;
+
+  // Member: lon
+  cdr >> ros_message.lon;
+
+  // Member: lat
+  cdr >> ros_message.lat;
 
   // Member: z
   cdr >> ros_message.z;
@@ -86,19 +99,6 @@ cdr_deserialize(
 
   // Member: yaw
   cdr >> ros_message.yaw;
-
-  // Member: command
-  cdr >> ros_message.command;
-
-  // Member: use_xy
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.use_xy = tmp ? true : false;
-  }
-
-  // Member: response
-  cdr >> ros_message.response;
 
   return true;
 }
@@ -122,15 +122,21 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: lon
+  // Member: command
   {
-    size_t item_size = sizeof(ros_message.lon);
+    size_t item_size = sizeof(ros_message.command);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: lat
+  // Member: response
   {
-    size_t item_size = sizeof(ros_message.lat);
+    size_t item_size = sizeof(ros_message.response);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: use_xy
+  {
+    size_t item_size = sizeof(ros_message.use_xy);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -143,6 +149,18 @@ get_serialized_size(
   // Member: y
   {
     size_t item_size = sizeof(ros_message.y);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: lon
+  {
+    size_t item_size = sizeof(ros_message.lon);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: lat
+  {
+    size_t item_size = sizeof(ros_message.lat);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -161,24 +179,6 @@ get_serialized_size(
   // Member: yaw
   {
     size_t item_size = sizeof(ros_message.yaw);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: command
-  {
-    size_t item_size = sizeof(ros_message.command);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: use_xy
-  {
-    size_t item_size = sizeof(ros_message.use_xy);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: response
-  {
-    size_t item_size = sizeof(ros_message.response);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -215,22 +215,28 @@ max_serialized_size_UserCommand(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
-  // Member: lon
+  // Member: command
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
   }
 
-  // Member: lat
+  // Member: response
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: use_xy
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: x
@@ -243,6 +249,24 @@ max_serialized_size_UserCommand(
   }
 
   // Member: y
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: lon
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: lat
   {
     size_t array_size = 1;
 
@@ -278,30 +302,6 @@ max_serialized_size_UserCommand(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: command
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: use_xy
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: response
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -310,7 +310,7 @@ max_serialized_size_UserCommand(
     using DataType = offboard_control_interfaces::msg::UserCommand;
     is_plain =
       (
-      offsetof(DataType, response) +
+      offsetof(DataType, yaw) +
       last_member_size
       ) == ret_val;
   }

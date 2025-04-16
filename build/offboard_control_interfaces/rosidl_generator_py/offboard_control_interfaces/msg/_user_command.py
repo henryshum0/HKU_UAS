@@ -33,10 +33,11 @@ class Metaclass_UserCommand(type):
         'REJECT': 210,
         'REJECT_SETPOINT_OUTOFREACH': 211,
         'REJECT_SPEED_INFEASIBLE': 212,
-        'REJECT_TAKEOFF_HEIGHTINFEASIBLE': 213,
-        'REJECT_LAND_BEFORE_TAKEOFF': 214,
+        'REJECT_TAKEOFF_REQUIRED': 213,
+        'REJECT_TAKEOFF_HEIGHTINFEASIBLE': 214,
         'REJECT_TAKEOFF_BEFORE_LAND': 215,
-        'REJECT_EMPTY_WAYPOINTS': 216,
+        'REJECT_LAND_BEFORE_TAKEOFF': 216,
+        'REJECT_EMPTY_WAYPOINTS': 217,
     }
 
     @classmethod
@@ -76,9 +77,10 @@ class Metaclass_UserCommand(type):
             'REJECT': cls.__constants['REJECT'],
             'REJECT_SETPOINT_OUTOFREACH': cls.__constants['REJECT_SETPOINT_OUTOFREACH'],
             'REJECT_SPEED_INFEASIBLE': cls.__constants['REJECT_SPEED_INFEASIBLE'],
+            'REJECT_TAKEOFF_REQUIRED': cls.__constants['REJECT_TAKEOFF_REQUIRED'],
             'REJECT_TAKEOFF_HEIGHTINFEASIBLE': cls.__constants['REJECT_TAKEOFF_HEIGHTINFEASIBLE'],
-            'REJECT_LAND_BEFORE_TAKEOFF': cls.__constants['REJECT_LAND_BEFORE_TAKEOFF'],
             'REJECT_TAKEOFF_BEFORE_LAND': cls.__constants['REJECT_TAKEOFF_BEFORE_LAND'],
+            'REJECT_LAND_BEFORE_TAKEOFF': cls.__constants['REJECT_LAND_BEFORE_TAKEOFF'],
             'REJECT_EMPTY_WAYPOINTS': cls.__constants['REJECT_EMPTY_WAYPOINTS'],
         }
 
@@ -138,19 +140,24 @@ class Metaclass_UserCommand(type):
         return Metaclass_UserCommand.__constants['REJECT_SPEED_INFEASIBLE']
 
     @property
+    def REJECT_TAKEOFF_REQUIRED(self):
+        """Message constant 'REJECT_TAKEOFF_REQUIRED'."""
+        return Metaclass_UserCommand.__constants['REJECT_TAKEOFF_REQUIRED']
+
+    @property
     def REJECT_TAKEOFF_HEIGHTINFEASIBLE(self):
         """Message constant 'REJECT_TAKEOFF_HEIGHTINFEASIBLE'."""
         return Metaclass_UserCommand.__constants['REJECT_TAKEOFF_HEIGHTINFEASIBLE']
 
     @property
-    def REJECT_LAND_BEFORE_TAKEOFF(self):
-        """Message constant 'REJECT_LAND_BEFORE_TAKEOFF'."""
-        return Metaclass_UserCommand.__constants['REJECT_LAND_BEFORE_TAKEOFF']
-
-    @property
     def REJECT_TAKEOFF_BEFORE_LAND(self):
         """Message constant 'REJECT_TAKEOFF_BEFORE_LAND'."""
         return Metaclass_UserCommand.__constants['REJECT_TAKEOFF_BEFORE_LAND']
+
+    @property
+    def REJECT_LAND_BEFORE_TAKEOFF(self):
+        """Message constant 'REJECT_LAND_BEFORE_TAKEOFF'."""
+        return Metaclass_UserCommand.__constants['REJECT_LAND_BEFORE_TAKEOFF']
 
     @property
     def REJECT_EMPTY_WAYPOINTS(self):
@@ -174,52 +181,53 @@ class UserCommand(metaclass=Metaclass_UserCommand):
       REJECT
       REJECT_SETPOINT_OUTOFREACH
       REJECT_SPEED_INFEASIBLE
+      REJECT_TAKEOFF_REQUIRED
       REJECT_TAKEOFF_HEIGHTINFEASIBLE
-      REJECT_LAND_BEFORE_TAKEOFF
       REJECT_TAKEOFF_BEFORE_LAND
+      REJECT_LAND_BEFORE_TAKEOFF
       REJECT_EMPTY_WAYPOINTS
     """
 
     __slots__ = [
         '_timestamp',
-        '_lon',
-        '_lat',
+        '_command',
+        '_response',
+        '_use_xy',
         '_x',
         '_y',
+        '_lon',
+        '_lat',
         '_z',
         '_speed',
         '_yaw',
-        '_command',
-        '_use_xy',
-        '_response',
     ]
 
     _fields_and_field_types = {
         'timestamp': 'uint64',
-        'lon': 'float',
-        'lat': 'float',
+        'command': 'uint8',
+        'response': 'uint8',
+        'use_xy': 'boolean',
         'x': 'float',
         'y': 'float',
+        'lon': 'float',
+        'lat': 'float',
         'z': 'float',
         'speed': 'float',
         'yaw': 'float',
-        'command': 'uint8',
-        'use_xy': 'boolean',
-        'response': 'uint8',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('uint64'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -227,16 +235,16 @@ class UserCommand(metaclass=Metaclass_UserCommand):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.timestamp = kwargs.get('timestamp', int())
-        self.lon = kwargs.get('lon', float())
-        self.lat = kwargs.get('lat', float())
+        self.command = kwargs.get('command', int())
+        self.response = kwargs.get('response', int())
+        self.use_xy = kwargs.get('use_xy', bool())
         self.x = kwargs.get('x', float())
         self.y = kwargs.get('y', float())
+        self.lon = kwargs.get('lon', float())
+        self.lat = kwargs.get('lat', float())
         self.z = kwargs.get('z', float())
         self.speed = kwargs.get('speed', float())
         self.yaw = kwargs.get('yaw', float())
-        self.command = kwargs.get('command', int())
-        self.use_xy = kwargs.get('use_xy', bool())
-        self.response = kwargs.get('response', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -269,25 +277,25 @@ class UserCommand(metaclass=Metaclass_UserCommand):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if self.lon != other.lon:
+        if self.command != other.command:
             return False
-        if self.lat != other.lat:
+        if self.response != other.response:
+            return False
+        if self.use_xy != other.use_xy:
             return False
         if self.x != other.x:
             return False
         if self.y != other.y:
+            return False
+        if self.lon != other.lon:
+            return False
+        if self.lat != other.lat:
             return False
         if self.z != other.z:
             return False
         if self.speed != other.speed:
             return False
         if self.yaw != other.yaw:
-            return False
-        if self.command != other.command:
-            return False
-        if self.use_xy != other.use_xy:
-            return False
-        if self.response != other.response:
             return False
         return True
 
@@ -312,34 +320,47 @@ class UserCommand(metaclass=Metaclass_UserCommand):
         self._timestamp = value
 
     @builtins.property
-    def lon(self):
-        """Message field 'lon'."""
-        return self._lon
+    def command(self):
+        """Message field 'command'."""
+        return self._command
 
-    @lon.setter
-    def lon(self, value):
+    @command.setter
+    def command(self, value):
         if __debug__:
             assert \
-                isinstance(value, float), \
-                "The 'lon' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'lon' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._lon = value
+                isinstance(value, int), \
+                "The 'command' field must be of type 'int'"
+            assert value >= 0 and value < 256, \
+                "The 'command' field must be an unsigned integer in [0, 255]"
+        self._command = value
 
     @builtins.property
-    def lat(self):
-        """Message field 'lat'."""
-        return self._lat
+    def response(self):
+        """Message field 'response'."""
+        return self._response
 
-    @lat.setter
-    def lat(self, value):
+    @response.setter
+    def response(self, value):
         if __debug__:
             assert \
-                isinstance(value, float), \
-                "The 'lat' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'lat' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._lat = value
+                isinstance(value, int), \
+                "The 'response' field must be of type 'int'"
+            assert value >= 0 and value < 256, \
+                "The 'response' field must be an unsigned integer in [0, 255]"
+        self._response = value
+
+    @builtins.property
+    def use_xy(self):
+        """Message field 'use_xy'."""
+        return self._use_xy
+
+    @use_xy.setter
+    def use_xy(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'use_xy' field must be of type 'bool'"
+        self._use_xy = value
 
     @builtins.property
     def x(self):
@@ -370,6 +391,36 @@ class UserCommand(metaclass=Metaclass_UserCommand):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'y' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._y = value
+
+    @builtins.property
+    def lon(self):
+        """Message field 'lon'."""
+        return self._lon
+
+    @lon.setter
+    def lon(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'lon' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'lon' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._lon = value
+
+    @builtins.property
+    def lat(self):
+        """Message field 'lat'."""
+        return self._lat
+
+    @lat.setter
+    def lat(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'lat' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'lat' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._lat = value
 
     @builtins.property
     def z(self):
@@ -415,46 +466,3 @@ class UserCommand(metaclass=Metaclass_UserCommand):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'yaw' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._yaw = value
-
-    @builtins.property
-    def command(self):
-        """Message field 'command'."""
-        return self._command
-
-    @command.setter
-    def command(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'command' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'command' field must be an unsigned integer in [0, 255]"
-        self._command = value
-
-    @builtins.property
-    def use_xy(self):
-        """Message field 'use_xy'."""
-        return self._use_xy
-
-    @use_xy.setter
-    def use_xy(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'use_xy' field must be of type 'bool'"
-        self._use_xy = value
-
-    @builtins.property
-    def response(self):
-        """Message field 'response'."""
-        return self._response
-
-    @response.setter
-    def response(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'response' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'response' field must be an unsigned integer in [0, 255]"
-        self._response = value

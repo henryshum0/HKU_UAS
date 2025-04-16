@@ -17,7 +17,6 @@ void InputParser::new_input_callback(const UserCommand::UniquePtr msg)
     int landing_c = executor_storage->get_mission_count(MISSION::LAND);
     switch(msg->command)
     {
-        //case when user input a TAKEOFF waypoint
         case UserCommand::TAKEOFF:
             //perform checking
             if(takeoff_c != landing_c)
@@ -44,18 +43,73 @@ void InputParser::new_input_callback(const UserCommand::UniquePtr msg)
                     ));
                 response_msg.response = UserCommand::SUCCESS;
                 this->response_publisher->publish(response_msg);
-                RCLCPP_INFO(this->get_logger(), "received takeoff waypoint SUCCESS");
+                RCLCPP_INFO(this->get_logger(), "received TAKEOFF waypoint SUCCESS");
             }
             break;
         
-        //case when user input a WAYPOINT waypoint
-        // case UserCommand::WAYPOINT:
-        //     break;
+        case UserCommand::LAND:
+            if(landing_c >= takeoff_c)
+            {
+                response_msg.response = UserCommand::REJECT_TAKEOFF_BEFORE_LAND;
+                this->response_publisher->publish(response_msg);
+                print_rej_msg(UserCommand::REJECT_TAKEOFF_BEFORE_LAND);
+            }
+            else
+            {
+                executor_storage->add_waypoint(std::make_shared<Waypoint>
+                (
+                    Vector3f(NAN, NAN, NAN),
+                    1.f,
+                    MISSION::LAND            
+                ));
+                response_msg.response = UserCommand::SUCCESS;
+                this->response_publisher->publish(response_msg);
+                RCLCPP_INFO(this->get_logger(), "received LAND waypoint SUCCESS");
+            }
+            break;
+
+        case UserCommand::WAYPOINT:
+            if(takeoff_c - landing_c<= 0)
+            {
+                response_msg.response = UserCommand::REJECT_TAKEOFF_REQUIRED;
+                this->response_publisher->publish(response_msg);
+                print_rej_msg(UserCommand::REJECT_TAKEOFF_REQUIRED);
+            }
+            else if(msg->use_xy)
+            {
+                executor_storage->add_waypoint(std::make_shared<Waypoint>
+                (
+                    Vector3f(msg->x, msg->y, msg->z),
+                    msg->speed,
+                    MISSION::WAYPOINT_XY           
+                ));
+                response_msg.response = UserCommand::SUCCESS;
+                this->response_publisher->publish(response_msg);
+                RCLCPP_INFO(this->get_logger(), "received WAYPOINT_XY waypoint SUCCESS");
+            }
+            else
+            {
+                executor_storage->add_waypoint(std::make_shared<Waypoint>
+                (
+                    Vector3f(msg->lon, msg->lat, msg->z),
+                    msg->speed,
+                    MISSION::WAYPONT_LONLAT            
+                ));
+                response_msg.response = UserCommand::SUCCESS;
+                this->response_publisher->publish(response_msg);
+                RCLCPP_INFO(this->get_logger(), "received WAYPOINT_LONLAT waypoint SUCCESS");
+            }
+            break;
+
         case UserCommand::EXECUTE:
             if(executor_storage->get_waypoints_count() < 1)
             {
                 response_msg.response = UserCommand::REJECT_EMPTY_WAYPOINTS;
                 this->response_publisher->publish(response_msg);
+            }
+            else if(!executor_storage->get_is_init())
+            {
+                
             }
             else
             {
@@ -85,16 +139,19 @@ void InputParser::print_rej_msg(const uint8_t reason)
         case UserCommand::REJECT_LAND_BEFORE_TAKEOFF:
             reason_str = "must land before takeoff";
             break;
+        case UserCommand::REJECT_TAKEOFF_REQUIRED:
+            reason_str = "must take off first";
+            break;
         case UserCommand::REJECT_TAKEOFF_BEFORE_LAND:
             reason_str = "must takeoff before land"; 
             break;
-        case UserCommand::REJECT_SETPOINT_OUTOFREACH:
+        case UserCommand::REJECT_SETPOINT_OUTOFREACH: //unused
             reason_str = "the waypoint is out of reach"; 
             break;
         case UserCommand::REJECT_TAKEOFF_HEIGHTINFEASIBLE:
             reason_str = "take off height is not feasible";
             break;
-        case UserCommand::REJECT_SPEED_INFEASIBLE:
+        case UserCommand::REJECT_SPEED_INFEASIBLE: //unused
             reason_str = "speed is not feasible";
             break;
         case UserCommand::REJECT_EMPTY_WAYPOINTS:

@@ -1,9 +1,0 @@
-[ 66%] Built target flight_control_lib
-[35m[1mConsolidate compiler generated dependencies of target offboard_controller[0m
-[ 83%] [32m[1mLinking CXX executable offboard_controller[0m
-/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
-(.text+0x1b): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/offboard_controller.dir/build.make:185: offboard_controller] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/offboard_controller.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,4 +1,0 @@
-[ 13%] Built target nodesoup
-[ 95%] Built target matplot
-[35m[1mConsolidate compiler generated dependencies of target test_function[0m
-[ 97%] [32mBuilding CXX object CMakeFiles/test_function.dir/src/test.cpp.o[0m

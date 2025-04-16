@@ -1,9 +1,0 @@
-/usr/bin/ld: CMakeFiles/test_functions.dir/src/test.cpp.o: in function `main':
-test.cpp:(.text+0xe2): undefined reference to `flight_control::frame_convertion::enu_ned_convert(Eigen::Matrix<float, 3, 1, 0, 3, 1>)'
-/usr/bin/ld: test.cpp:(.text+0x108): undefined reference to `flight_control::frame_convertion::enu_ned_convert(Eigen::Matrix<float, 3, 1, 0, 3, 1>)'
-/usr/bin/ld: test.cpp:(.text+0x12e): undefined reference to `flight_control::frame_convertion::enu_ned_convert(Eigen::Matrix<float, 3, 1, 0, 3, 1>)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/test_functions.dir/build.make:97: test_functions] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_functions.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

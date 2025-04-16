@@ -1,3 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target flight_control_lib[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/flight_mode.cpp.o[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/flight_control_lib.dir/src/take_off_mode.cpp.o[0m

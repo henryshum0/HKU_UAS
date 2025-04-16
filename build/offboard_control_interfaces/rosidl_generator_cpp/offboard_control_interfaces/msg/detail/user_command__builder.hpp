@@ -21,64 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_UserCommand_response
-{
-public:
-  explicit Init_UserCommand_response(::offboard_control_interfaces::msg::UserCommand & msg)
-  : msg_(msg)
-  {}
-  ::offboard_control_interfaces::msg::UserCommand response(::offboard_control_interfaces::msg::UserCommand::_response_type arg)
-  {
-    msg_.response = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::offboard_control_interfaces::msg::UserCommand msg_;
-};
-
-class Init_UserCommand_use_xy
-{
-public:
-  explicit Init_UserCommand_use_xy(::offboard_control_interfaces::msg::UserCommand & msg)
-  : msg_(msg)
-  {}
-  Init_UserCommand_response use_xy(::offboard_control_interfaces::msg::UserCommand::_use_xy_type arg)
-  {
-    msg_.use_xy = std::move(arg);
-    return Init_UserCommand_response(msg_);
-  }
-
-private:
-  ::offboard_control_interfaces::msg::UserCommand msg_;
-};
-
-class Init_UserCommand_command
-{
-public:
-  explicit Init_UserCommand_command(::offboard_control_interfaces::msg::UserCommand & msg)
-  : msg_(msg)
-  {}
-  Init_UserCommand_use_xy command(::offboard_control_interfaces::msg::UserCommand::_command_type arg)
-  {
-    msg_.command = std::move(arg);
-    return Init_UserCommand_use_xy(msg_);
-  }
-
-private:
-  ::offboard_control_interfaces::msg::UserCommand msg_;
-};
-
 class Init_UserCommand_yaw
 {
 public:
   explicit Init_UserCommand_yaw(::offboard_control_interfaces::msg::UserCommand & msg)
   : msg_(msg)
   {}
-  Init_UserCommand_command yaw(::offboard_control_interfaces::msg::UserCommand::_yaw_type arg)
+  ::offboard_control_interfaces::msg::UserCommand yaw(::offboard_control_interfaces::msg::UserCommand::_yaw_type arg)
   {
     msg_.yaw = std::move(arg);
-    return Init_UserCommand_command(msg_);
+    return std::move(msg_);
   }
 
 private:
@@ -117,48 +69,16 @@ private:
   ::offboard_control_interfaces::msg::UserCommand msg_;
 };
 
-class Init_UserCommand_y
-{
-public:
-  explicit Init_UserCommand_y(::offboard_control_interfaces::msg::UserCommand & msg)
-  : msg_(msg)
-  {}
-  Init_UserCommand_z y(::offboard_control_interfaces::msg::UserCommand::_y_type arg)
-  {
-    msg_.y = std::move(arg);
-    return Init_UserCommand_z(msg_);
-  }
-
-private:
-  ::offboard_control_interfaces::msg::UserCommand msg_;
-};
-
-class Init_UserCommand_x
-{
-public:
-  explicit Init_UserCommand_x(::offboard_control_interfaces::msg::UserCommand & msg)
-  : msg_(msg)
-  {}
-  Init_UserCommand_y x(::offboard_control_interfaces::msg::UserCommand::_x_type arg)
-  {
-    msg_.x = std::move(arg);
-    return Init_UserCommand_y(msg_);
-  }
-
-private:
-  ::offboard_control_interfaces::msg::UserCommand msg_;
-};
-
 class Init_UserCommand_lat
 {
 public:
   explicit Init_UserCommand_lat(::offboard_control_interfaces::msg::UserCommand & msg)
   : msg_(msg)
   {}
-  Init_UserCommand_x lat(::offboard_control_interfaces::msg::UserCommand::_lat_type arg)
+  Init_UserCommand_z lat(::offboard_control_interfaces::msg::UserCommand::_lat_type arg)
   {
     msg_.lat = std::move(arg);
-    return Init_UserCommand_x(msg_);
+    return Init_UserCommand_z(msg_);
   }
 
 private:
@@ -181,16 +101,96 @@ private:
   ::offboard_control_interfaces::msg::UserCommand msg_;
 };
 
+class Init_UserCommand_y
+{
+public:
+  explicit Init_UserCommand_y(::offboard_control_interfaces::msg::UserCommand & msg)
+  : msg_(msg)
+  {}
+  Init_UserCommand_lon y(::offboard_control_interfaces::msg::UserCommand::_y_type arg)
+  {
+    msg_.y = std::move(arg);
+    return Init_UserCommand_lon(msg_);
+  }
+
+private:
+  ::offboard_control_interfaces::msg::UserCommand msg_;
+};
+
+class Init_UserCommand_x
+{
+public:
+  explicit Init_UserCommand_x(::offboard_control_interfaces::msg::UserCommand & msg)
+  : msg_(msg)
+  {}
+  Init_UserCommand_y x(::offboard_control_interfaces::msg::UserCommand::_x_type arg)
+  {
+    msg_.x = std::move(arg);
+    return Init_UserCommand_y(msg_);
+  }
+
+private:
+  ::offboard_control_interfaces::msg::UserCommand msg_;
+};
+
+class Init_UserCommand_use_xy
+{
+public:
+  explicit Init_UserCommand_use_xy(::offboard_control_interfaces::msg::UserCommand & msg)
+  : msg_(msg)
+  {}
+  Init_UserCommand_x use_xy(::offboard_control_interfaces::msg::UserCommand::_use_xy_type arg)
+  {
+    msg_.use_xy = std::move(arg);
+    return Init_UserCommand_x(msg_);
+  }
+
+private:
+  ::offboard_control_interfaces::msg::UserCommand msg_;
+};
+
+class Init_UserCommand_response
+{
+public:
+  explicit Init_UserCommand_response(::offboard_control_interfaces::msg::UserCommand & msg)
+  : msg_(msg)
+  {}
+  Init_UserCommand_use_xy response(::offboard_control_interfaces::msg::UserCommand::_response_type arg)
+  {
+    msg_.response = std::move(arg);
+    return Init_UserCommand_use_xy(msg_);
+  }
+
+private:
+  ::offboard_control_interfaces::msg::UserCommand msg_;
+};
+
+class Init_UserCommand_command
+{
+public:
+  explicit Init_UserCommand_command(::offboard_control_interfaces::msg::UserCommand & msg)
+  : msg_(msg)
+  {}
+  Init_UserCommand_response command(::offboard_control_interfaces::msg::UserCommand::_command_type arg)
+  {
+    msg_.command = std::move(arg);
+    return Init_UserCommand_response(msg_);
+  }
+
+private:
+  ::offboard_control_interfaces::msg::UserCommand msg_;
+};
+
 class Init_UserCommand_timestamp
 {
 public:
   Init_UserCommand_timestamp()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_UserCommand_lon timestamp(::offboard_control_interfaces::msg::UserCommand::_timestamp_type arg)
+  Init_UserCommand_command timestamp(::offboard_control_interfaces::msg::UserCommand::_timestamp_type arg)
   {
     msg_.timestamp = std::move(arg);
-    return Init_UserCommand_lon(msg_);
+    return Init_UserCommand_command(msg_);
   }
 
 private:

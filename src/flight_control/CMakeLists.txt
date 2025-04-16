@@ -27,6 +27,7 @@ add_library(flight_control_lib SHARED
   src/vehicle_storage/vehicle_state_storage.cpp
   src/vehicle_storage/executor_storage.cpp
   src/lib/frame_conversion.cpp
+  src/lib/gps_conversion.cpp
 )
 ament_target_dependencies(flight_control_lib
   rclcpp

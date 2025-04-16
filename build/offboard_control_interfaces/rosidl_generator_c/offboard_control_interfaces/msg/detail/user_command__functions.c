@@ -18,16 +18,16 @@ offboard_control_interfaces__msg__UserCommand__init(offboard_control_interfaces_
     return false;
   }
   // timestamp
-  // lon
-  // lat
+  // command
+  // response
+  // use_xy
   // x
   // y
+  // lon
+  // lat
   // z
   // speed
   // yaw
-  // command
-  // use_xy
-  // response
   return true;
 }
 
@@ -38,16 +38,16 @@ offboard_control_interfaces__msg__UserCommand__fini(offboard_control_interfaces_
     return;
   }
   // timestamp
-  // lon
-  // lat
+  // command
+  // response
+  // use_xy
   // x
   // y
+  // lon
+  // lat
   // z
   // speed
   // yaw
-  // command
-  // use_xy
-  // response
 }
 
 bool
@@ -60,12 +60,16 @@ offboard_control_interfaces__msg__UserCommand__are_equal(const offboard_control_
   if (lhs->timestamp != rhs->timestamp) {
     return false;
   }
-  // lon
-  if (lhs->lon != rhs->lon) {
+  // command
+  if (lhs->command != rhs->command) {
     return false;
   }
-  // lat
-  if (lhs->lat != rhs->lat) {
+  // response
+  if (lhs->response != rhs->response) {
+    return false;
+  }
+  // use_xy
+  if (lhs->use_xy != rhs->use_xy) {
     return false;
   }
   // x
@@ -74,6 +78,14 @@ offboard_control_interfaces__msg__UserCommand__are_equal(const offboard_control_
   }
   // y
   if (lhs->y != rhs->y) {
+    return false;
+  }
+  // lon
+  if (lhs->lon != rhs->lon) {
+    return false;
+  }
+  // lat
+  if (lhs->lat != rhs->lat) {
     return false;
   }
   // z
@@ -86,18 +98,6 @@ offboard_control_interfaces__msg__UserCommand__are_equal(const offboard_control_
   }
   // yaw
   if (lhs->yaw != rhs->yaw) {
-    return false;
-  }
-  // command
-  if (lhs->command != rhs->command) {
-    return false;
-  }
-  // use_xy
-  if (lhs->use_xy != rhs->use_xy) {
-    return false;
-  }
-  // response
-  if (lhs->response != rhs->response) {
     return false;
   }
   return true;
@@ -113,26 +113,26 @@ offboard_control_interfaces__msg__UserCommand__copy(
   }
   // timestamp
   output->timestamp = input->timestamp;
-  // lon
-  output->lon = input->lon;
-  // lat
-  output->lat = input->lat;
+  // command
+  output->command = input->command;
+  // response
+  output->response = input->response;
+  // use_xy
+  output->use_xy = input->use_xy;
   // x
   output->x = input->x;
   // y
   output->y = input->y;
+  // lon
+  output->lon = input->lon;
+  // lat
+  output->lat = input->lat;
   // z
   output->z = input->z;
   // speed
   output->speed = input->speed;
   // yaw
   output->yaw = input->yaw;
-  // command
-  output->command = input->command;
-  // use_xy
-  output->use_xy = input->use_xy;
-  // response
-  output->response = input->response;
   return true;
 }
 

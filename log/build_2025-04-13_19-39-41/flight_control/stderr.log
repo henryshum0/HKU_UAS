@@ -1,6 +1,0 @@
-[0mSetting matplotplusplus compiler options[0m
-[31mCMake Error at CMakeLists.txt:50 (install):
-  install TARGETS given target "userJ_input" which does not exist.
-
-[0m
-gmake: *** [Makefile:1156: cmake_check_build_system] Error 1

@@ -86,16 +86,16 @@ enum
   offboard_control_interfaces__msg__UserCommand__REJECT_SPEED_INFEASIBLE = 212
 };
 
+/// Constant 'REJECT_TAKEOFF_REQUIRED'.
+enum
+{
+  offboard_control_interfaces__msg__UserCommand__REJECT_TAKEOFF_REQUIRED = 213
+};
+
 /// Constant 'REJECT_TAKEOFF_HEIGHTINFEASIBLE'.
 enum
 {
-  offboard_control_interfaces__msg__UserCommand__REJECT_TAKEOFF_HEIGHTINFEASIBLE = 213
-};
-
-/// Constant 'REJECT_LAND_BEFORE_TAKEOFF'.
-enum
-{
-  offboard_control_interfaces__msg__UserCommand__REJECT_LAND_BEFORE_TAKEOFF = 214
+  offboard_control_interfaces__msg__UserCommand__REJECT_TAKEOFF_HEIGHTINFEASIBLE = 214
 };
 
 /// Constant 'REJECT_TAKEOFF_BEFORE_LAND'.
@@ -104,10 +104,16 @@ enum
   offboard_control_interfaces__msg__UserCommand__REJECT_TAKEOFF_BEFORE_LAND = 215
 };
 
+/// Constant 'REJECT_LAND_BEFORE_TAKEOFF'.
+enum
+{
+  offboard_control_interfaces__msg__UserCommand__REJECT_LAND_BEFORE_TAKEOFF = 216
+};
+
 /// Constant 'REJECT_EMPTY_WAYPOINTS'.
 enum
 {
-  offboard_control_interfaces__msg__UserCommand__REJECT_EMPTY_WAYPOINTS = 216
+  offboard_control_interfaces__msg__UserCommand__REJECT_EMPTY_WAYPOINTS = 217
 };
 
 /// Struct defined in msg/UserCommand in the package offboard_control_interfaces.
@@ -118,16 +124,16 @@ enum
 typedef struct offboard_control_interfaces__msg__UserCommand
 {
   uint64_t timestamp;
-  float lon;
-  float lat;
+  uint8_t command;
+  uint8_t response;
+  bool use_xy;
   float x;
   float y;
+  float lon;
+  float lat;
   float z;
   float speed;
   float yaw;
-  uint8_t command;
-  bool use_xy;
-  uint8_t response;
 } offboard_control_interfaces__msg__UserCommand;
 
 // Struct for a sequence of offboard_control_interfaces__msg__UserCommand.

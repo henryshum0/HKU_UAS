@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/flight_control_lib.dir/src/flight_control/state_subscribers.cpp.o.d"
   "CMakeFiles/flight_control_lib.dir/src/lib/frame_conversion.cpp.o"
   "CMakeFiles/flight_control_lib.dir/src/lib/frame_conversion.cpp.o.d"
+  "CMakeFiles/flight_control_lib.dir/src/lib/gps_conversion.cpp.o"
+  "CMakeFiles/flight_control_lib.dir/src/lib/gps_conversion.cpp.o.d"
   "CMakeFiles/flight_control_lib.dir/src/vehicle_storage/executor_storage.cpp.o"
   "CMakeFiles/flight_control_lib.dir/src/vehicle_storage/executor_storage.cpp.o.d"
   "CMakeFiles/flight_control_lib.dir/src/vehicle_storage/vehicle_state_storage.cpp.o"

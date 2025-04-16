@@ -39,16 +39,16 @@ struct UserCommand_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->timestamp = 0ull;
-      this->lon = 0.0f;
-      this->lat = 0.0f;
+      this->command = 0;
+      this->response = 0;
+      this->use_xy = false;
       this->x = 0.0f;
       this->y = 0.0f;
+      this->lon = 0.0f;
+      this->lat = 0.0f;
       this->z = 0.0f;
       this->speed = 0.0f;
       this->yaw = 0.0f;
-      this->command = 0;
-      this->use_xy = false;
-      this->response = 0;
     }
   }
 
@@ -59,16 +59,16 @@ struct UserCommand_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->timestamp = 0ull;
-      this->lon = 0.0f;
-      this->lat = 0.0f;
+      this->command = 0;
+      this->response = 0;
+      this->use_xy = false;
       this->x = 0.0f;
       this->y = 0.0f;
+      this->lon = 0.0f;
+      this->lat = 0.0f;
       this->z = 0.0f;
       this->speed = 0.0f;
       this->yaw = 0.0f;
-      this->command = 0;
-      this->use_xy = false;
-      this->response = 0;
     }
   }
 
@@ -76,18 +76,27 @@ struct UserCommand_
   using _timestamp_type =
     uint64_t;
   _timestamp_type timestamp;
-  using _lon_type =
-    float;
-  _lon_type lon;
-  using _lat_type =
-    float;
-  _lat_type lat;
+  using _command_type =
+    uint8_t;
+  _command_type command;
+  using _response_type =
+    uint8_t;
+  _response_type response;
+  using _use_xy_type =
+    bool;
+  _use_xy_type use_xy;
   using _x_type =
     float;
   _x_type x;
   using _y_type =
     float;
   _y_type y;
+  using _lon_type =
+    float;
+  _lon_type lon;
+  using _lat_type =
+    float;
+  _lat_type lat;
   using _z_type =
     float;
   _z_type z;
@@ -97,15 +106,6 @@ struct UserCommand_
   using _yaw_type =
     float;
   _yaw_type yaw;
-  using _command_type =
-    uint8_t;
-  _command_type command;
-  using _use_xy_type =
-    bool;
-  _use_xy_type use_xy;
-  using _response_type =
-    uint8_t;
-  _response_type response;
 
   // setters for named parameter idiom
   Type & set__timestamp(
@@ -114,16 +114,22 @@ struct UserCommand_
     this->timestamp = _arg;
     return *this;
   }
-  Type & set__lon(
-    const float & _arg)
+  Type & set__command(
+    const uint8_t & _arg)
   {
-    this->lon = _arg;
+    this->command = _arg;
     return *this;
   }
-  Type & set__lat(
-    const float & _arg)
+  Type & set__response(
+    const uint8_t & _arg)
   {
-    this->lat = _arg;
+    this->response = _arg;
+    return *this;
+  }
+  Type & set__use_xy(
+    const bool & _arg)
+  {
+    this->use_xy = _arg;
     return *this;
   }
   Type & set__x(
@@ -136,6 +142,18 @@ struct UserCommand_
     const float & _arg)
   {
     this->y = _arg;
+    return *this;
+  }
+  Type & set__lon(
+    const float & _arg)
+  {
+    this->lon = _arg;
+    return *this;
+  }
+  Type & set__lat(
+    const float & _arg)
+  {
+    this->lat = _arg;
     return *this;
   }
   Type & set__z(
@@ -154,24 +172,6 @@ struct UserCommand_
     const float & _arg)
   {
     this->yaw = _arg;
-    return *this;
-  }
-  Type & set__command(
-    const uint8_t & _arg)
-  {
-    this->command = _arg;
-    return *this;
-  }
-  Type & set__use_xy(
-    const bool & _arg)
-  {
-    this->use_xy = _arg;
-    return *this;
-  }
-  Type & set__response(
-    const uint8_t & _arg)
-  {
-    this->response = _arg;
     return *this;
   }
 
@@ -198,14 +198,16 @@ struct UserCommand_
     211u;
   static constexpr uint8_t REJECT_SPEED_INFEASIBLE =
     212u;
-  static constexpr uint8_t REJECT_TAKEOFF_HEIGHTINFEASIBLE =
+  static constexpr uint8_t REJECT_TAKEOFF_REQUIRED =
     213u;
-  static constexpr uint8_t REJECT_LAND_BEFORE_TAKEOFF =
+  static constexpr uint8_t REJECT_TAKEOFF_HEIGHTINFEASIBLE =
     214u;
   static constexpr uint8_t REJECT_TAKEOFF_BEFORE_LAND =
     215u;
-  static constexpr uint8_t REJECT_EMPTY_WAYPOINTS =
+  static constexpr uint8_t REJECT_LAND_BEFORE_TAKEOFF =
     216u;
+  static constexpr uint8_t REJECT_EMPTY_WAYPOINTS =
+    217u;
 
   // pointer types
   using RawPtr =
@@ -250,16 +252,25 @@ struct UserCommand_
     if (this->timestamp != other.timestamp) {
       return false;
     }
-    if (this->lon != other.lon) {
+    if (this->command != other.command) {
       return false;
     }
-    if (this->lat != other.lat) {
+    if (this->response != other.response) {
+      return false;
+    }
+    if (this->use_xy != other.use_xy) {
       return false;
     }
     if (this->x != other.x) {
       return false;
     }
     if (this->y != other.y) {
+      return false;
+    }
+    if (this->lon != other.lon) {
+      return false;
+    }
+    if (this->lat != other.lat) {
       return false;
     }
     if (this->z != other.z) {
@@ -269,15 +280,6 @@ struct UserCommand_
       return false;
     }
     if (this->yaw != other.yaw) {
-      return false;
-    }
-    if (this->command != other.command) {
-      return false;
-    }
-    if (this->use_xy != other.use_xy) {
-      return false;
-    }
-    if (this->response != other.response) {
       return false;
     }
     return true;
@@ -351,17 +353,22 @@ constexpr uint8_t UserCommand_<ContainerAllocator>::REJECT_SPEED_INFEASIBLE;
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
+constexpr uint8_t UserCommand_<ContainerAllocator>::REJECT_TAKEOFF_REQUIRED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
+template<typename ContainerAllocator>
 constexpr uint8_t UserCommand_<ContainerAllocator>::REJECT_TAKEOFF_HEIGHTINFEASIBLE;
 #endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
-constexpr uint8_t UserCommand_<ContainerAllocator>::REJECT_LAND_BEFORE_TAKEOFF;
+constexpr uint8_t UserCommand_<ContainerAllocator>::REJECT_TAKEOFF_BEFORE_LAND;
 #endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
-constexpr uint8_t UserCommand_<ContainerAllocator>::REJECT_TAKEOFF_BEFORE_LAND;
+constexpr uint8_t UserCommand_<ContainerAllocator>::REJECT_LAND_BEFORE_TAKEOFF;
 #endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17

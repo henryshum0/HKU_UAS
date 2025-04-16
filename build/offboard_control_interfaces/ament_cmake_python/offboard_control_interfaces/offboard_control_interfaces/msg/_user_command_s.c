@@ -59,22 +59,31 @@ bool offboard_control_interfaces__msg__user_command__convert_from_py(PyObject * 
     ros_message->timestamp = PyLong_AsUnsignedLongLong(field);
     Py_DECREF(field);
   }
-  {  // lon
-    PyObject * field = PyObject_GetAttrString(_pymsg, "lon");
+  {  // command
+    PyObject * field = PyObject_GetAttrString(_pymsg, "command");
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->lon = (float)PyFloat_AS_DOUBLE(field);
+    assert(PyLong_Check(field));
+    ros_message->command = (uint8_t)PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
-  {  // lat
-    PyObject * field = PyObject_GetAttrString(_pymsg, "lat");
+  {  // response
+    PyObject * field = PyObject_GetAttrString(_pymsg, "response");
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->lat = (float)PyFloat_AS_DOUBLE(field);
+    assert(PyLong_Check(field));
+    ros_message->response = (uint8_t)PyLong_AsUnsignedLong(field);
+    Py_DECREF(field);
+  }
+  {  // use_xy
+    PyObject * field = PyObject_GetAttrString(_pymsg, "use_xy");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->use_xy = (Py_True == field);
     Py_DECREF(field);
   }
   {  // x
@@ -93,6 +102,24 @@ bool offboard_control_interfaces__msg__user_command__convert_from_py(PyObject * 
     }
     assert(PyFloat_Check(field));
     ros_message->y = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // lon
+    PyObject * field = PyObject_GetAttrString(_pymsg, "lon");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->lon = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // lat
+    PyObject * field = PyObject_GetAttrString(_pymsg, "lat");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->lat = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // z
@@ -120,33 +147,6 @@ bool offboard_control_interfaces__msg__user_command__convert_from_py(PyObject * 
     }
     assert(PyFloat_Check(field));
     ros_message->yaw = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
-  {  // command
-    PyObject * field = PyObject_GetAttrString(_pymsg, "command");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->command = (uint8_t)PyLong_AsUnsignedLong(field);
-    Py_DECREF(field);
-  }
-  {  // use_xy
-    PyObject * field = PyObject_GetAttrString(_pymsg, "use_xy");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->use_xy = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // response
-    PyObject * field = PyObject_GetAttrString(_pymsg, "response");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->response = (uint8_t)PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
 
@@ -182,22 +182,33 @@ PyObject * offboard_control_interfaces__msg__user_command__convert_to_py(void * 
       }
     }
   }
-  {  // lon
+  {  // command
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->lon);
+    field = PyLong_FromUnsignedLong(ros_message->command);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "lon", field);
+      int rc = PyObject_SetAttrString(_pymessage, "command", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // lat
+  {  // response
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->lat);
+    field = PyLong_FromUnsignedLong(ros_message->response);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "lat", field);
+      int rc = PyObject_SetAttrString(_pymessage, "response", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // use_xy
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->use_xy ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "use_xy", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
@@ -220,6 +231,28 @@ PyObject * offboard_control_interfaces__msg__user_command__convert_to_py(void * 
     field = PyFloat_FromDouble(ros_message->y);
     {
       int rc = PyObject_SetAttrString(_pymessage, "y", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // lon
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->lon);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "lon", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // lat
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->lat);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "lat", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
@@ -253,39 +286,6 @@ PyObject * offboard_control_interfaces__msg__user_command__convert_to_py(void * 
     field = PyFloat_FromDouble(ros_message->yaw);
     {
       int rc = PyObject_SetAttrString(_pymessage, "yaw", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // command
-    PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->command);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "command", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // use_xy
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->use_xy ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "use_xy", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // response
-    PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->response);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "response", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -1,6 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target frame_conversion[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/frame_conversion.dir/src/lib/frame_conversion.cpp.o[0m
-[ 50%] [32m[1mLinking CXX shared library libframe_conversion.so[0m
-[ 50%] Built target frame_conversion
-[35m[1mConsolidate compiler generated dependencies of target offboard_controller[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/offboard_controller.dir/src/offboard_controller.cpp.o[0m

@@ -19,10 +19,11 @@ module offboard_control_interfaces {
       const uint8 REJECT = 210;
       const uint8 REJECT_SETPOINT_OUTOFREACH = 211;
       const uint8 REJECT_SPEED_INFEASIBLE = 212;
-      const uint8 REJECT_TAKEOFF_HEIGHTINFEASIBLE = 213;
-      const uint8 REJECT_LAND_BEFORE_TAKEOFF = 214;
+      const uint8 REJECT_TAKEOFF_REQUIRED = 213;
+      const uint8 REJECT_TAKEOFF_HEIGHTINFEASIBLE = 214;
       const uint8 REJECT_TAKEOFF_BEFORE_LAND = 215;
-      const uint8 REJECT_EMPTY_WAYPOINTS = 216;
+      const uint8 REJECT_LAND_BEFORE_TAKEOFF = 216;
+      const uint8 REJECT_EMPTY_WAYPOINTS = 217;
     };
     @verbatim (language="comment", text=
       "user input" "\n"
@@ -30,25 +31,25 @@ module offboard_control_interfaces {
     struct UserCommand {
       uint64 timestamp;
 
-      float lon;
+      uint8 command;
 
-      float lat;
+      uint8 response;
+
+      boolean use_xy;
 
       float x;
 
       float y;
+
+      float lon;
+
+      float lat;
 
       float z;
 
       float speed;
 
       float yaw;
-
-      uint8 command;
-
-      boolean use_xy;
-
-      uint8 response;
     };
   };
 };

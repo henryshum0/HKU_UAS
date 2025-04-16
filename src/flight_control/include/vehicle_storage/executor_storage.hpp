@@ -10,6 +10,12 @@ using namespace Eigen;
 
 #define TAKEOFF_HEIGHT_MAX 100.f
 #define TAKEOFF_HEIGHT_DEFAULT 3.f
+#define TAKEOFF_SPEED 1.f
+
+#define LAND_DESCENT_SPEED 0.8f
+
+#define WAYPOINT_SPEED_DEFAULT 5.f
+
 enum VehicleCMD
 {
     ARM = 1,
@@ -30,7 +36,8 @@ enum MISSION
 {
     TAKEOFF = 1,
     LAND,
-    WAYPOINT,
+    WAYPOINT_XY,
+    WAYPONT_LONLAT,
     AIDROP,
     MAPPING
 };

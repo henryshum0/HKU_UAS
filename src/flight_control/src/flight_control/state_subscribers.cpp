@@ -54,33 +54,54 @@ void StateSubscriber::vehicle_status_callback(const VehicleStatus::UniquePtr msg
     switch(msg -> arming_state)
     {
         case VehicleStatus::ARMING_STATE_ARMED: 
-            vehicle_state_storage->set_is_arm(true); 
-            RCLCPP_INFO(this->get_logger(), "Vehicle is armed!");
+            if(!vehicle_state_storage->get_is_arm())
+            {
+                vehicle_state_storage->set_is_arm(true); 
+                RCLCPP_INFO(this->get_logger(), "Vehicle is armed!");
+            }
             break;
         default: 
-            vehicle_state_storage->set_is_arm(false); 
-            RCLCPP_INFO(this->get_logger(), "Vehicle is disarmed!");
+            if(vehicle_state_storage->get_is_arm())
+            {
+                vehicle_state_storage->set_is_arm(false); 
+                RCLCPP_INFO(this->get_logger(), "Vehicle is disarmed!");
+            }
             break;
     }
 
     switch(msg -> nav_state)
     {
         case VehicleStatus::NAVIGATION_STATE_OFFBOARD: 
-            vehicle_state_storage->set_is_offboard(true); 
-            RCLCPP_INFO(this->get_logger(), "offboard mode is active!");
+            if(!vehicle_state_storage->get_is_offboard())
+            {
+                vehicle_state_storage->set_is_offboard(true); 
+                RCLCPP_INFO(this->get_logger(), "offboard mode is active!");
+            }
             break;
             
         default:
-            vehicle_state_storage->set_is_offboard(false); 
-            RCLCPP_INFO(this->get_logger(), "offboard mode is inactive!");
+            if(vehicle_state_storage->get_is_offboard())
+            {
+                vehicle_state_storage->set_is_offboard(false); 
+                RCLCPP_INFO(this->get_logger(), "offboard mode is inactive!");
+            }
             break; 
     }
 }
 
 void StateSubscriber::vehicle_land_callback(const VehicleLandDetected::UniquePtr msg)
 {
-    vehicle_state_storage->set_is_landed(msg->landed);
-    RCLCPP_INFO(this->get_logger(), "vehicle land detected!");
+    if(!vehicle_state_storage->get_is_landed() && msg->landed) 
+    {
+        vehicle_state_storage->set_is_landed(msg->landed);
+        RCLCPP_INFO(this->get_logger(), "vehicle land detected!");
+    }
+    else if (vehicle_state_storage->get_is_landed() && !msg->landed)
+    {
+        vehicle_state_storage->set_is_landed(msg->landed);
+        RCLCPP_INFO(this->get_logger(), "vehicle takeoff!");
+    }
+    
 }
 
 void StateSubscriber::global_pos_callback(const SensorGps::UniquePtr msg)

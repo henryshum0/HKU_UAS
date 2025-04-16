@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/offboard_controller.dir/src/main.cpp.o: in function `std::_MakeUniq<flight_control::ModeExecutor>::__single_object std::make_unique<flight_control::ModeExecutor, std::shared_ptr<flight_control::OffboardController> >(std::shared_ptr<flight_control::OffboardController>&&)':
-main.cpp:(.text._ZSt11make_uniqueIN14flight_control12ModeExecutorEJSt10shared_ptrINS0_18OffboardControllerEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN14flight_control12ModeExecutorEJSt10shared_ptrINS0_18OffboardControllerEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x5b): undefined reference to `flight_control::ModeExecutor::ModeExecutor(std::shared_ptr<flight_control::OffboardController>)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/offboard_controller.dir/build.make:185: offboard_controller] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/offboard_controller.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

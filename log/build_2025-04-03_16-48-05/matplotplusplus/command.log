@@ -1,6 +1,0 @@
-Invoking command in '/home/henryshum0/SUAS/build/matplotplusplus': /usr/bin/cmake /home/henryshum0/SUAS/src/matplotplusplus -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/matplotplusplus
-Invoked command in '/home/henryshum0/SUAS/build/matplotplusplus' returned '0': /usr/bin/cmake /home/henryshum0/SUAS/src/matplotplusplus -DCMAKE_INSTALL_PREFIX=/home/henryshum0/SUAS/install/matplotplusplus
-Invoking command in '/home/henryshum0/SUAS/build/matplotplusplus': /usr/bin/cmake --build /home/henryshum0/SUAS/build/matplotplusplus -- -j16 -l16
-Invoked command in '/home/henryshum0/SUAS/build/matplotplusplus' returned '0': /usr/bin/cmake --build /home/henryshum0/SUAS/build/matplotplusplus -- -j16 -l16
-Invoking command in '/home/henryshum0/SUAS/build/matplotplusplus': /usr/bin/cmake --install /home/henryshum0/SUAS/build/matplotplusplus
-Invoked command in '/home/henryshum0/SUAS/build/matplotplusplus' returned '0': /usr/bin/cmake --install /home/henryshum0/SUAS/build/matplotplusplus

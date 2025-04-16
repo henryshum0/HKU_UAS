@@ -14,26 +14,26 @@ uint8 SUCCESS = 200
 uint8 REJECT = 210
 uint8 REJECT_SETPOINT_OUTOFREACH = 211
 uint8 REJECT_SPEED_INFEASIBLE = 212
-uint8 REJECT_TAKEOFF_HEIGHTINFEASIBLE = 213
-uint8 REJECT_LAND_BEFORE_TAKEOFF = 214
+uint8 REJECT_TAKEOFF_REQUIRED = 213
+uint8 REJECT_TAKEOFF_HEIGHTINFEASIBLE = 214
 uint8 REJECT_TAKEOFF_BEFORE_LAND = 215
-uint8 REJECT_EMPTY_WAYPOINTS = 216
+uint8 REJECT_LAND_BEFORE_TAKEOFF = 216
+uint8 REJECT_EMPTY_WAYPOINTS = 217
 
 uint64 timestamp
 
-float32 lon
-float32 lat
+uint8 command
+uint8 response
+
+bool use_xy
 
 float32 x
 float32 y
+float32 lon
+float32 lat
 float32 z
 
 float32 speed
 float32 yaw
-
-uint8 command
-bool use_xy
-
-uint8 response
 
 #topic user_command
