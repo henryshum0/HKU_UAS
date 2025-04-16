@@ -107,7 +107,12 @@ void FlightExecutor::land(std::shared_ptr<Waypoint> land_waypoint)
 {
     if(land_waypoint->is_reached) 
     {
-        if(!vehicle_state_storage->get_is_arm()) {land_waypoint->mission_completed = true; executor_storage->set_vehicle_cmd_curr(VehicleCMD::NO_CMD);}
+        if(!vehicle_state_storage->get_is_arm()) 
+        {
+            land_waypoint->mission_completed = true; 
+            executor_storage->set_vehicle_cmd_curr(VehicleCMD::NO_CMD);
+            return;
+        }
         if(!vehicle_state_storage->get_is_landed()) {set_trj_setpoint_vel(Vector3f(0.f, 0.f, -.5));}
         else {executor_storage->set_vehicle_cmd_curr(VehicleCMD::DISARM);}
         return;
