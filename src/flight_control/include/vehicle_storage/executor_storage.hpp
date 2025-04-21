@@ -10,9 +10,9 @@ using namespace Eigen;
 
 #define TAKEOFF_HEIGHT_MAX 100.f
 #define TAKEOFF_HEIGHT_DEFAULT 3.f
-#define TAKEOFF_SPEED 1.f
+#define TAKEOFF_SPEED 5.f
 
-#define LAND_DESCENT_SPEED 0.8f
+#define LAND_DESCENT_SPEED 3.f
 
 #define WAYPOINT_SPEED_DEFAULT 5.f
 
@@ -49,6 +49,9 @@ struct Waypoint
     MISSION mission;
     bool is_reached = false;
     bool mission_completed = false;
+    float start_s = NAN;
+    float end_s = NAN;
+    float hover_dur = NAN;
 
     Waypoint(const Vector3f waypoint_loc, const float reference_speed, const MISSION which_mission): 
         target(waypoint_loc), speed(reference_speed), mission(which_mission) {}
@@ -66,6 +69,11 @@ class ExecutorStorage
     void set_is_init();
     void set_is_mission_fin(bool is_no);
     void set_is_execute(bool is_no);
+
+    void takeoff_c_incr();
+    void land_c_incr();
+    int get_takeoff_C();
+    int get_land_c();
 
     VehicleCMD get_vehicle_cmd_curr();
     TrjControlMode get_trj_ctrl_mode();
@@ -88,6 +96,7 @@ class ExecutorStorage
 
     private:
     bool is_mission_fin, is_execute, is_init;
+    int takeoff_c, land_c;
 
     std::deque<std::shared_ptr<Waypoint>> waypoints;
     std::vector<std::shared_ptr<Waypoint>> waypoints_fin;
@@ -100,4 +109,5 @@ class ExecutorStorage
     
     float dt;
 };
+
 #endif

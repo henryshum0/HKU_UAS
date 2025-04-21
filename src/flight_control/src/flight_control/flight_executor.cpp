@@ -34,8 +34,7 @@ void FlightExecutor::publish_control()
     {
         RCLCPP_INFO(this->get_logger(), "All setpoints completed");
         std::shared_ptr<Waypoint> waypoint_cmplt_last = executor_storage->get_waypoint_completed_last();
-        if(waypoint_cmplt_last == nullptr) {set_trj_setpoint_vel(Vector3f(0.f,0.f,0.f));}
-        else {set_trj_setpoint_pos(waypoint_cmplt_last->target);}
+        if(waypoint_cmplt_last == nullptr) {set_trj_setpoint_pos(vehicle_state_storage->get_pos_avg());}
         executor_storage->set_is_execute(false);
         return;
     }
@@ -79,6 +78,7 @@ void FlightExecutor::take_off(std::shared_ptr<Waypoint> take_off_waypoint)
     {
         take_off_waypoint->mission_completed = true;
         set_trj_setpoint_pos(take_off_waypoint->target);
+        RCLCPP_INFO(this->get_logger(), "TAKEOFF waypoint completed");
         return;
     }
     if(!vehicle_state_storage->get_is_arm())
@@ -111,6 +111,7 @@ void FlightExecutor::land(std::shared_ptr<Waypoint> land_waypoint)
         {
             land_waypoint->mission_completed = true; 
             executor_storage->set_vehicle_cmd_curr(VehicleCMD::NO_CMD);
+            RCLCPP_INFO(this->get_logger(), "LANDING waypoint completed");
             return;
         }
         if(!vehicle_state_storage->get_is_landed()) {set_trj_setpoint_vel(Vector3f(0.f, 0.f, -.5));}
@@ -130,18 +131,40 @@ void FlightExecutor::land(std::shared_ptr<Waypoint> land_waypoint)
 
 void FlightExecutor::move_to_waypoint_lonlat(std::shared_ptr<Waypoint> waypoint_lonlat)
 {
-    const Vector3f vector_relative = utils::gps_vector_enu
-    (
-        waypoint_lonlat->target.x(), 
-        waypoint_lonlat->target.y(),
-        vehicle_state_storage->get_pos_lon_lat().x(),
-        vehicle_state_storage->get_pos_lon_lat().y()
-    );
-    const Vector3f pos_avg = vehicle_state_storage->get_pos_avg();
-    waypoint_lonlat->target.x() = vector_relative.x() + pos_avg.x();
-    waypoint_lonlat->target.y() = vector_relative.y() + pos_avg.y();
-    if(std::isnan(waypoint_lonlat->target.z())) { waypoint_lonlat->target.z() = executor_storage->get_waypoint_completed_last()->target.z();}
-    move_to_waypoint(waypoint_lonlat);
+    if(!waypoint_lonlat->is_reached)
+    {
+        Vector3f vector_relative = utils::gps_vector_enu
+        (
+            waypoint_lonlat->target.x(), 
+            waypoint_lonlat->target.y(),
+            vehicle_state_storage->get_pos_lon_lat().x(),
+            vehicle_state_storage->get_pos_lon_lat().y()
+        );
+        const Vector3f pos_avg = vehicle_state_storage->get_pos_avg();
+        
+
+        if(std::isnan(waypoint_lonlat->target.z())) {waypoint_lonlat->target.z() = executor_storage->get_waypoint_completed_last()->target.z();}
+        if(std::isnan(waypoint_lonlat->speed))  {waypoint_lonlat->speed = WAYPOINT_SPEED_DEFAULT;}
+
+        vector_relative.z() = waypoint_lonlat->target.z() - pos_avg.z();
+        const Vector3f dir = vector_relative.normalized();
+        const float dist = vector_relative.norm();
+        if(dist < 1) 
+        {
+            waypoint_lonlat->is_reached = true;
+            RCLCPP_INFO_STREAM(this->get_logger(), "Waypoint "<<waypoint_lonlat->target.transpose()<<" is reached");
+            set_trj_setpoint_pos(vehicle_state_storage->get_pos_avg());
+            if(waypoint_lonlat->mission == MISSION::WAYPONT_LONLAT) 
+            {
+                waypoint_lonlat->mission_completed = true;
+                RCLCPP_INFO(this->get_logger(), "WAYPOINT_LONLAT waypoint completed");
+            }
+        }
+        else
+        {
+            set_trj_setpoint_vel(dir *std::min(waypoint_lonlat->speed, dist * 5 / 10) );
+        }
+    }
 }
 
 void FlightExecutor::move_to_waypoint(std::shared_ptr<Waypoint> waypoint)
@@ -150,15 +173,24 @@ void FlightExecutor::move_to_waypoint(std::shared_ptr<Waypoint> waypoint)
     {
         Vector3f pos_avg_curr = vehicle_state_storage->get_pos_avg();
         Vector3f dir = (waypoint->target - pos_avg_curr).normalized();
+        float dist = (waypoint->target - pos_avg_curr).norm();
         if(std::isnan(waypoint->target.z())) { waypoint->target.z() = executor_storage->get_waypoint_completed_last()->target.z();}
         if(std::isnan(waypoint->speed))  {waypoint->speed = WAYPOINT_SPEED_DEFAULT;}
-        set_trj_setpoint_vel(dir * waypoint->speed);
-        if((waypoint->target - pos_avg_curr).norm() < 0.5) 
+        
+        if(dist < 0.5) 
         {
             waypoint->is_reached = true;
             RCLCPP_INFO_STREAM(this->get_logger(), "Waypoint "<<waypoint->target.transpose()<<" is reached");
             set_trj_setpoint_pos(waypoint->target);
-            if(waypoint->mission == MISSION::WAYPOINT_XY || waypoint->mission == MISSION::WAYPONT_LONLAT) {waypoint->mission_completed = true;}
+            if(waypoint->mission == MISSION::WAYPOINT_XY) 
+            {
+                waypoint->mission_completed = true;
+                RCLCPP_INFO(this->get_logger(), "WAYPOINT_XY waypoint completed");
+            }
+        }
+        else
+        {
+            set_trj_setpoint_vel(dir *std::min(waypoint->speed, dist * 5 / 10) );
         }
     }
 }

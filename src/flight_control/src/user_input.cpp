@@ -42,8 +42,7 @@ void UserInput::query_user()
 {
     while (rclcpp::ok())
     {
-        std::cout << "\n[COMMAND] [XYZ?] [x/lon] [y/lat] [z wrp to drone start pos] [speed] [yaw in rad optional wrt ENU]" << std::endl
-                  << "input your command: " <<std::endl;
+        std::cout << "input your command: " <<std::endl;
 
         std::string input;
         std::string input_cmd;
@@ -184,7 +183,7 @@ void UserInput::response_callback(const UserCommand::UniquePtr msg)
 {
     if(msg->response == UserCommand::SUCCESS)
     {
-        RCLCPP_INFO(this->get_logger(), "WAYPOINT accepted");
+        RCLCPP_INFO(this->get_logger(), "COMMAND accepted");
     }
     else
     {
@@ -265,7 +264,7 @@ void UserInput::print_rej_msg(const uint8_t reason)
             reason_str = "none";
             break;
     }
-    RCLCPP_INFO_STREAM(this->get_logger(), "WAYPOINT is rejected" <<std::endl<< "Reason:" <<reason_str);
+    RCLCPP_INFO_STREAM(this->get_logger(), "WAYPOINT is rejected, "<< "Reason:" <<reason_str);
 }
 
 int main(int argc, char *argv[])

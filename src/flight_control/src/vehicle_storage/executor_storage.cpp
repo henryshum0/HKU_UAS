@@ -9,6 +9,8 @@ ExecutorStorage::ExecutorStorage()
     this->trj_control_mode = TrjControlMode::VELOCITY;
     this->desired_trj = Vector3f(0.f, 0.f, 0.f);
     this->desired_yaw = NAN;
+    this->takeoff_c = 0;
+    this->land_c = 0;
 }
 
 bool ExecutorStorage::get_is_init() {return this->is_init;}
@@ -17,6 +19,11 @@ bool ExecutorStorage::get_is_mission_fin() {return this->is_mission_fin;}
 void ExecutorStorage::set_is_init() {this->is_init = true;}
 void ExecutorStorage::set_is_execute(const bool is_no) {this->is_execute = is_no;}
 void ExecutorStorage::set_is_mission_fin(const bool is_no) {this->is_mission_fin = is_no;}
+
+void ExecutorStorage::takeoff_c_incr() {this->takeoff_c++;}
+void ExecutorStorage::land_c_incr() {this->land_c++;}
+int ExecutorStorage::get_takeoff_C() {return this->takeoff_c;}
+int ExecutorStorage::get_land_c() {return this->land_c;}
 
 VehicleCMD ExecutorStorage::get_vehicle_cmd_curr() {return this->cmd_curr;}
 TrjControlMode ExecutorStorage::get_trj_ctrl_mode() {return this->trj_control_mode;}

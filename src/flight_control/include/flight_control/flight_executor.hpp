@@ -4,6 +4,7 @@
 #include <string>
 #include <memory>
 #include <math.h>
+#include <algorithm>
 
 #include <rclcpp/rclcpp.hpp>
 

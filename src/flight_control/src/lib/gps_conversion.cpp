@@ -10,7 +10,7 @@ namespace utils
         Vector3f dir;
         dir.x() = M_PI / 180 * (target_lon - source_lon) * EARTH_RADIUS;
         dir.y() = M_PI / 180 * (target_lat - source_lat) * EARTH_RADIUS;
-        dir.z() = 0;
+        dir.z() = NAN;
         return dir;
     }
 }

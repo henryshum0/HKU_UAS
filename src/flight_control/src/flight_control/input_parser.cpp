@@ -13,8 +13,8 @@ InputParser::InputParser(std::shared_ptr<ExecutorStorage> executor_storage) : rc
 void InputParser::new_input_callback(const UserCommand::UniquePtr msg)
 {
     UserCommand response_msg{};
-    int takeoff_c = executor_storage->get_mission_count(MISSION::TAKEOFF);
-    int landing_c = executor_storage->get_mission_count(MISSION::LAND);
+    int takeoff_c = executor_storage->get_takeoff_C();
+    int landing_c = executor_storage->get_land_c();
     switch(msg->command)
     {
         case UserCommand::TAKEOFF:
@@ -38,9 +38,10 @@ void InputParser::new_input_callback(const UserCommand::UniquePtr msg)
                 executor_storage->add_waypoint(std::make_shared<Waypoint>
                     (
                         Vector3f(NAN, NAN, msg->z),
-                        1.f,
+                        TAKEOFF_SPEED,
                         MISSION::TAKEOFF            
                     ));
+                executor_storage->takeoff_c_incr();
                 response_msg.response = UserCommand::SUCCESS;
                 this->response_publisher->publish(response_msg);
                 RCLCPP_INFO(this->get_logger(), "received TAKEOFF waypoint SUCCESS");
@@ -59,9 +60,10 @@ void InputParser::new_input_callback(const UserCommand::UniquePtr msg)
                 executor_storage->add_waypoint(std::make_shared<Waypoint>
                 (
                     Vector3f(NAN, NAN, NAN),
-                    1.f,
+                    LAND_DESCENT_SPEED,
                     MISSION::LAND            
                 ));
+                executor_storage->land_c_incr();
                 response_msg.response = UserCommand::SUCCESS;
                 this->response_publisher->publish(response_msg);
                 RCLCPP_INFO(this->get_logger(), "received LAND waypoint SUCCESS");
@@ -106,10 +108,6 @@ void InputParser::new_input_callback(const UserCommand::UniquePtr msg)
             {
                 response_msg.response = UserCommand::REJECT_EMPTY_WAYPOINTS;
                 this->response_publisher->publish(response_msg);
-            }
-            else if(!executor_storage->get_is_init())
-            {
-                
             }
             else
             {
@@ -161,5 +159,5 @@ void InputParser::print_rej_msg(const uint8_t reason)
             reason_str = "none";
             break;
     }
-    RCLCPP_INFO_STREAM(this->get_logger(), "WAYPOINT is rejected" <<std::endl<< "Reason:" <<reason_str);
+    RCLCPP_INFO_STREAM(this->get_logger(), "WAYPOINT is rejected, " << "Reason:" <<reason_str);
 }
